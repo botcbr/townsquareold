@@ -24,120 +24,22 @@
       <aside>
         <h4>{{ "cidadão" }}</h4>
       </aside>
-      <ul>
-        <li v-for="role in teamRoles" :class="[team]" :key="role.id">
-          <span
-            class="icon"
-            v-if="role.id"
-            :style="{
-              backgroundImage: `url(${
-                role.image && grimoire.isImageOptIn
-                  ? role.image
-                  : require('../../assets/icons/' +
-                      (role.imageAlt || role.id) +
-                      '.png')
-              })`
-            }"
-          ></span>
-          <div class="role">
-            <span class="player" v-if="Object.keys(playersByRole).length">{{
-              playersByRole[role.id] ? playersByRole[role.id].join(", ") : ""
-            }}</span>
-            <span class="name">{{ role.name }}</span>
-            <span class="ability">{{ role.ability }}</span>
           </div>
-        </li>
-        <li :class="[team]"></li>
-        <li :class="[team]"></li>
-      </ul>
-      </div>
-    </div>
-
-   <div
-      v-for="(teamRoles, team) in rolesGrouped"
-      :key="team"
-      :class="['team', team]"
-    >
      <div v-if="team === 'outsider'">
       <aside>
-        <h4>{{ "forasteiros" }}</h4>
+        <h4>{{ "forasteiro" }}</h4>
       </aside>
-      <ul>
-        <li v-for="role in teamRoles" :class="[team]" :key="role.id">
-          <span
-            class="icon"
-            v-if="role.id"
-            :style="{
-              backgroundImage: `url(${
-                role.image && grimoire.isImageOptIn
-                  ? role.image
-                  : require('../../assets/icons/' +
-                      (role.imageAlt || role.id) +
-                      '.png')
-              })`
-            }"
-          ></span>
-          <div class="role">
-            <span class="player" v-if="Object.keys(playersByRole).length">{{
-              playersByRole[role.id] ? playersByRole[role.id].join(", ") : ""
-            }}</span>
-            <span class="name">{{ role.name }}</span>
-            <span class="ability">{{ role.ability }}</span>
           </div>
-        </li>
-        <li :class="[team]"></li>
-        <li :class="[team]"></li>
-      </ul>
-      </div>
-    </div>
-
-   <div
-      v-for="(teamRoles, team) in rolesGrouped"
-      :key="team"
-      :class="['team', team]"
-    >
      <div v-if="team === 'minion'">
       <aside>
-        <h4>{{ "lacaios" }}</h4>
+        <h4>{{ "lacaio" }}</h4>
       </aside>
-      <ul>
-        <li v-for="role in teamRoles" :class="[team]" :key="role.id">
-          <span
-            class="icon"
-            v-if="role.id"
-            :style="{
-              backgroundImage: `url(${
-                role.image && grimoire.isImageOptIn
-                  ? role.image
-                  : require('../../assets/icons/' +
-                      (role.imageAlt || role.id) +
-                      '.png')
-              })`
-            }"
-          ></span>
-          <div class="role">
-            <span class="player" v-if="Object.keys(playersByRole).length">{{
-              playersByRole[role.id] ? playersByRole[role.id].join(", ") : ""
-            }}</span>
-            <span class="name">{{ role.name }}</span>
-            <span class="ability">{{ role.ability }}</span>
           </div>
-        </li>
-        <li :class="[team]"></li>
-        <li :class="[team]"></li>
-      </ul>
-      </div>
-    </div>
-
-   <div
-      v-for="(teamRoles, team) in rolesGrouped"
-      :key="team"
-      :class="['team', team]"
-    >
-     <div v-if="team === 'demon'">
+       <div v-if="team === 'demon'">
       <aside>
         <h4>{{ "demônio" }}</h4>
       </aside>
+          </div>
       <ul>
         <li v-for="role in teamRoles" :class="[team]" :key="role.id">
           <span
@@ -165,7 +67,7 @@
         <li :class="[team]"></li>
       </ul>
       </div>
-    </div>
+
 
     <div class="team jinxed" v-if="jinxed.length">
       <aside>
