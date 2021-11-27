@@ -47,19 +47,19 @@
 
         <template v-if="tab === 'grimoire'">
           <!-- Grimoire -->
-          <li class="headline">Grimorio</li>
+          <li class="headline">Grimoire</li>
           <li @click="toggleGrimoire" v-if="players.length">
-            <template v-if="!grimoire.isPublic">Esconder</template>
-            <template v-if="grimoire.isPublic">Mostrar</template>
+            <template v-if="!grimoire.isPublic">Hide</template>
+            <template v-if="grimoire.isPublic">Show</template>
             <em>[G]</em>
           </li>
           <li @click="toggleNight" v-if="!session.isSpectator">
-            <template v-if="!grimoire.isNight">Trocar para Noite</template>
-            <template v-if="grimoire.isNight">Trocar para Dia</template>
+            <template v-if="!grimoire.isNight">Switch to Night</template>
+            <template v-if="grimoire.isNight">Switch to Day</template>
             <em>[S]</em>
           </li>
           <li @click="toggleNightOrder" v-if="players.length">
-            Ordem da Noite
+            Night order
             <em>
               <font-awesome-icon
                 :icon="[
@@ -88,7 +88,7 @@
             <em><font-awesome-icon icon="image"/></em>
           </li>
           <li v-if="!edition.isOfficial" @click="imageOptIn">
-            <small>Mostrar imagens customizadas</small>
+            <small>Show Custom Images</small>
             <em
               ><font-awesome-icon
                 :icon="[
@@ -98,14 +98,14 @@
             /></em>
           </li>
           <li @click="toggleStatic">
-            Desabilitar animações
+            Disable Animations
             <em
               ><font-awesome-icon
                 :icon="['fas', grimoire.isStatic ? 'check-square' : 'square']"
             /></em>
           </li>
           <li @click="toggleMuted">
-            Mutar sons
+            Mute Sounds
             <em
               ><font-awesome-icon
                 :icon="['fas', grimoire.isMuted ? 'volume-mute' : 'volume-up']"
@@ -122,8 +122,8 @@
             Live Session
           </li>
           <template v-if="!session.sessionId">
-            <li @click="hostSession">Host (Narrador)<em>[H]</em></li>
-            <li @click="joinSession">Entrar (Jogador)<em>[J]</em></li>
+            <li @click="hostSession">Host (Storyteller)<em>[H]</em></li>
+            <li @click="joinSession">Join (Player)<em>[J]</em></li>
           </template>
           <template v-else>
             <li v-if="session.ping">
@@ -131,21 +131,21 @@
               <em>{{ session.ping }}ms</em>
             </li>
             <li @click="copySessionUrl">
-              Copiar link de convite
+              Copy player link
               <em><font-awesome-icon icon="copy"/></em>
             </li>
             <li v-if="!session.isSpectator" @click="distributeRoles">
-              Enviar Personagens
+              Send Characters
               <em><font-awesome-icon icon="theater-masks"/></em>
             </li>
             <li
               v-if="session.voteHistory.length || !session.isSpectator"
               @click="toggleModal('voteHistory')"
             >
-              Historico de Votação<em>[V]</em>
+              Vote history<em>[V]</em>
             </li>
             <li @click="leaveSession">
-              Sair da sessão
+              Leave Session
               <em>{{ session.sessionId }}</em>
             </li>
           </template>
@@ -153,38 +153,38 @@
 
         <template v-if="tab === 'players' && !session.isSpectator">
           <!-- Users -->
-          <li class="headline">Jogadores</li>
-          <li @click="addPlayer" v-if="players.length < 20">Add<em>[A]</em></
+          <li class="headline">Players</li>
+          <li @click="addPlayer" v-if="players.length < 20">Add<em>[A]</em></li>
           <li @click="randomizeSeatings" v-if="players.length > 2">
-            Randomizar
+            Randomize
             <em><font-awesome-icon icon="dice"/></em>
           </li>
           <li @click="clearPlayers" v-if="players.length">
-            Remover todos
+            Remove all
             <em><font-awesome-icon icon="trash-alt"/></em>
           </li>
         </template>
 
         <template v-if="tab === 'characters'">
           <!-- Characters -->
-          <li class="headline">Personagens</li>
+          <li class="headline">Characters</li>
           <li v-if="!session.isSpectator" @click="toggleModal('edition')">
-            Selecionar Edição
+            Select Edition
             <em>[E]</em>
           </li>
           <li
             @click="toggleModal('roles')"
             v-if="!session.isSpectator && players.length > 4"
           >
-            Escolher e atribuir
+            Choose & Assign
             <em>[C]</em>
           </li>
           <li v-if="!session.isSpectator" @click="toggleModal('fabled')">
-            Adicionar lenda
+            Add Fabled
             <em><font-awesome-icon icon="dragon"/></em>
           </li>
           <li @click="clearRoles" v-if="players.length">
-            Remover todos
+            Remove all
             <em><font-awesome-icon icon="trash-alt"/></em>
           </li>
         </template>
@@ -197,7 +197,7 @@
             <em>[R]</em>
           </li>
           <li @click="toggleModal('nightOrder')">
-            Ordem da noite
+            Night Order Sheet
             <em>[N]</em>
           </li>
           <li @click="toggleModal('gameState')">
@@ -232,7 +232,6 @@
 
 <script>
 import { mapMutations, mapState } from "vuex";
-
 export default {
   computed: {
     ...mapState(["grimoire", "session", "edition"]),
@@ -361,7 +360,6 @@ export default {
 
 <style scoped lang="scss">
 @import "../vars.scss";
-
 // success animation
 @keyframes greenToWhite {
   from {
@@ -371,7 +369,6 @@ export default {
     color: white;
   }
 }
-
 // Controls
 #controls {
   position: absolute;
@@ -380,7 +377,6 @@ export default {
   text-align: right;
   padding-right: 50px;
   z-index: 75;
-
   svg {
     filter: drop-shadow(0 0 5px rgba(0, 0, 0, 1));
     &.success {
@@ -388,7 +384,6 @@ export default {
       animation-iteration-count: 1;
     }
   }
-
   > span {
     display: inline-block;
     cursor: pointer;
@@ -396,11 +391,9 @@ export default {
     margin-top: 7px;
     margin-left: 10px;
   }
-
   span.nomlog-summary {
     color: $townsfolk;
   }
-
   span.session {
     color: $demon;
     &.spectator {
@@ -411,14 +404,12 @@ export default {
     }
   }
 }
-
 @keyframes blink {
   50% {
     opacity: 0.5;
     color: gray;
   }
 }
-
 .menu {
   width: 220px;
   transform-origin: 200px 22px;
@@ -427,11 +418,9 @@ export default {
   position: absolute;
   right: 0;
   top: 0;
-
   &.open {
     transform: rotate(0deg);
   }
-
   > svg {
     cursor: pointer;
     background: rgba(0, 0, 0, 0.5);
@@ -443,7 +432,6 @@ export default {
     border-radius: 10px 10px 0 0;
     padding: 5px 5px 15px;
   }
-
   a {
     color: white;
     text-decoration: none;
@@ -451,7 +439,6 @@ export default {
       color: red;
     }
   }
-
   ul {
     display: flex;
     list-style-type: none;
@@ -462,7 +449,6 @@ export default {
     box-shadow: 0 0 10px black;
     border: 3px solid black;
     border-radius: 10px 0 10px 10px;
-
     li {
       padding: 2px 5px;
       color: white;
@@ -472,7 +458,6 @@ export default {
       align-items: center;
       justify-content: space-between;
       min-height: 30px;
-
       &.tabs {
         display: flex;
         padding: 0;
@@ -504,12 +489,10 @@ export default {
           );
         }
       }
-
       &:not(.headline):not(.tabs):hover {
         cursor: pointer;
         color: red;
       }
-
       em {
         flex-grow: 0;
         font-style: normal;
@@ -517,7 +500,6 @@ export default {
         font-size: 80%;
       }
     }
-
     .headline {
       font-family: PiratesBay, sans-serif;
       letter-spacing: 1px;
@@ -535,3 +517,15 @@ export default {
   }
 }
 </style>
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
