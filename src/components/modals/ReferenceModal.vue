@@ -15,11 +15,12 @@
       <font-awesome-icon icon="address-card" />
       {{ edition.name || "Custom Script" }}
     </h3>
-    <div
+   <div
       v-for="(teamRoles, team) in rolesGrouped"
       :key="team"
       :class="['team', team]"
     >
+     <div v-if="team === 'townsfolk'">
       <aside>
         <h4>{{ team }}</h4>
       </aside>
@@ -49,6 +50,7 @@
         <li :class="[team]"></li>
         <li :class="[team]"></li>
       </ul>
+      </div>
     </div>
 
     <div class="team jinxed" v-if="jinxed.length">
