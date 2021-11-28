@@ -20,7 +20,7 @@
       :key="team"
       :class="['team', team]"
     >
-     <div v-if="team === 'townsfolk'">
+     <div class="team" v-if="team === 'townsfolk'">
       <aside>
         <h4>cidadão</h4>
       </aside>
