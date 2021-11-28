@@ -22,22 +22,22 @@
     >
      <div v-if="team === 'townsfolk'">
       <aside>
-        <h4>{{ "cidadão" }}</h4>
+        <h4>cidadão</h4>
       </aside>
           </div>
      <div v-if="team === 'outsider'">
       <aside>
-        <h4>{{ "forasteiro" }}</h4>
+        <h4>forasteiro</h4>
       </aside>
           </div>
      <div v-if="team === 'minion'">
       <aside>
-        <h4>{{ "lacaio" }}</h4>
+        <h4>lacaio</h4>
       </aside>
           </div>
        <div v-if="team === 'demon'">
       <aside>
-        <h4>{{ "demônio" }}</h4>
+        <h4>demônio/h4>
       </aside>
           </div>
       <ul>
@@ -236,8 +236,8 @@ h3 {
   &:not(:last-child):after {
     content: " ";
     display: block;
-    width: 50%;
-    height: 10px;
+    width: 25%;
+    height: 1px;
     background: linear-gradient(90deg, #ffffffaa, transparent);
     position: absolute;
     left: 0;
