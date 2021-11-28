@@ -805,12 +805,12 @@
     "edition": "snv",
     "team": "townsfolk",
     "firstNight": 50,
-    "firstNightReminder": "Informe ao Matemático o valor (0, 1, 2, etc.) dos marcadores de 'Efeito anormal'. Remova os marcadores",
+    "firstNightReminder": "Mostre o número de jogadores cujas habilidades não funcionaram corretamente por causa de outras habilidades.",
     "otherNight": 70,
-    "otherNightReminder": "Informe ao Matemático o valor (0, 1, 2, etc.) dos marcadores de 'Efeito anormal'. Remova os marcadores.",
-    "reminders": ["Efeito Anormal"],
+    "otherNightReminder": "Mostre o número de jogadores cujas habilidades não funcionaram corretamente por causa de outras habilidades.",
+    "reminders": ["Anormal"],
     "setup": false,
-    "ability": "Toda Noite, você descobre quantas habilidades, desde o amanhecer, não tiveram o efeito esperado devido a habilidades de outros personagens."
+    "ability": "A cada noite, você descobre quantas habilidades funcionaram de forma anormal (desde o amanhecer) devido a habilidades de outros personagens."
   },
   {
     "id": "flowergirl",
@@ -818,44 +818,44 @@
     "edition": "snv",
     "team": "townsfolk",
     "firstNight": 0,
-    "firstNightReminder": "Coloque o marcador “Demônio não votou”.",
+    "firstNightReminder": "",
     "otherNight": 58,
-    "otherNightReminder": "Informe a Florista se o Dêmonio votou hoje.",
+    "otherNightReminder": "Faça 'sim' ou 'não' com a cabeça para indicar se o Demônio votou. Coloque o lembrete 'Demônio não votou' (remova 'Demônio votou', se for o caso).",
     "reminders": ["Demônio votou",
-      "Demônio não votou"],
+        "Demônio não votou"],
     "setup": false,
-    "ability": "Toda Noite*, você descobre se o Demônio votou durante o Dia."
+    "ability": "A cada noite*, você descobre se um Demônio votou hoje."
   },
   {
     "id": "towncrier",
-    "name": "Mensageiro",
+    "name": "Arauto da Cidade",
     "edition": "snv",
     "team": "townsfolk",
     "firstNight": 0,
-    "firstNightReminder": "Coloque o marcador 'Lacaio não nomeou'.",
+    "firstNightReminder": "",
     "otherNight": 59,
-    "otherNightReminder": "Informe ao Mensageiro se o Lacaio nomeou hoje.",
-    "reminders": ["Lacaio não nomeou",
-      "Lacaio Nomeou"],
+    "otherNightReminder": "Faça 'sim' ou 'não' com a cabeça para indicar se algum Lacaio nomeou hoje. Coloque o lembrete 'Lacaio não nomeou' (remova 'Lacaios não nomearam', se for o caso).",
+    "reminders": ["Lacaios não nomearam",
+        "Lacaio nomeou"],
     "setup": false,
-    "ability": "Toda Noite*, você descobre se algum Lacaio nomeou hoje."
+    "ability": "A cada noite*, você descobre se um Lacaio nomeou hoje."
   },
   {
     "id": "oracle",
-    "name": "Oraculo",
+    "name": "Oráculo",
     "edition": "snv",
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 60,
-    "otherNightReminder": "Informe ao Oraculo o valor (0, 1, 2, etc.) de jogadores maus mortos.",
+    "otherNightReminder": "Mostre com os dedos o número de jogadores maus mortos.",
     "reminders": [],
     "setup": false,
-    "ability": "Toda Noite*, você descobre quantos jogadores do Mal estão mortos."
+    "ability": "A cada noite*, você descobre quantos jogadores mortos são maus."
   },
   {
     "id": "savant",
-    "name": "Erudito",
+    "name": "Prodígio",
     "edition": "snv",
     "team": "townsfolk",
     "firstNight": 0,
@@ -864,7 +864,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Todo Dia, você pode visitar o Storyteller para ouvir duas informações: uma verdadeira e uma falsa."
+    "ability": "A cada dia, você pode visitar o Narrador para descobrir 2 coisas em segredo: 1 é verdadeira e 1 é falsa."
   },
   {
     "id": "seamstress",
@@ -872,26 +872,26 @@
     "edition": "snv",
     "team": "townsfolk",
     "firstNight": 42,
-    "firstNightReminder": "A Costureira pode recusar usar sua habilidade ou escolher dois outros jogadores. Se a costureira escolheu dois jogadores, informe-a se  eles são do mesmo alinhamento (bem/mal).",
+    "firstNightReminder": "A Costureira pode fazer um 'não 'com a cabeça, ou escolher outros dois jogadores. Se ela escolher, faça 'sim' ou 'não' com a cabeça para indicar se esses dois jogadores possuem o mesmo alinhamento.",
     "otherNight": 61,
-    "otherNightReminder": "Se a Costureira ainda não usou sua habilidade: A Costureira pode recusar usar sua habilidade ou escolher dois outros jogadores. Se a costureira escolheu dois jogadores, informe-a se  eles são do mesmo alinhamento (bem/mal).",
-    "reminders": ["Usado"],
+    "otherNightReminder": "Se a Costureira ainda não usou a habilidade: A Costureira pode fazer um 'não 'com a cabeça, ou escolher outros dois jogadores. Se ela escolher, mostre 'sim' ou 'não' para indicar se esses dois jogadores possuem o mesmo alinhamento.",
+    "reminders": ["Sem habilidade"],
     "setup": false,
-    "ability": "Uma vez por jogo, durante a Noite, você pode escolher 2 jogadores(exceto você): você descobre se eles são do mesmo time."
+    "ability": "Uma vez por jogo, à noite, você pode escolher 2 jogadores (exceto você): você descobre se eles têm o mesmo alinhamento."
   },
   {
     "id": "philosopher",
-    "name": "Filósofo",
+    "name": "Philosopher",
     "edition": "snv",
     "team": "townsfolk",
     "firstNight": 2,
-    "firstNightReminder": "O Filósofo pode recusar usar sua habilidade ou escolher um personagem do bem. Se ele escolher um personagem: O Filósofo ganha a habilidade do personagem escolhido. E se o personagem está em jogo, esse jogador está bêbado até que o Filósofo morra.",
+    "firstNightReminder": "(Antes de informar os lacaios) O Filósofo pode fazer um 'não 'com a cabeça, ou apontar para um personagem bom na sua ficha. Se escolher um personagem: Troque o token do Filósofo pelo token de personagem escolhido coloque ao lado dele o lembrete 'É o Filósofo'.ap the out-of-play character token with the Philosopher token. Se o personagem escolhido já estava em jogo, coloque o lembrete 'Bêbado' próximo ao token desse personagem.",
     "otherNight": 2,
-    "otherNightReminder": "Se o Filósofo ainda não usou sua habilidade: O Filósofo pode recusar usar sua habilidade ou escolher um personagem do bem. Se ele escolher um personagem: O Filósofo ganha a habilidade do personagem escolhido. E se o personagem está em jogo, esse jogador está bêbado até que o Filósofo morra.",
-    "reminders": ["Bêbado",
-      "Não é o Filósofo"],
+    "otherNightReminder": "Se o Filósofo ainda não usou a habilidade: O Filósofo pode fazer um 'não 'com a cabeça, ou apontar para um personagem bom na sua ficha. Se escolher um personagem: Troque o token do Filósofo pelo token de personagem escolhido coloque ao lado dele o lembrete 'É o Filósofo'.ap the out-of-play character token with the Philosopher token. Se o personagem escolhido já estava em jogo, coloque o lembrete 'Bêbado' próximo ao token desse personagem.",
+    "reminders": ["Drunk",
+        "Is the Philosopher"],
     "setup": false,
-    "ability": "Uma vez por jogo, durante a Noite, você pode escolher um personagem do bem: você ganha a habilidade dele. Se alguém já é for esse personagem, esse personagem fica bêbado até o Filósofo morrer, mesmo que o personagem troque de jogador durante o jogo."
+    "ability": "Uma vez por jogo, à noite, escolha um personagem bom: ganhe aquela habilidade. Se o personagem estiver em jogo, ele fica bêbado."
   },
   {
     "id": "artist",
@@ -902,9 +902,9 @@
     "firstNightReminder": "",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["Usado"],
+    "reminders": ["Sem habilidade"],
     "setup": false,
-    "ability": "Uma vez por jogo, durante o Dia, você pode fazer uma pergunta de sim ou não para o Storyteller. (Em segredo)"
+    "ability": "Uma vez por jogo, durante o dia, em segredo, você pode fazer uma pergunta de 'sim ou não' para o Narrador."
   },
   {
     "id": "juggler",
