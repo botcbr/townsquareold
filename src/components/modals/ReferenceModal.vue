@@ -236,8 +236,8 @@ h3 {
   &:not(:last-child):after {
     content: " ";
     display: block;
-    width: 25%;
-    height: 1px;
+    width: 50%;
+    height: 10px;
     background: linear-gradient(90deg, #ffffffaa, transparent);
     position: absolute;
     left: 0;
