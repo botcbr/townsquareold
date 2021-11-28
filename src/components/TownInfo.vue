@@ -12,7 +12,7 @@
       }"
     ></li>
     <li v-if="players.length - teams.traveler < 5">
-      Please add more players!
+      Por favor adicione mais jogadores.
     </li>
     <li>
       <span class="meta" v-if="!edition.isOfficial">
