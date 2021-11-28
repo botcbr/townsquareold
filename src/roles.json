@@ -277,7 +277,8 @@
     "ability": "Há Forasteiros adicionais em jogo. [+2 Forasteiros]"
   },
   {
-    "id": "imp",
+    "id": "
+",
     "name": "Capeta",
     "edition": "tb",
     "team": "demon",
@@ -287,7 +288,7 @@
     "otherNightReminder": "The Imp points to a player. That player dies. If the Imp chose themselves: Replace the character of 1 alive minion with a spare Imp token. Show the 'You are' card, then the Imp token.",
     "reminders": ["Dead"],
     "setup": false,
-    "ability": "Each night*, choose a player: they die. If you kill yourself this way, a Minion becomes the Imp."
+    "ability": "A cada noite*, escolha um jogador: Ele morre. Se você se matar com sua habilidade, um Laciao se torna o Capeta."
   },
   {
     "id": "bureaucrat",
