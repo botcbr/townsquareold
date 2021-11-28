@@ -12,7 +12,7 @@
       v-if="session.isSpectator"
     />
 
-    <h3>Vote history</h3>
+    <h3>Histórico de Votação</h3>
 
     <template v-if="!session.isSpectator">
       <div class="options">
@@ -23,26 +23,26 @@
               session.isVoteHistoryAllowed ? 'check-square' : 'square'
             ]"
           />
-          Accessible to players
+          Acessivel aos jogadores
         </div>
         <div class="option" @click="clearVoteHistory">
           <font-awesome-icon icon="trash-alt" />
-          Clear for everyone
+          Limpar para todos
         </div>
       </div>
     </template>
     <table>
       <thead>
         <tr>
-          <td>Time</td>
-          <td>Nominator</td>
-          <td>Nominee</td>
-          <td>Type</td>
-          <td>Votes</td>
-          <td>Majority</td>
+          <td>Tempo</td>
+          <td>Nomeador</td>
+          <td>Nomeado</td>
+          <td>Tipo</td>
+          <td>Votos</td>
+          <td>Maioria</td>
           <td>
             <font-awesome-icon icon="user-friends" />
-            Voters
+            A favor
           </td>
         </tr>
       </thead>
