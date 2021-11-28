@@ -15,31 +15,33 @@
       <font-awesome-icon icon="address-card" />
       {{ edition.name || "Custom Script" }}
     </h3>
-   <div
-      v-for="(teamRoles, team) in rolesGrouped"
-      :key="team"
-      :class="['team', team]"
-    >
-     <div class="team" v-if="team === 'townsfolk'">
-      <aside>
-        <h4>cidadão</h4>
-      </aside>
-          </div>
+    
      <div class="team" div v-if="team === 'outsider'">
       <aside>
         <h4>forasteiro</h4>
       </aside>
           </div>
      <div class="team" div v-if="team === 'minion'">
-      <aside>
-        <h4>lacaio</h4>
-      </aside>
-          </div>
+<aside>
+<h4>lacaio</h4>
+</aside>
+</div>
        <div class="team" div v-if="team === 'demon'">
       <aside>
         <h4>demônio/h4>
       </aside>
           </div>
+
+   <div
+      v-for="(teamRoles, team) in rolesGrouped"
+      :key="team"
+      :class="['team', team]"
+    >
+     <div class="team" div v-if="team === 'outsider'">
+<aside>
+<h4>forasteiro</h4>
+</aside>
+</div>
       <ul>
         <li v-for="role in teamRoles" :class="[team]" :key="role.id">
           <span
