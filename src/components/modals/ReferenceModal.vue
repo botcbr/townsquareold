@@ -84,6 +84,70 @@
       </ul>
       </div>
 
+     <div class="team" v-if="team === 'minion'">
+      <aside>
+        <h4>lacaio</h4>
+      </aside>
+      <ul>
+        <li v-for="role in teamRoles" :class="[team]" :key="role.id">
+          <span
+            class="icon"
+            v-if="role.id"
+            :style="{
+              backgroundImage: `url(${
+                role.image && grimoire.isImageOptIn
+                  ? role.image
+                  : require('../../assets/icons/' +
+                      (role.imageAlt || role.id) +
+                      '.png')
+              })`
+            }"
+          ></span>
+          <div class="role">
+            <span class="player" v-if="Object.keys(playersByRole).length">{{
+              playersByRole[role.id] ? playersByRole[role.id].join(", ") : ""
+            }}</span>
+            <span class="name">{{ role.name }}</span>
+            <span class="ability">{{ role.ability }}</span>
+          </div>
+        </li>
+        <li :class="[team]"></li>
+        <li :class="[team]"></li>
+      </ul>
+      </div>
+
+     <div class="team" v-if="team === 'demon'">
+      <aside>
+        <h4>demônio</h4>
+      </aside>
+      <ul>
+        <li v-for="role in teamRoles" :class="[team]" :key="role.id">
+          <span
+            class="icon"
+            v-if="role.id"
+            :style="{
+              backgroundImage: `url(${
+                role.image && grimoire.isImageOptIn
+                  ? role.image
+                  : require('../../assets/icons/' +
+                      (role.imageAlt || role.id) +
+                      '.png')
+              })`
+            }"
+          ></span>
+          <div class="role">
+            <span class="player" v-if="Object.keys(playersByRole).length">{{
+              playersByRole[role.id] ? playersByRole[role.id].join(", ") : ""
+            }}</span>
+            <span class="name">{{ role.name }}</span>
+            <span class="ability">{{ role.ability }}</span>
+          </div>
+        </li>
+        <li :class="[team]"></li>
+        <li :class="[team]"></li>
+      </ul>
+      </div>
+
       </div>
 
 
