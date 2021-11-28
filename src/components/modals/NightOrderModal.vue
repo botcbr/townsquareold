@@ -114,24 +114,24 @@ export default {
         rolesFirstNight.push(
           {
             id: "evil",
-            name: "Minion info",
+            name: "Informação do Lacaio",
             firstNight: 5,
             team: "minion",
             players: this.players.filter(p => p.role.team === "minion"),
             firstNightReminder:
-              "• If more than one Minion, they all make eye contact with each other. " +
-              "• Show the “This is the Demon” card. Point to the Demon."
+              "• Se houver mais de um Minion, todos eles farão contato visual uns com os outros. " +
+              "• Mostre a carta 'Este é o Demônio'. Aponte para o Demônio."
           },
           {
             id: "evil",
-            name: "Demon info & bluffs",
+            name: "Informação do Demônio & blefe",
             firstNight: 8,
             team: "demon",
             players: this.players.filter(p => p.role.team === "demon"),
             firstNightReminder:
-              "• Show the “These are your minions” card. Point to each Minion. " +
-              "• Show the “These characters are not in play” card. Show 3 character tokens of good " +
-              "characters not in play."
+              "• Mostre a carta 'Estes são seus lacaios'. Aponte para cada Lacaio. " +
+              "• Mostre a carta 'Esses personagens não estão em jogo'. Mostre 3 fichas de personagens bons " +
+              "que não estão em jogo."
           }
         );
       }
