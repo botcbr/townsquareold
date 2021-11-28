@@ -47,19 +47,19 @@
 
         <template v-if="tab === 'grimoire'">
           <!-- Grimoire -->
-          <li class="headline">Grimoire</li>
+          <li class="headline">Grimório</li>
           <li @click="toggleGrimoire" v-if="players.length">
-            <template v-if="!grimoire.isPublic">Hide</template>
-            <template v-if="grimoire.isPublic">Show</template>
+            <template v-if="!grimoire.isPublic">Esconder</template>
+            <template v-if="grimoire.isPublic">Mostrar</template>
             <em>[G]</em>
           </li>
           <li @click="toggleNight" v-if="!session.isSpectator">
-            <template v-if="!grimoire.isNight">Switch to Night</template>
-            <template v-if="grimoire.isNight">Switch to Day</template>
+            <template v-if="!grimoire.isNight">Trocar para Noite</template>
+            <template v-if="grimoire.isNight">Trocar para Dia</template>
             <em>[S]</em>
           </li>
           <li @click="toggleNightOrder" v-if="players.length">
-            Night order
+            Ordem da Noite
             <em>
               <font-awesome-icon
                 :icon="[
@@ -84,11 +84,11 @@
             </em>
           </li>
           <li @click="setBackground">
-            Background image
+            Imagem de fundo
             <em><font-awesome-icon icon="image"/></em>
           </li>
           <li v-if="!edition.isOfficial" @click="imageOptIn">
-            <small>Show Custom Images</small>
+            <small>Mostrar imagens customizadas</small>
             <em
               ><font-awesome-icon
                 :icon="[
@@ -98,14 +98,14 @@
             /></em>
           </li>
           <li @click="toggleStatic">
-            Disable Animations
+            Desabilitar Animações
             <em
               ><font-awesome-icon
                 :icon="['fas', grimoire.isStatic ? 'check-square' : 'square']"
             /></em>
           </li>
           <li @click="toggleMuted">
-            Mute Sounds
+            Mutar Sons
             <em
               ><font-awesome-icon
                 :icon="['fas', grimoire.isMuted ? 'volume-mute' : 'volume-up']"
@@ -131,21 +131,21 @@
               <em>{{ session.ping }}ms</em>
             </li>
             <li @click="copySessionUrl">
-              Copy player link
+              Copiar link de jogadores
               <em><font-awesome-icon icon="copy"/></em>
             </li>
             <li v-if="!session.isSpectator" @click="distributeRoles">
-              Send Characters
+              Enviar Personagens
               <em><font-awesome-icon icon="theater-masks"/></em>
             </li>
             <li
               v-if="session.voteHistory.length || !session.isSpectator"
               @click="toggleModal('voteHistory')"
             >
-              Vote history<em>[V]</em>
+              Histórico de Votação<em>[V]</em>
             </li>
             <li @click="leaveSession">
-              Leave Session
+              Sair da Sessão
               <em>{{ session.sessionId }}</em>
             </li>
           </template>
@@ -153,51 +153,51 @@
 
         <template v-if="tab === 'players' && !session.isSpectator">
           <!-- Users -->
-          <li class="headline">Players</li>
-          <li @click="addPlayer" v-if="players.length < 20">Add<em>[A]</em></li>
+          <li class="headline">Jogadores</li>
+          <li @click="addPlayer" v-if="players.length < 20">Adicionar<em>[A]</em></li>
           <li @click="randomizeSeatings" v-if="players.length > 2">
-            Randomize
+            Randomizar
             <em><font-awesome-icon icon="dice"/></em>
           </li>
           <li @click="clearPlayers" v-if="players.length">
-            Remove all
+            Remover Todos
             <em><font-awesome-icon icon="trash-alt"/></em>
           </li>
         </template>
 
         <template v-if="tab === 'characters'">
           <!-- Characters -->
-          <li class="headline">Characters</li>
+          <li class="headline">Personagens</li>
           <li v-if="!session.isSpectator" @click="toggleModal('edition')">
-            Select Edition
+            Selecionar Edição
             <em>[E]</em>
           </li>
           <li
             @click="toggleModal('roles')"
             v-if="!session.isSpectator && players.length > 4"
           >
-            Choose & Assign
+            Escolher & Atribuir
             <em>[C]</em>
           </li>
           <li v-if="!session.isSpectator" @click="toggleModal('fabled')">
-            Add Fabled
+            Adicionar Lenda
             <em><font-awesome-icon icon="dragon"/></em>
           </li>
           <li @click="clearRoles" v-if="players.length">
-            Remove all
+            Remover Todos
             <em><font-awesome-icon icon="trash-alt"/></em>
           </li>
         </template>
 
         <template v-if="tab === 'help'">
           <!-- Help -->
-          <li class="headline">Help</li>
+          <li class="headline">Ajuda</li>
           <li @click="toggleModal('reference')">
-            Reference Sheet
+            Folha de Personagens
             <em>[R]</em>
           </li>
           <li @click="toggleModal('nightOrder')">
-            Night Order Sheet
+            Folha da Ordem da Noite
             <em>[N]</em>
           </li>
           <li @click="toggleModal('gameState')">
@@ -206,7 +206,7 @@
           </li>
           <li>
             <a href="https://discord.gg/Gd7ybwWbFk" target="_blank">
-              Join Discord
+              Entrar no Discord
             </a>
             <em>
               <a href="https://discord.gg/Gd7ybwWbFk" target="_blank">
