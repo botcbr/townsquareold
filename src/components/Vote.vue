@@ -6,22 +6,22 @@
     </div>
     <div class="overlay">
       <audio src="../assets/sounds/countdown.mp3" preload="auto"></audio>
-      <em class="blue">{{ nominator.name }}</em> nominated
+      <em class="blue">{{ nominator.name }}</em> nomeou
       <em>{{ nominee.name }}</em
       >!
       <br />
       <em class="blue">
         {{ voters.length }} vote{{ voters.length !== 1 ? "s" : "" }}
       </em>
-      in favor
+      em favor
       <em v-if="nominee.role.team !== 'traveler'">
         (majority is {{ Math.ceil(alive / 2) }})
       </em>
-      <em v-else>(majority is {{ Math.ceil(players.length / 2) }})</em>
+      <em v-else>(maioria é {{ Math.ceil(players.length / 2) }})</em>
 
       <template v-if="!session.isSpectator">
         <div v-if="!session.isVoteInProgress && session.lockedVote < 1">
-          Time per player:
+          Tempo por jogador:
           <font-awesome-icon
             @mousedown.prevent="setVotingSpeed(-500)"
             icon="minus-circle"
@@ -38,7 +38,7 @@
             v-if="!session.isVoteInProgress"
             @click="countdown"
           >
-            Countdown
+            Contagem
           </div>
           <div class="button" v-if="!session.isVoteInProgress" @click="start">
             {{ session.lockedVote ? "Restart" : "Start" }}
@@ -51,9 +51,9 @@
             >
               {{ voteTimer ? "Pause" : "Resume" }}
             </div>
-            <div class="button" @click="stop">Reset</div>
+            <div class="button" @click="stop">Reiniciar</div>
           </template>
-          <div class="button demon" @click="finish">Close</div>
+          <div class="button demon" @click="finish">Fechar</div>
         </div>
         <div class="button-group mark" v-if="nominee.role.team !== 'traveler'">
           <div
@@ -63,10 +63,10 @@
             }"
             @click="setMarked"
           >
-            Mark for execution
+            Marcar para execução
           </div>
           <div class="button" @click="removeMarked">
-            Clear mark
+            Limpar marca
           </div>
         </div>
       </template>
@@ -80,14 +80,14 @@
             @click="vote(false)"
             :class="{ disabled: !currentVote }"
           >
-            Hand DOWN
+            Contra
           </div>
           <div
             class="button demon"
             @click="vote(true)"
             :class="{ disabled: currentVote }"
           >
-            Hand UP
+            A favor
           </div>
         </div>
       </template>
