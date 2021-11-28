@@ -5,9 +5,9 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "name": "Doomsayer",
+    "name": "Emissário do Caos",
     "team": "fabled",
-    "ability": "If 4 or more players live, each living player may publicly choose (once per game) that a player of their own alignment dies."
+    "ability": "Se 4 ou mais jogadores estão vivos, cada jogador vivo pode pedir publicamente(uma vez) que um jogador com o mesmo alinhamento morra."
   },
   {
     "id": "angel",
@@ -97,7 +97,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": true,
-    "name": "Sentinel",
+    "name": "Sentinela",
     "team": "fabled",
     "ability": "There might be 1 extra or 1 fewer Outsider in play."
   },
@@ -109,7 +109,7 @@
     "setup": false,
     "name": "Spirit of Ivory",
     "team": "fabled",
-    "ability": "There can't be more than 1 extra evil player."
+    "ability": "Pode haver 1 Forasteiro a mais ou a menos."
   },
   {
     "id": "djinn",
