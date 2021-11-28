@@ -15,7 +15,7 @@
       </em>
       em favor
       <em v-if="nominee.role.team !== 'traveler'">
-        (majority is {{ Math.ceil(alive / 2) }})
+        (maioria é {{ Math.ceil(alive / 2) }})
       </em>
       <em v-else>(maioria é {{ Math.ceil(players.length / 2) }})</em>
 
