@@ -25,17 +25,17 @@
         <h4>cidadão</h4>
       </aside>
           </div>
-     <div v-if="team === 'outsider'">
+     <div class="team" div v-if="team === 'outsider'">
       <aside>
         <h4>forasteiro</h4>
       </aside>
           </div>
-     <div v-if="team === 'minion'">
+     <div class="team" div v-if="team === 'minion'">
       <aside>
         <h4>lacaio</h4>
       </aside>
           </div>
-       <div v-if="team === 'demon'">
+       <div class="team" div v-if="team === 'demon'">
       <aside>
         <h4>demônio/h4>
       </aside>
