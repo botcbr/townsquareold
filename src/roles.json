@@ -258,7 +258,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 20,
-    "otherNightReminder": "Se a Mulher Escarlate se tornou o Demônio hoje: Mostre a carta 'Você é', e o token de personagem do Demônio.",
+    "otherNightReminder": "Se a Mulher Escarlate se tornou o Demônio hoje, avise-a mostrando o personagem novo dela.",
     "reminders": ["Demônio"],
     "setup": false,
     "ability": "Se há 5 ou mais jogadores vivos e o Demônio morrer, você se torna o Demônio. (Viajantes não contam)"
@@ -284,8 +284,8 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 24,
-    "otherNightReminder": "The Imp points to a player. That player dies. If the Imp chose themselves: Replace the character of 1 alive minion with a spare Imp token. Show the 'You are' card, then the Imp token.",
-    "reminders": ["Dead"],
+    "otherNightReminder": ". O Capeta escolhe um jogador. O jogador morre. Se o Capeta escolher a si mesmo: Substitua o token de personagem de um Lacaio vivo por outro token de Capeta. Avise ao novo Capeta sobre a mudança de personagem.",
+    "reminders": ["Morto"],
     "setup": false,
     "ability": "A cada noite*, escolha um jogador: Ele morre. Se você se matar com sua habilidade, um Laciao se torna o Capeta."
   },
@@ -820,7 +820,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 58,
-    "otherNightReminder": "Faça 'sim' ou 'não' com a cabeça para indicar se o Demônio votou. Coloque o lembrete 'Demônio não votou' (remova 'Demônio votou', se for o caso).",
+    "otherNightReminder": "Mostre 'sim' ou 'não' para indicar se o Demônio votou. Coloque o lembrete 'Demônio não votou' (remova 'Demônio votou', se for o caso).",
     "reminders": ["Demônio votou",
         "Demônio não votou"],
     "setup": false,
@@ -834,7 +834,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 59,
-    "otherNightReminder": "Faça 'sim' ou 'não' com a cabeça para indicar se algum Lacaio nomeou hoje. Coloque o lembrete 'Lacaio não nomeou' (remova 'Lacaios não nomearam', se for o caso).",
+    "otherNightReminder": "Mostre 'sim' ou 'não' para indicar se algum Lacaio nomeou hoje. Coloque o lembrete 'Lacaio não nomeou' (remova 'Lacaios não nomearam', se for o caso).",
     "reminders": ["Lacaios não nomearam",
         "Lacaio nomeou"],
     "setup": false,
@@ -848,7 +848,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 60,
-    "otherNightReminder": "Mostre com os dedos o número de jogadores maus mortos.",
+    "otherNightReminder": "Mostre o número de jogadores maus mortos.",
     "reminders": [],
     "setup": false,
     "ability": "A cada noite*, você descobre quantos jogadores mortos são maus."
@@ -872,9 +872,9 @@
     "edition": "snv",
     "team": "townsfolk",
     "firstNight": 42,
-    "firstNightReminder": "A Costureira pode fazer um 'não 'com a cabeça, ou escolher outros dois jogadores. Se ela escolher, faça 'sim' ou 'não' com a cabeça para indicar se esses dois jogadores possuem o mesmo alinhamento.",
+    "firstNightReminder": "A Costureira pode dizer 'não', ou escolher outros dois jogadores. Se ela escolher, mostre 'sim' ou 'não' para indicar se esses dois jogadores possuem o mesmo alinhamento.",
     "otherNight": 61,
-    "otherNightReminder": "Se a Costureira ainda não usou a habilidade: A Costureira pode fazer um 'não 'com a cabeça, ou escolher outros dois jogadores. Se ela escolher, mostre 'sim' ou 'não' para indicar se esses dois jogadores possuem o mesmo alinhamento.",
+    "otherNightReminder": "Se a Costureira ainda não usou a habilidade: A Costureira pode dizer 'não' com a cabeça, ou escolher outros dois jogadores. Se ela escolher, mostre 'sim' ou 'não' para indicar se esses dois jogadores possuem o mesmo alinhamento.",
     "reminders": ["Sem habilidade"],
     "setup": false,
     "ability": "Uma vez por jogo, à noite, você pode escolher 2 jogadores (exceto você): você descobre se eles têm o mesmo alinhamento."
@@ -885,11 +885,11 @@
     "edition": "snv",
     "team": "townsfolk",
     "firstNight": 2,
-    "firstNightReminder": "(Antes de informar os lacaios) O Filósofo pode fazer um 'não 'com a cabeça, ou apontar para um personagem bom na sua ficha. Se escolher um personagem: Troque o token do Filósofo pelo token de personagem escolhido coloque ao lado dele o lembrete 'É o Filósofo'.ap the out-of-play character token with the Philosopher token. Se o personagem escolhido já estava em jogo, coloque o lembrete 'Bêbado' próximo ao token desse personagem.",
+    "firstNightReminder": "(Antes de informar os lacaios) O Filósofo pode dizer 'não', ou escolher um personagem do bem que esteja no script. Se escolher um personagem: Troque o token do Filósofo pelo token de personagem escolhido coloque ao lado dele o lembrete 'É o Filósofo'.Se o personagem escolhido já estava em jogo, coloque o lembrete 'Bêbado' próximo ao token desse personagem.",
     "otherNight": 2,
-    "otherNightReminder": "Se o Filósofo ainda não usou a habilidade: O Filósofo pode fazer um 'não 'com a cabeça, ou apontar para um personagem bom na sua ficha. Se escolher um personagem: Troque o token do Filósofo pelo token de personagem escolhido coloque ao lado dele o lembrete 'É o Filósofo'.ap the out-of-play character token with the Philosopher token. Se o personagem escolhido já estava em jogo, coloque o lembrete 'Bêbado' próximo ao token desse personagem.",
-    "reminders": ["Drunk",
-        "Is the Philosopher"],
+    "otherNightReminder": "Se o Filósofo ainda não usou a habilidade: O Filósofo pode dizer 'não', ou escolher um personagem do bem que esteja no script. Se escolher um personagem: Troque o token do Filósofo pelo token de personagem escolhido coloque ao lado dele o lembrete 'É o Filósofo'.Se o personagem escolhido já estava em jogo, coloque o lembrete 'Bêbado' próximo ao token desse personagem.",
+    "reminders": ["Bêbado",
+        "É o Filósofo"],
     "setup": false,
     "ability": "Uma vez por jogo, à noite, escolha um personagem bom: ganhe aquela habilidade. Se o personagem estiver em jogo, ele fica bêbado."
   },
@@ -914,10 +914,10 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 62,
-    "otherNightReminder": "Se hoje foi o primeiro dia do malabarista: • Informe-o o número (0, 1, 2, etc.) de advinhações corretas.",
+    "otherNightReminder": "Se hoje foi o primeiro dia do malabarista: Informe o número de advinhações corretas.",
     "reminders": ["Correto"],
     "setup": false,
-    "ability": "No primeiro dia, você pode tentar adivinhar publicamente os personagens de até 5 jogadores. Durante a Noite, você descobre quantos você acertou."
+    "ability": "No seu 1° dia, tente adivinhar publicamente os personagens de até 5 jogadores. Naquela noite, você descobre quantos acertou."
   },
   {
     "id": "sage",
@@ -927,7 +927,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 43,
-    "otherNightReminder": "Se o Sábio foi morto por um Demônio: Informe ao Sábio dois jogadores, um dos quais é o Demônio.",
+    "otherNightReminder": "Se o sábio foi morto pelo Demônio esta noite: Aponte para dois jogadores, sendo um deles o Demônio.",
     "reminders": [],
     "setup": false,
     "ability": "Se você for morto pelo Demônio, você descobre que ele é 1 dentre 2 jogadores."
@@ -943,7 +943,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Se você insinuar que é um Forasteiro, você pode ser executado imediatamente. Se você estiver alucinado que é um Forasteiro, você pode ser executado."
+    "ability": "Se você alucinar que é um Forasteiro, pode ser executado."
   },
   {
     "id": "sweetheart",
@@ -953,7 +953,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 41,
-    "otherNightReminder": "",
+    "otherNightReminder": "Se a Queridinha morreu hoje, escolha um jogador e coloque o lembrete 'Bêbado' perto do token de personagem dele.",
     "reminders": ["Bêbado"],
     "setup": false,
     "ability": "Se você morrer, um jogador fica bêbado."
@@ -966,10 +966,10 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 40,
-    "otherNightReminder": "Se o Barbeiro morreu hoje: Desperte o Demônio. Informe-o que o Barbeiro morreu este dia. O Demônio pode recusar usar a habilidade do Barbeiro ou escolher 2 jogadores que não são Demônio. Se ele escolher jogadores: Troque as fichas de personagem. Acorde cada jogador. Informe-os quais são seus novos personagens.",
+    "otherNightReminder": "Se o Barbeiro morreu hoje: acorde o Demônio. Informe-o que o Barbeiro morreu neste dia. O Demônio pode recusar usar a habilidade do Barbeiro ou escolher 2 jogadores que não são Demônio. Se ele escolher jogadores: Troque as fichas de personagem. Acorde cada jogador. Informe-os quais são seus novos personagens.",
     "reminders": ["Troca"],
     "setup": false,
-    "ability": "Se você morrer, esta Noite o Demônio pode escolher dois jogadores: eles trocam de personagens entre si."
+    "ability": "Se você morreu hoje, o Demônio pode escolher 2 jogadores (exceto outro Demônio) para permutarem seus personagens."
   },
   {
     "id": "klutz",
@@ -982,7 +982,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Quando sua morte for declarada, escolha publicamente um jogador vivo do Bem, ou seu time perde."
+    "ability": "Quando você for avisado de que morreu, escolha um jogador vivo publicamente: se este for mau, seu time perde."
   },
   {
     "id": "eviltwin",
@@ -990,16 +990,16 @@
     "edition": "snv",
     "team": "minion",
     "firstNight": 23,
-    "firstNightReminder": "Acorde a gêmea má e informe-a quem é sua gêmea boa e sua habilidade. Acorde a Gemêa Boa e informe-a quem é a sua Gêmea Má.",
+    "firstNightReminder": "Acorde a gêmea má e informe-a quem é sua outra gêmea e qual seu personagem. Acorde a outra Gêmea e informe-a que foi escolhida como Gêmea e indique quem é a Gêmea Má.",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": ["Gêmea"],
     "setup": false,
-    "ability": "Você e um oponente sabem o personagem um do outro. Se o jogador do bem for executado, o Mal vence. O bem não pode vencer enquanto ambos viverem."
+    "ability": "Você e um oponente sabem o personagem um do outro. Se o jogador bom for executado, o Mal vence. O bem não pode vencer enquanto ambos viverem."
   },
   {
     "id": "witch",
-    "name": "Bruxa",
+    "name": "Feiticeira",
     "edition": "snv",
     "team": "minion",
     "firstNight": 24,
@@ -1008,7 +1008,7 @@
     "otherNightReminder": "A Bruxa escolhe um jogador. Esse jogador esta amaldiçoado no próximo dia.",
     "reminders": ["Amaldiçoado"],
     "setup": false,
-    "ability": "Toda Noite, escolha um jogador: se ele nomear durante o próximo Dia, morre. Se apenas 3 jogadores estiverem vivos, você perde esta habilidade."
+    "ability": "A cada noite, escolha um jogador:  se ele nomear amanhã, morre. Se apenas 3 jogadores estão vivos, você perde essa habilidade."
   },
   {
     "id": "cerenovus",
