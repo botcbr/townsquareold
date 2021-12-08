@@ -143,7 +143,7 @@
     "otherNightReminder": "",
     "reminders": ["Sem habilidade"],
     "setup": false,
-    "ability": "Uma vez por partida, durante o dia, você pode escolher um jogador: se este for o Demônio, morre."
+    "ability": "Uma vez por partida, durante o dia, você pode escolher um jogador publicamente: se este for o Demônio, morre."
   },
   {
     "id": "soldier",
@@ -1520,7 +1520,7 @@
   },
   {
     "id": "fearmonger",
-    "name": "Fearmonger",
+    "name": "Incitador",
     "edition": "",
     "team": "minion",
     "firstNight": 26,
@@ -1529,7 +1529,7 @@
     "otherNightReminder": "The Fearmonger points to a player. If different from the previous night, place the Fear token next to that player and announce that a new player has been selected with the Fearmonger ability.",
     "reminders": ["Fear"],
     "setup": false,
-    "ability": "Each night, choose a player. If you nominate & execute them, their team loses. All players know if you choose a new player."
+    "ability": "A cada noite, escolha um jogador. Se você nomeá-lo e executá-lo, o time dele perde. Todos os jogadores sabem quando você escolhe um novo alvo."
   },
   {
     "id": "psychopath",
@@ -1542,7 +1542,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Each day, before nominations, you may publicly choose a player: they die. If executed, you only die if you lose roshambo."
+    "ability": "Todo dia, antes das nomeações, você pode escolher um jogador publicamente: ele morre. Se você é executado, só morre se perder em um 'jokenpo'."
   },
   {
     "id": "goblin",
@@ -1553,9 +1553,9 @@
     "firstNightReminder": "",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["Clamado Hoje"],
+    "reminders": ["Alegou"],
     "setup": false,
-    "ability": "Quando nomeado, você pode publicamente afirmar ser o Goblin: Se for executado naquele dia, seu time vence."
+    "ability": "Quando nomeado, você pode publicamente alegar ser o Goblin: Se for executado naquele dia, seu time vence."
   },
   {
     "id": "mephit",
@@ -1577,17 +1577,17 @@
     "edition": "",
     "team": "minion",
     "firstNight": 27,
-    "firstNightReminder": "Show the Mezepheles their secret word.",
+    "firstNightReminder": "Mostre a Mezepheles a palavra secreta.",
     "otherNight": 19,
-    "otherNightReminder": "Wake the 1st good player that said the Mezepheles' secret word and show them the 'You are' card and the thumbs down evil signal.",
-    "reminders": ["Turns evil",
-        "No ability"],
+    "otherNightReminder": "Acorde o 1º jogador bom que disse a palavra secreta de Mezepheles e mostre que agora ele é mau.",
+    "reminders": ["Mau",
+        "Sem habilidade"],
     "setup": false,
-    "ability": "You start knowing a secret word. The 1st good player to say this word becomes evil that night."
+    "ability": "Você começa sabendo uma palavra secreta. O 1º jogador bom que disser a palavra se torna mau essa noite."
   },
   {
     "id": "marionette",
-    "name": "Marionette",
+    "name": "Marionete",
     "edition": "",
     "team": "minion",
     "firstNight": 11,
@@ -1597,11 +1597,11 @@
     "reminders": [],
     "remindersGlobal": ["Is the Marionette"],
     "setup": true,
-    "ability": "You think you are a good character but you are not. The Demon knows who you are. [You neighbour the Demon]"
+    "ability": "Você acredita ser um personagem bom. O Demônio sabe quem você é. [Você é vizinho do Demônio]"
   },
   {
     "id": "boomdandy",
-    "name": "Boomdandy",
+    "name": "Explosivo",
     "edition": "",
     "team": "minion",
     "firstNight": 0,
@@ -1610,7 +1610,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "If you are executed, all but 3 players die. 1 minute later, the player with the most players pointing at them dies."
+    "ability": "Se você for executado, todos morrem exceto 3 jogadores. Após 1 minuto, o jogador mais apontado pelos outros jogadores morre."
   },
   {
     "id": "lilmonsta",
@@ -1618,28 +1618,28 @@
     "edition": "",
     "team": "demon",
     "firstNight": 16,
-    "firstNightReminder": "Na primeira noite, pule as etapas de informações dos Lacaios e  as informações do Demônio. Acorde todos os Lacaios. Todos os Lacaios acordam ao mesmo tempo e escolhem um jogador que recebe o Bebê Monstro e se torna o Demônio.",
+    "firstNightReminder": "Pule as etapas de informações dos Lacaios e as informações do Demônio. Acorde todos os Lacaios. Todos os Lacaios acordam ao mesmo tempo e escolhem um jogador que recebe o Bebê Monstro e se torna o Demônio.",
     "otherNight": 36,
-    "otherNightReminder": "Todos os Lacaios acordam ao mesmo tempo e escolhem um jogador que recebe o Bebê Monstro e se torna o Demônio. Escolha alguém para morrer mesmo que a babá atual do bebê mostro esteja bêbada/envenenada.",
+    "otherNightReminder": "Todos os Lacaios acordam ao mesmo tempo e escolhem um jogador que recebe o Bebê Monstro e se torna o Demônio. Escolha alguém para morrer.",
     "reminders": "",
     "remindersGlobal": ["Morto",
       "Demônio"],
     "setup": true,
-    "ability": "A cada noite os Lacaios escolhem quem ficará com o token do Bebê Monstro e será o Demônio. Um jogador morre a cada noite. [+1 Lacaio]"
+    "ability": "A cada noite os Lacaios escolhem quem ficará com o token do Bebê Monstro e será 'o Demônio'. Um jogador morre a cada noite. [+1 Lacaio]"
   },
   {
     "id": "lleech",
-    "name": "Lleech",
+    "name": "Parasita",
     "edition": "",
     "team": "demon",
     "firstNight": 15,
-    "firstNightReminder": "The Lleech points to a player. Place the Poisoned reminder token.",
+    "firstNightReminder": "O Parasita escolhe um jogador. Coloque o marcador 'Envenenado' próximo ao token de personagem dele.",
     "otherNight": 35,
-    "otherNightReminder": "The Lleech points to a player. That player dies.",
+    "otherNightReminder": "O Parasita escolhe um jogador. O jogador morre.",
     "reminders": ["Dead",
         "Poisoned"],
     "setup": false,
-    "ability": "Each night*, choose a player: they die. You start by choosing an alive player: they are poisoned - you die if & only if they die."
+    "ability": "A cada noite*, escolha um jogador: ele morre. Você começa escolhendo um jogador vivo: ele fica envenenado - você morre se e somente se aquele jogador morrer."
   },
   {
     "id": "alhadikhia",
@@ -1649,12 +1649,12 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 33,
-    "otherNightReminder": "The Al-Hadikhia chooses 3 players. Announce the first player, wake them to nod yes to live or shake head no to die, kill or resurrect accordingly, then put to sleep and announce the next player. If all 3 are alive after this, all 3 die.",
+    "otherNightReminder": "Al-Hadikhia escolhe 3 jogadores. Anuncie o primeiro jogador, acorde-o para que escolha se vive ou morre, mate ou ressuscite conforme a escolha, adormeça-o e repita o processo com o próximo jogador. Se os 3 estiverm vivos após isto, os 3 morrem.",
     "reminders": ["1", "2", "3",
-        "Chose death",
-        "Chose life"],
+        "Morto",
+        "Vivo"],
     "setup": false,
-    "ability": "Each night*, choose 3 players (all players learn who): each silently chooses to live or die, but if all live, all die."
+    "ability": "A cada noite*, escolha 3 jogadores (todos sabem quais): cada um escolhe silenciosamente se vive ou morre, mas se todos viverem, todos morrem."
   },
   {
     "id": "legion",
@@ -1678,8 +1678,8 @@
     "firstNight": 52,
     "firstNightReminder": "Coloque o marcador Leviathan “Dia 1”. Anuncie no próximo amanhecer “O Leviathan está em jogo; este é o primeiro dia ”.",
     "otherNight": 0,
-    "otherNightReminder": "Coloque o próximo marcador de Leviathan 'Dia N', onde 'N' é o número do dia. Anuncie no próximo amanhcer “O Leviathan está em jogo; este é o dia n. ”.",
-    "reminders": ["Executado e do Bem",
+    "otherNightReminder": "Coloque o próximo marcador de Leviathan 'Dia N', onde 'N' é o número do dia. Anuncie ao próximo amanhecer “O Leviathan está em jogo; este é o dia n. ”.",
+    "reminders": ["Executado do Bem",
       "Dia 1",
       "Dia 2",
       "Dia 3",
@@ -1690,7 +1690,7 @@
   },
   {
     "id": "riot",
-    "name": "Riot",
+    "name": "Rebelião",
     "edition": "",
     "team": "demon",
     "firstNight": 0,
@@ -1699,7 +1699,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": true,
-    "ability": "Nominees die, but may nominate again immediately (on day 3, they must). After day 3, evil wins. [All Minions are Riot]"
+    "ability": "Nomeados morrem, mas podem nomear novamente imediatamente (no dia 3, devem). Depois do dia 3, o mal vence. [Todos os Lacaios são Rebelião]"
   },
   {
     "id": "gangster",
@@ -1712,6 +1712,6 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Once per day, you may choose to kill an alive neighbour, if your other alive neighbour agrees."
+    "ability": "Uma vez por dia, você pode escolher matar um vizinho vivo, desde que o outro vizinho concorde."
   }
 ]
