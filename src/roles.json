@@ -1440,17 +1440,17 @@
   },
   {
     "id": "puzzlemaster",
-    "name": "Puzzlemaster",
+    "name": "Enigmático",
     "edition": "",
     "team": "outsider",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["Drunk",
-        "Guess used"],
+    "reminders": ["Bêbado",
+        "Chance usada"],
     "setup": false,
-    "ability": "1 player is drunk, even if you die. If you guess (once) who it is, learn the Demon player, but guess wrong & get false info."
+    "ability": "Um jogador está bêbado, mesmo se vc estiver morto. Você tem uma chance de adivinhar quem é. Se conseguir, você descobre quem é o Demônio. Do contrário, você recebe uma informação falsa."
   },
   {
     "id": "heretic",
@@ -1463,7 +1463,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Whoever wins, loses & whoever loses, wins, even if you are dead."
+    "ability": "Quem venceria perde e quem perderia vence, mesmo que você esteja morto."
   },
   {
     "id": "damsel",
@@ -1471,12 +1471,12 @@
     "edition": "",
     "team": "outsider",
     "firstNight": 31,
-    "firstNightReminder": "Wake all the Minions, show them the 'This character selected you' card and the Damsel token.",
+    "firstNightReminder": "Acorde os Lacaios. Informe-os que a Donzela está em jogo",
     "otherNight": 52,
-    "otherNightReminder": "If selected by the Huntsman, wake the Damsel, show 'You are' card and a not-in-play Townsfolk token.",
-    "reminders": ["Guess used"],
+    "otherNightReminder": "Se escolhida pelo Caçador, acorde a Donzela, mude-a para um Cidadão que esteja fora do jogo.",
+    "reminders": ["Chance usada"],
     "setup": false,
-    "ability": "All Minions know you are in play. If a Minion publicly guesses you (once), your team loses."
+    "ability": "Todos os Lacaios sabem que você está em jogo. Uma vez no jogo, um deles pode adivinhar quem é você. Se conseguir, seu time perde."
   },
   {
     "id": "golem",
@@ -1487,9 +1487,9 @@
     "firstNightReminder": "",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["Can not nominate"],
+    "reminders": ["Não pode nomear"],
     "setup": false,
-    "ability": "You may only nominate once per game. When you do, if the nominee is not the Demon, they die."
+    "ability": "Você só pode nomear uma vez. Quando o fizer, o nomeado morre se não for o Demônio."
   },
   {
     "id": "politician",
@@ -1502,7 +1502,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Se você for o maior responsável pela derrota do seu time, o seu alinhamento (bem/mal) muda e você vence, mesmo estando morto. Caso bêbado/envenenado sua habilidade não tem efeito."
+    "ability": "Se você for o maior responsável pela derrota do seu time, o seu alinhamento muda e você vence, mesmo estando morto."
   },
   {
     "id": "widow",
@@ -1510,11 +1510,11 @@
     "edition": "",
     "team": "minion",
     "firstNight": 18,
-    "firstNightReminder": "Mostre o Grimório para a viúva. A viúva escolhe um jogador. Esse jogador está envenenado. Acorde um bom jogador. Informe-o que a Viúva está em jogo. Caso a Viuvá se escolha, nenhum jogador deverá ser acordado. Caso a Viúva fique bêbada/envenenada/morra, o veneno da Viúva cessa até que ela fique sóbria novamente. Quando o bom jogador que sabe que a viúva está em jogo muda o alinhamento para ser mau, outro jogador do time bom imediatamente descobre que a viúva está em jogo",
+    "firstNightReminder": "Mostre o Grimório para a viúva. A viúva escolhe um jogador. Esse jogador está envenenado. Acorde um bom jogador. Informe-o que a Viúva está em jogo. Caso a Viuvá se escolha, nenhum jogador deverá ser acordado. Caso a Viúva fique bêbada/envenenada/morra, o veneno da Viúva cessa até que ela fique sóbria novamente. Se o jogador que sabe que a viúva está em jogo se tornar mau, outro jogador do time bom descobre que a viúva está em jogo",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": ["Envenenado",
-      "Knowing"],
+      "Sabendo"],
     "setup": false,
     "ability": "Na primeira Noite, veja o Grimório e escolha um jogador: ele está envenenado. 1 jogador do Bem sabe que a Viúva está em jogo."
   },
@@ -1664,11 +1664,11 @@
     "firstNight": 0,
     "firstNightReminder": "Informe a todos os jogadores da Legião quem pertence a Legião, as informações do Demônio deverão ser dadas a todos os membros da Legião",
     "otherNight": 34,
-    "otherNightReminder": "Se ao menos um membro da Legião estiver sóbrio, escolha um jogador, esse jogador morre.",
+    "otherNightReminder": "Se ao menos um membro da Legião estiver sóbrio e sadio, escolha um jogador, esse jogador morre.",
     "reminders": ["Morto",
         "Prestes a morrer"],
     "setup": true,
-    "ability": "Cada noite*, um jogador pode morrer. Execuções irão falhar se apenas os jogadores maus votarem. Você também é registrado como um Lacaio. [Maioria dos jogadores é Legião]"
+    "ability": "A cada noite*, um jogador pode morrer. Execuções irão falhar se apenas os jogadores maus votarem. Você também é registrado como um Lacaio. [Maioria dos jogadores é Legião]"
   },
   {
     "id": "leviathan",
@@ -1690,7 +1690,7 @@
   },
   {
     "id": "riot",
-    "name": "Rebelião",
+    "name": "Pandemônio",
     "edition": "",
     "team": "demon",
     "firstNight": 0,
@@ -1699,7 +1699,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": true,
-    "ability": "Nomeados morrem, mas podem nomear novamente imediatamente (no dia 3, devem). Depois do dia 3, o mal vence. [Todos os Lacaios são Rebelião]"
+    "ability": "Nomeados morrem, mas podem nomear novamente imediatamente (no dia 3, devem). Após o dia 3, o mal vence. [Todos os Lacaios são Rebelião]"
   },
   {
     "id": "gangster",
