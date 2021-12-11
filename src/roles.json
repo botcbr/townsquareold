@@ -1044,10 +1044,10 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 29,
-    "otherNightReminder": "O Fang Gu escolhe um jogador. Esse jogador morre. Ou, se esse jogador for o Primeiro Forasteiro escolhido pelo Fang Gu no Jogo: • O Fang Gu morre em vez do jogador escolhido. O jogador escolhido agora é um mal Fang Gu. • Desperte o novo Fang Gu. Informe-o que ele é o Fang Gu do Mal.",
+    "otherNightReminder": "O Fang Gu escolhe um jogador. Esse jogador morre. Ou, se este seria o 1º Forasteiro a ser morto por um Fang Gu: O Fang Gu morre em vez do jogador escolhido. O jogador escolhido agora é um Fang Gu do mal. Acorde o novo Fang Gu e avise-o disso.",
     "reminders": ["Morto"],
     "setup": true,
-    "ability": "Toda Noite*, você escolhe um jogador: ele morre imediatamente. O primeiro Forasteiro escolhido torna-se um Fang Gu do Mal e você morre no lugar dele. [+1 Forasteiro]"
+    "ability": "A cada noite*, escolha um jogador: ele morre. O 1º Forasteiro que morreria desta forma se torna um Fang Gu do mal e você morre em vez dele. [+1 Forasteiro]"
   },
   {
     "id": "vigormortis",
@@ -1062,7 +1062,7 @@
       "Envenenado",
       "Habilidade Ativa"],
     "setup": true,
-    "ability": "Toda Noite*, você escolhe um jogador: ele morre imediatamente. Lacaios que você mata mantêm suas habilidades e envenenam um vizinho cidadão. [-1 Forasteiro]."
+    "ability": "A cada noite*, escolha um jogador: ele morre. Lacaios que você mata mantêm suas habilidades e envenenam um vizinho cidadão. [-1 Forasteiro]."
   },
   {
     "id": "nodashii",
@@ -1076,7 +1076,7 @@
     "reminders": ["Morto",
       "Envenenado"],
     "setup": false,
-    "ability": "Toda Noite*, você escolhe um jogador: ele morre imediatamente. Seus dois vizinhos Cidadãos estão envenenados."
+    "ability": "A cada noite*, escolha um jogador: ele morre. Seus dois vizinhos Cidadãos estão envenenados."
   },
   {
     "id": "vortox",
@@ -1089,7 +1089,7 @@
     "otherNightReminder": "O Vortox escolhe um jogador. O jogador morre.",
     "reminders": ["Morto"],
     "setup": false,
-    "ability": "Toda Noite*, você escolhe um jogador: ele morre imediatamente. Habilidades do Bem geram informações falsas. Todo Dia, se ninguém for executado, o Mal vence."
+    "ability": "Toda Noite*, escolha um jogador: ele morre. Habilidades de Cidadãos geram informações falsas. A cada dia, se ninguém for executado, o Mal vence."
   },
   {
     "id": "barista",
@@ -1164,12 +1164,12 @@
     "edition": "",
     "team": "townsfolk",
     "firstNight": 43,
-    "firstNightReminder": "Point to 3 players including one evil player, in no particular order.",
+    "firstNightReminder": "Indique 3 jogadores incluindo um jogador do mau, em qualquer ordem.",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": ["Seen"],
     "setup": false,
-    "ability": "You start knowing 3 players, 1 and only 1 of which is evil."
+    "ability": "Você começa sabendo 3 jogadores, 1 e apenas 1 deles é mau."
   },
   {
     "id": "bountyhunter",
@@ -1193,10 +1193,10 @@
     "firstNightReminder": "Informe um Cidadão que está em jogo para a Pixie.",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["Mad",
-        "Has ability"],
+    "reminders": ["Alucinando",
+        "Habilidade adquirida"],
     "setup": false,
-    "ability": "Você começa o jogo sabendo 1 Cidadão em jogo. Se você estiver alucinando ser esse personagem, você ganha a habilidade dele quando ele morrer."
+    "ability": "Você começa o sabendo 1 Cidadão em jogo. Se você estava alucinando ser esse personagem, você ganha a habilidade dele quando ele morrer."
   },
   {
     "id": "general",
@@ -1217,12 +1217,12 @@
     "edition": "",
     "team": "townsfolk",
     "firstNight": 14,
-    "firstNightReminder": "O Missinário escolhe um jogador. Se esse jogador for um Lacaio: Desperte o Lacaio. Informe-o que foi escolhido pelo Missionário. O Lacaio agora não tem mais uma habilidade. Caso o Missionário fique bêbado/envenenado/morra o Lacaio volta a ter sua habilidade até que o Missionário fique sóbrio novamente.",
+    "firstNightReminder": "O Missionário escolhe um jogador. Se esse jogador for um Lacaio: Desperte o Lacaio. Informe-o que foi escolhido pelo Missionário. O Lacaio agora não tem mais uma habilidade. Caso o Missionário fique bêbado/envenenado/morra o Lacaio volta a ter sua habilidade até que o Missionário fique sóbrio novamente.",
     "otherNight": 7,
-    "otherNightReminder": "O Missinário escolhe um jogador. Se esse jogador for um Lacaio: Desperte o Lacaio. Informe-o que foi escolhido pelo Missionário. O Lacaio agora não tem mais uma habilidade. Caso o Missionário fique bêbado/envenenado/morra o Lacaio volta a ter sua habilidade até que o Missionário fique sóbrio novamente.",
+    "otherNightReminder": "O Missionário escolhe um jogador. Se esse jogador for um Lacaio: Desperte o Lacaio. Informe-o que foi escolhido pelo Missionário. O Lacaio agora não tem mais uma habilidade. Caso o Missionário fique bêbado/envenenado/morra o Lacaio volta a ter sua habilidade até que o Missionário fique sóbrio novamente.",
     "reminders": ["Sem habilidade"],
     "setup": false,
-    "ability": "Toda Noite, escolha um jogador: Caso seja um Lacaio, ele saberá que foi escolhido. Todos os Lacaios escolhidos perdem a habilidade."
+    "ability": "Toda Noite, escolha um jogador: um Lacaio, se escolhido, saberá disso. Todos os Lacaios escolhidos não têm habilidade."
   },
   {
     "id": "king",
@@ -1321,16 +1321,16 @@
   },
   {
     "id": "huntsman",
-    "name": "Huntsman",
+    "name": "Caçador",
     "edition": "",
     "team": "townsfolk",
     "firstNight": 30,
-    "firstNightReminder": "The Huntsman shakes their head 'no' or points to a player. If they point to the Damsel, wake that player, show the 'You are' card and a not-in-play character token.",
+    "firstNightReminder": "O Caçador pode dizer 'não' ou escolher um jogador. Se escolher a Donzela, acorde-a e mostre o token de um Cidadão de fora do jogo, indicando seu novo personagem.",
     "otherNight": 51,
-    "otherNightReminder": "The Huntsman shakes their head 'no' or points to a player. If they point to the Damsel, wake that player, show the 'You are' card and a not-in-play character token.",
-    "reminders": ["No ability"],
+    "otherNightReminder": "O Caçador pode dizer 'não' ou escolher um jogador. Se escolher a Donzela, acorde-a e mostre o token de um Cidadão de fora do jogo, indicando seu novo personagem.",
+    "reminders": ["Sem habilidade"],
     "setup": true,
-    "ability": "Once per game, at night, choose a living player: the Damsel, if chosen, becomes a not-in-play Townsfolk. [+the Damsel]"
+    "ability": "Apenas uma vez, à noite, escolha um jogador vivo: a Donzela, se escolhida, se torna um Cidadão de fora do jogo. [+Donzela]"
   },
   {
     "id": "alchemist",
@@ -1408,7 +1408,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": ["Habilidade adquirida",
-      "Enveneado"],
+      "Envenenado"],
     "setup": false,
     "ability": "Você tem a habilidade do jogador executado mais recente. Se ele for do mal, você está envenenado até um jogador do Bem ser executado."
   },
@@ -1467,7 +1467,7 @@
   },
   {
     "id": "damsel",
-    "name": "Damsel",
+    "name": "Donzela",
     "edition": "",
     "team": "outsider",
     "firstNight": 31,
