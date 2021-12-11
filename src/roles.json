@@ -1034,7 +1034,7 @@
     "otherNightReminder": "A Bruxa do Fosso escolhe um jogador e um personagem do script. Caso não esteja em jogo, avise o jogador escolhido que seu personagem agora é esse.",
     "reminders": [],
     "setup": false,
-    "ability": "Toda Noite*, escolha um jogador para se tornar um novo personagem (não funciona se já estiver em jogo). Se o personagem escolhido for um Demônio, as mortes serão arbitrárias esta Noite."
+    "ability": "A cada noite*, escolha um jogador e um personagem para ele se tornar (se não estiver em jogo). Se um Demônio é criado, as mortes serão arbitrárias esta noite."
   },
   {
     "id": "fanggu",
@@ -1226,16 +1226,16 @@
   },
   {
     "id": "king",
-    "name": "King",
+    "name": "Rei",
     "edition": "",
     "team": "townsfolk",
     "firstNight": 9,
-    "firstNightReminder": "Wake the Demon, show them the 'This character selected you' card, show the King token and point to the King player.",
+    "firstNightReminder": "Acorde o Demônio, mostre quem é o Rei.",
     "otherNight": 64,
-    "otherNightReminder": "If there are more dead than living, show the King a character token of a living player.",
+    "otherNightReminder": "Se há mais mortos do que vivos, mostre ao Rei o personagem de um jogador vivo.",
     "reminders": [],
     "setup": false,
-    "ability": "Each night, if the dead outnumber the living, you learn 1 alive character. The Demon knows who you are."
+    "ability": "A cada noite, se os mortos são maioria, você descobre um personagem vivo. O Demônio sabe quem você é."
   },
   {
     "id": "balloonist",
@@ -1246,13 +1246,13 @@
     "firstNightReminder": "Escolha um tipo de personagem. Informe ao Balonista um jogador cujo personagem é desse tipo. Coloque o lembrete 'Visto' do Balonista ao lado desse personagem.",
     "otherNight": 63,
     "otherNightReminder": "Escolha um tipo de personagem que você ainda não escolheu. Informe ao Balonista um jogador cujo personagem é desse tipo, se houver algum. Coloque o lembrete 'Visto' do Balonista ao lado desse personagem.",
-    "reminders": ["Visto Cidadão",
-        "Visto Forasteiro",
-        "Visto Lacaio ",
-        "Visto Demônio",
-        "Visto Viajante"],
+    "reminders": ["Cidadão visto",
+        "Forasteiro visto",
+        "Lacaio visto ",
+        "Demônio visto",
+        "Viajante visto"],
     "setup": true,
-    "ability": "Toda noite, você descobre um jogador de cada tipo de personagem, até que não haja mais tipos para descobrir. [+1 Forasteiro]"
+    "ability": "A cada noite, você descobre um jogador de cada tipo de personagem, até ter passado por todos os tipos. [+1 Forasteiro]"
   },
   {
     "id": "cultleader",
@@ -1334,17 +1334,17 @@
   },
   {
     "id": "alchemist",
-    "name": "Alchemist",
+    "name": "Alquimista",
     "edition": "",
     "team": "townsfolk",
     "firstNight": 3,
-    "firstNightReminder": "Show the Alchemist a not-in-play Minion token",
+    "firstNightReminder": "Informe o Alquimista sobre sua habilidade.",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
-    "remindersGlobal": ["Is the Alchemist"],
+    "remindersGlobal": ["É o Alquimista"],
     "setup": false,
-    "ability": "You have a not-in-play Minion ability."
+    "ability": "Você possui a habilidade de um Lacaio de fora do jogo."
   },
   {
     "id": "farmer",
