@@ -1361,7 +1361,7 @@
   },
   {
     "id": "magician",
-    "name": "Magician",
+    "name": "Mágico",
     "edition": "",
     "team": "townsfolk",
     "firstNight": 0,
@@ -1370,20 +1370,20 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "The Demon thinks you are a Minion. Minions think you are a Demon."
+    "ability": "O Demônio pensa que você é Lacaio. Lacaios pensam que você é um Demônio."
   },
   {
     "id": "choirboy",
-    "name": "Choirboy",
+    "name": "Garoto do Coral",
     "edition": "",
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 44,
-    "otherNightReminder": "If the King was killed by the Demon, wake the Choirboy and point to the Demon player.",
+    "otherNightReminder": "Se o Rei foi morto pelo Demônio, wake the Choirboy and point to the Demon player.",
     "reminders": [],
     "setup": true,
-    "ability": "If the Demon kills the King, you learn which player is the Demon. [+ the King]"
+    "ability": "Se o Demônio matar o Rei, você descobre quem é o Demônio. [+ Rei]"
   },
   {
     "id": "poppygrower",
@@ -1414,7 +1414,7 @@
   },
   {
     "id": "snitch",
-    "name": "Snitch",
+    "name": "Dedo-duro",
     "edition": "",
     "team": "outsider",
     "firstNight": 6,
@@ -1423,7 +1423,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Minions start knowing 3 not-in-play characters."
+    "ability": "Lacaios começam sabendo 3 personagens de fora do jogo."
   },
   {
     "id": "acrobat",
@@ -1699,7 +1699,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": true,
-    "ability": "Nomeados morrem, mas podem nomear novamente imediatamente (no dia 3, devem). Após o dia 3, o mal vence. [Todos os Lacaios são Rebelião]"
+    "ability": "Nomeados morrem, mas podem nomear novamente imediatamente (no dia 3, devem). Após o dia 3, o mal vence. [Todos os Lacaios são Pandemônio]"
   },
   {
     "id": "gangster",
