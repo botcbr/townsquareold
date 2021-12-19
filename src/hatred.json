@@ -218,11 +218,11 @@
       },
       {
         "id": "Snitch",
-        "reason": "The Marionette learns 3 not in-play characters when the Snitch dies, instead of at the start of the game."
+        "reason": "A Marionete só recebe 3 personagens de fora do jogo depois que o Dedo-duro morre."
       },
       {
         "id": "Balloonist",
-        "reason": "If the Marionette thinks that they are the Balloonist, +1 Outsider was added."
+        "reason": "Se a Marionete pensa que é o Balonista, o jogo começa com +1 Forasteiro."
       },
       {
         "id": "Damsel",
@@ -247,7 +247,7 @@
       },
       {
         "id": "Snitch",
-        "reason": "If the Snitch is in play, each Riot player gets an extra 3 bluffs."
+        "reason": "Se o Dedo-duro está em jogo, cada jogador que seja Pandemônio recebe mais 3 blefes."
       },
       {
         "id": "Saint",
@@ -295,7 +295,7 @@
       },
       {
         "id": "King",
-        "reason": "If a Riot player nominates and kills the King and the Choirboy is alive, the Choirboy uses their ability tonight."
+        "reason": "Se um Pandemônio nomeia e mata o Rei e o Garoto do Coral está vivo, o Garoto do Coral usa sua habilidade esta noite."
       },
       {
         "id": "Exorcist",
@@ -315,7 +315,7 @@
       },
       {
         "id": "Cannibal",
-        "reason": "Players that die by nomination register as being executed to the Cannibal."
+        "reason": "Jogadores mortos por nomeação registram como executados para o Canibal."
       },
       {
         "id": "Pacifist",
