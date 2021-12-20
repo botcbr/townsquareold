@@ -242,6 +242,10 @@
         "reason": "Riot and the Engineer can not both be in play at the start of the game. \nIf the Engineer creates Riot, the evil players become Riot."
       },
       {
+        "id": "Magician",
+        "reason": "Na primeira noite, jogadores que forem Pandemônio serão acordados um de cada vez para conhecer seus cúmplices em vez de acordarem ao mesmo tempo. Se o Mágico estiver em jogo, será nostrado como Pandemônio nesse momento."
+      },
+      {
         "id": "Golem",
         "reason": "If The Golem nominates Riot, the Riot player does not die."
       },
