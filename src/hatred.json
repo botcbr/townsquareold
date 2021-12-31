@@ -235,19 +235,19 @@
     ]
   },
   {
-    "id": "Riot",
+"id": "Riot",
     "hatred": [
       {
         "id": "Engineer",
-        "reason": "Riot and the Engineer can not both be in play at the start of the game. \nIf the Engineer creates Riot, the evil players become Riot."
+        "reason": "Riot e o Engineer não podem estar em jogo no início do jogo. \ nSe o Engineer criar Riot, os jogadores malvados se tornam Riot."
       },
       {
         "id": "Magician",
-        "reason": "Na primeira noite, jogadores que forem Pandemônio serão acordados um de cada vez para conhecer seus cúmplices em vez de acordarem ao mesmo tempo. Se o Mágico estiver em jogo, será nostrado como Pandemônio nesse momento."
+        "reason": "Na primeira noite, os jogadores que o primeiro Pandemônio serão acordados um de cada vez para conhecer seus cúmplices em vez de acordarem ao mesmo tempo. Se o Mágico estiver em jogo, será nostrado como Pandemônio nesse momento."
       },
       {
         "id": "Golem",
-        "reason": "If The Golem nominates Riot, the Riot player does not die."
+        "reason": "Se o Golem nomear o Riot, o jogador do Riot não morrerá."
       },
       {
         "id": "Snitch",
@@ -255,47 +255,47 @@
       },
       {
         "id": "Saint",
-        "reason": "If a good player nominates and kills the Saint, the Saint's team loses."
+        "reason": "Se um bom jogador nomeia e mata o Santo, a equipe do Santo perde."
       },
       {
         "id": "Butler",
-        "reason": "The Butler can not nominate their master."
+        "reason": "O mordomo não pode nomear seu mestre."
       },
       {
         "id": "Pit-Hag",
-        "reason": "If the Pit-Hag creates Riot, all evil players become Riot. \nIf the Pit-Hag creates Riot after day 3, the game continues for one more day."
+        "reason": "Se a Pit-Hag criar o Riot, todos os jogadores malvados se tornarão o Riot. \ nSe a Pit-Hag criar o Riot após o dia 3, o jogo continuará por mais um dia."
       },
       {
         "id": "Mayor",
-        "reason": "If the 3rd day begins with just three players alive, the players may choose (as a group) not to nominate at all. If so (and a Mayor is alive) then the Mayor's team wins."
+        "reason": "Se o terceiro dia começar com apenas três jogadores vivos, os jogadores podem escolher (como um grupo) não indicar nada. Se assim for (e um prefeito estiver vivo), a equipe do prefeito vence."
       },
       {
         "id": "Monk",
-        "reason": "If a Riot player nominates and kills the Monk-protected-player, the Monk-protected-player does not die."
+        "reason": "Se um jogador Riot nomear e matar o jogador protegido por Monge, o jogador protegido por Monge não morre."
       },
       {
         "id": "Farmer",
-        "reason": "If a Riot player nominates and kills a Farmer, the Farmer uses their ability tonight."
+        "reason": "Se um jogador da Riot nomeia e mata um Fazendeiro, o Fazendeiro usa sua habilidade esta noite."
       },
       {
         "id": "Innkeeper",
-        "reason": "If a Riot player nominates an Innkeeper-protected-player, the Innkeeper-protected-player does not die."
+        "reason": "Se um jogador da Riot nomear um jogador protegido pelo estalajadeiro, o jogador protegido pelo estalajadeiro não morre."
       },
       {
         "id": "Sage",
-        "reason": "If a Riot player nominates and kills a Sage, the Sage uses their ability tonight."
+        "reason": "Se um jogador do Riot nomeia e mata um Sage, o Sage usa sua habilidade esta noite."
       },
       {
         "id": "Ravenkeeper",
-        "reason": "If a Riot player nominates and kills the Ravenkeeper, the Ravenkeeper uses their ability tonight."
+        "reason": "Se um jogador Riot nomeia e mata o Ravenkeeper, o Ravenkeeper usa sua habilidade esta noite."
       },
       {
         "id": "Soldier",
-        "reason": "If a Riot player nominates the Soldier, the Soldier does not die."
+        "reason": "Se um jogador de Riot nomear o Soldier, o Soldier não morre."
       },
       {
         "id": "Grandmother",
-        "reason": "If a Riot player nominates and kills the Grandchild, the Grandmother dies too."
+        "reason": "Se um jogador da Riot nomeia e mata o neto, a avó morre também."
       },
       {
         "id": "King",
@@ -303,51 +303,51 @@
       },
       {
         "id": "Exorcist",
-        "reason": "Only 1 jinxed character can be in play."
+        "reason": "Apenas 1 personagem azarado pode estar em jogo."
       },
       {
         "id": "Minstrel",
-        "reason": "Only 1 jinxed character can be in play."
+        "reason": "Apenas 1 personagem azarado pode estar em jogo."
       },
       {
         "id": "Flowergirl",
-        "reason": "Only 1 jinxed character can be in play."
+        "reason": "Apenas 1 personagem azarado pode estar em jogo."
       },
       {
         "id": "Undertaker",
-        "reason": "Players that die by nomination register as being executed to the Undertaker."
+        "reason": "Jogadores que morrem por nomeação são registrados para o Undertaker como sendo executados."
       },
       {
         "id": "Cannibal",
-        "reason": "Jogadores mortos por nomeação registram como executados para o Canibal."
+        "reason": "Jogadores mortos por nomeação registram como alternativa para o Canibal."
       },
       {
         "id": "Pacifist",
-        "reason": "Players that die by nomination register as being executed to the Pacifist."
+        "reason": "Os jogadores que morrem por nomeação são registrados pelo Pacifista como sendo executados."
       },
       {
         "id": "Devil's Advocate",
-        "reason": "Players that die by nomination register as being executed to the Devil's Advocate."
+        "reason": "Os jogadores que morrem por nomeação são registrados como sendo executados para o Advogado do Diabo."
       },
       {
         "id": "Investigator",
-        "reason": "Riot registers as a Minion to the Investigator."
+        "reason": "Riot se registra como um lacaio do investigador."
       },
       {
         "id": "Clockmaker",
-        "reason": "Riot registers as a Minion to the Clockmaker."
+        "reason": "Riot se registra como um Minion do Relojoeiro."
       },
       {
         "id": "Town Crier",
-        "reason": "Riot registers as a Minion to the Town Crier."
+        "reason": "Riot se registra como um Minion do Town Prego."
       },
       {
-        "id": "Damsel",
-        "reason": "Riot registers as a Minion to the Damsel."
+        "id": "Damsel"",
+        "razão": "Riot se registra como um servo da donzela."
       },
       {
         "id": "Preacher",
-        "reason": "Riot registers as a Minion to the Preacher."
+        "razão": "Riot se registra como um servo do pregador."
       }
     ]
   },
