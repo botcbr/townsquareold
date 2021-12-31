@@ -235,11 +235,11 @@
     ]
   },
   {
-"id": "Riot",
+   "id": "Riot",
     "hatred": [
       {
         "id": "Engineer",
-        "reason": "Riot e o Engineer não podem estar em jogo no início do jogo. \ nSe o Engineer criar Riot, os jogadores malvados se tornam Riot."
+        "reason": "Riot e o Engineer não podem estar em jogo no início do jogo. Se o Engineer criar Riot, os jogadores malvados se tornam Riot."
       },
       {
         "id": "Magician",
@@ -263,7 +263,7 @@
       },
       {
         "id": "Pit-Hag",
-        "reason": "Se a Pit-Hag criar o Riot, todos os jogadores malvados se tornarão o Riot. \ nSe a Pit-Hag criar o Riot após o dia 3, o jogo continuará por mais um dia."
+        "reason": "Se a Pit-Hag criar o Riot, todos os jogadores malvados se tornarão o Riot. Se a Pit-Hag criar o Riot após o dia 3, o jogo continuará por mais um dia."
       },
       {
         "id": "Mayor",
@@ -349,7 +349,6 @@
         "id": "Preacher",
         "razão": "Riot se registra como um servo do pregador."
       }
-    ]
   },
   {
     "id": "Lleech",
