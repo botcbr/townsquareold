@@ -17,7 +17,7 @@
     "setup": false,
     "name": "Angel",
     "team": "fabled",
-    "ability": "Something bad might happen to whoever is most responsible for the death of a new player."
+    "ability": "Algo ruim pode acontecer com o maior responsável pela morte de um novo jogador."
   },
   {
     "id": "buddhist",
@@ -27,7 +27,7 @@
     "setup": false,
     "name": "Buddhist",
     "team": "fabled",
-    "ability": "For the first 2 minutes of each day, veteran players may not talk."
+    "ability": "Durante os primeiros 2 minutos de cada dia, os jogadores veteranos não podem falar."
   },
   {
     "id": "hellslibrarian",
@@ -37,7 +37,7 @@
     "setup": false,
     "name": "Hell's Librarian",
     "team": "fabled",
-    "ability": "Something bad might happen to whoever talks when the Storyteller has asked for silence."
+    "ability": "Algo ruim pode acontecer a quem fala quando o Narrador pede silêncio."
   },
   {
     "id": "revolutionary",
@@ -47,7 +47,7 @@
     "setup": false,
     "name": "Revolutionary",
     "team": "fabled",
-    "ability": "2 neighboring players are known to be the same alignment. Once per game, one of them registers falsely."
+    "ability": "2 jogadores vizinhos são conhecidos por terem o mesmo alinhamento. Uma vez por jogo, um deles se registra erroneamente."
   },
   {
     "id": "fiddler",
@@ -57,7 +57,7 @@
     "setup": false,
     "name": "Fiddler",
     "team": "fabled",
-    "ability": "Once per game, the Demon secretly chooses an opposing player: all players choose which of these 2 players win."
+    "ability": "Uma vez por jogo, o Demônio escolhe secretamente um jogador adversário: todos os jogadores escolhem qual desses 2 jogadores ganha."
   },
   {
     "id": "toymaker",
@@ -68,7 +68,7 @@
     "setup": false,
     "name": "Toymaker",
     "team": "fabled",
-    "ability": "The Demon may choose not to attack & must do this at least once per game. Evil players get normal starting info."
+    "ability": "O Demônio pode escolher não atacar e deve fazer isso pelo menos uma vez por jogo. Jogadores maus obtêm informações iniciais normais."
   },
   {
     "id": "fibbin",
@@ -78,7 +78,7 @@
     "setup": false,
     "name": "Fibbin",
     "team": "fabled",
-    "ability": "Once per game, 1 good player might get false information."
+    "ability": "Uma vez por jogo, 1 bom jogador pode obter informações falsas."
   },
   {
     "id": "duchess",
@@ -89,7 +89,7 @@
     "setup": false,
     "name": "Duchess",
     "team": "fabled",
-    "ability": "Each day, 3 players may choose to visit you. At night*, each visitor learns how many visitors are evil, but 1 gets false info."
+    "ability": "Cada dia, 3 jogadores podem escolher visitá-lo. À noite *, cada visitante descobre quantos visitantes são maus, mas 1 obtém informações falsas."
   },
   {
     "id": "sentinel",
@@ -99,7 +99,7 @@
     "setup": true,
     "name": "Sentinela",
     "team": "fabled",
-    "ability": "There might be 1 extra or 1 fewer Outsider in play."
+    "ability": "Pode haver 1 extra ou 1 Outsider a menos em jogo."
   },
   {
     "id": "spiritofivory",
@@ -120,7 +120,7 @@
     "setup": false,
     "name": "Djinn",
     "team": "fabled",
-    "ability": "Use the Djinn's special rule. All players know what it is."
+    "ability": "Use a regra especial do Djinn. Todos os jogadores sabem o que é."
   },
   {
     "id": "stormcatcher",
@@ -131,7 +131,7 @@
     "setup": false,
     "name": "Storm Catcher",
     "team": "fabled",
-    "ability": "Name a good character. If in play, they can only die by execution, but evil players learn which player it is."
+    "ability": "Diga o nome de um bom personagem. Se estiverem em jogo, eles só podem morrer por execução, mas os jogadores malvados descobrem quem é."
   },
   {
     "id": "deusexfiasco",
@@ -141,6 +141,6 @@
     "setup": false,
     "name": "Deus ex Fiasco",
     "team": "fabled",
-    "ability": "Once per game, the Storyteller will make a \"mistake\", correct it and publicly admit to it."
+    "ability": "Uma vez por jogo, o Narrador cometerá um 'erro', corrigirá e admitirá publicamente."
   }
 ]
