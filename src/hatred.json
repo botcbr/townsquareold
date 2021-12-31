@@ -4,7 +4,7 @@
     "hatred": [
       {
         "id": "Mathematician",
-        "reason": "The Chambermaid learns if the Mathematician wakes tonight or not, even though the Chambermaid wakes first."
+        "reason": "A camareira fica sabendo se o matemático acorda esta noite ou não, embora a camareira acorde primeiro."
       }
     ]
   },
@@ -13,7 +13,7 @@
     "hatred": [
       {
         "id": "Cannibal",
-        "reason": "If the Cannibal gains the Butler ability, the Cannibal learns this."
+        "reason": "Se o Canibal ganha a habilidade de Mordomo, o Canibal aprende isso."
       }
     ]
   },
@@ -22,7 +22,7 @@
     "hatred": [
       {
         "id": "Mathematician",
-        "reason": "The Mathematician learns if the Lunatic attacks a different player(s) than the real Demon attacked."
+        "reason": "O Matemático descobre se o Lunático ataca um jogador diferente do que o Demônio real atacou."
       }
     ]
   },
@@ -31,15 +31,15 @@
     "hatred": [
       {
         "id": "Heretic",
-        "reason": "A Pit-Hag can not create a Heretic. "
+        "reason": "Uma Pit-Hag não pode criar um Herege. "
       },
       {
         "id": "Damsel",
-        "reason": "If a Pit-Hag creates a Damsel, the Storyteller chooses which player it is."
+        "reason": "Se um Pit-Hag criar uma Donzela, o Narrador escolhe qual jogador é."
       },
       {
         "id": "Politician",
-        "reason": "A Pit-hag can not create an evil Politician."
+        "reason": "Uma Pit-hag não pode criar um político malvado."
       }
     ]
   },
@@ -48,7 +48,7 @@
     "hatred": [
       {
         "id": "Goblin",
-        "reason": "The Cerenovus may choose to make a player mad that they are the Goblin."
+        "reason": "O Cerenovus pode escolher deixar um jogador alucinando em ser o Goblin."
       }
     ]
   },
@@ -57,31 +57,31 @@
     "hatred": [
       {
         "id": "Soldier",
-        "reason": "If Leviathan nominates and executes the Soldier, the Soldier does not die."
+        "reason": "Se Leviathan nomear e executar o Soldado, o Soldado não morre"
       },
       {
         "id": "Monk",
-        "reason": "If Leviathan nominates and executes the player the Monk chose, that player does not die."
+        "reason": "Se Leviathan nomear e executar o jogador que o Monge escolheu, esse jogador não morre."
       },
       {
         "id": "Innkeeper",
-        "reason": "If Leviathan nominates and executes a player the Innkeeper chose, that player does not die."
+        "reason": "Se Leviathan nomear e executar um jogador que o Estalajadeiro escolheu, esse jogador não morre"
       },
       {
         "id": "Ravenkeeper",
-        "reason": "If Leviathan is in play & the Ravenkeeper dies by execution, they wake that night to use their ability."
+        "reason": "Se Leviathan está em jogo e o Mestre dos Corvos morre por execução, ele acorda naquela noite para usar sua habilidade."
       },
       {
         "id": "Sage",
-        "reason": "If Leviathan is in play & the Sage dies by execution, they wake that night to use their ability."
+        "reason": "Se Leviatã está em jogo e o Sábio morre na execução, ele acorda naquela noite para usar sua habilidade."
       },
       {
         "id": "Farmer",
-        "reason": "If Leviathan is in play & a Farmer dies by execution, a good player becomes a Farmer that night."
+        "reason": "Se o Leviatã está em jogo e um fazendeiro morre por execução, um bom jogador se torna um fazendeiro naquela noite."
       },
       {
         "id": "Mayor",
-        "reason": "If Leviathan is in play & no execution occurs on day 5, good wins."
+        "reason": "Se o Leviatã estiver em jogo e nenhuma execução ocorrer no dia 5, o bem ganha."
       }
     ]
   },
@@ -90,11 +90,11 @@
     "hatred": [
       {
         "id": "Scarlet Woman",
-        "reason": "If there are two living Al-Hadikhias, the Scarlet Woman Al-Hadikhia becomes the Scarlet Woman again."
+        "reason": "Se houver dois Al-Hadikhias vivos, a Mulher Escarlate Al-Hadikhia torna-se a Mulher Escarlate novamente."
       },
       {
         "id": "Mastermind",
-        "reason": "Only 1 jinxed character can be in play. Evil players start knowing which player and character it is."
+        "reason": "Apenas 1 personagem Jinxed pode estar em jogo. Jogadores maus começam a saber qual jogador e personagem ele é."
       }
     ]
   },
@@ -103,15 +103,15 @@
     "hatred": [
       {
         "id": "Poppy Grower",
-        "reason": "If the Poppy Grower is in play, Minions don't wake together. They are woken one by one, until one of them chooses to take the Lil' Monsta token."
+        "reason": "Se o Poppy Grower está em jogo, os Minions não acordam juntos. Eles são acordados um por um, até que um deles escolha pegar o token de bebê monstro."
       },
       {
         "id": "Magician",
-        "reason": "Only 1 jinxed character can be in play. "
+        "reason": "Apenas 1 personagem Jinxed pode estar em jogo. "
       },
       {
         "id": "Scarlet Woman",
-        "reason": "If there are 5 or more players alive and the player holding the Lil' Monsta token dies, the Scarlet Woman is given the Lil' Monsta token tonight."
+        "reason": "Se houver 5 ou mais jogadores vivos e o jogador segurando a ficha Lil 'Monsta morrer, a Mulher Escarlate receberá a ficha Lil' Monsta esta noite."
       }
     ]
   },
@@ -120,7 +120,7 @@
     "hatred": [
       {
         "id": "Gambler",
-        "reason": "If the Lycanthrope is alive and the Gambler kills themself at night, no other players can die tonight."
+        "reason": "Se o Lycanthrope está vivo e o Apostador se mata à noite, nenhum outro jogador pode morrer esta noite."
       }
     ]
   },
@@ -129,11 +129,11 @@
     "hatred": [
       {
         "id": "Engineer",
-        "reason": "Legion and the Engineer can not both be in play at the start of the game. If the Engineer creates Legion, most players (including all evil players) become evil Legion."
+        "reason": "Legion e o Engenheiro não podem estar em jogo no início do jogo. Se o Engineer criar Legion, a maioria dos jogadores (incluindo todos os jogadores malvados) torna-se Legion malvada."
       },
       {
         "id": "Preacher",
-        "reason": "Only 1 jinxed character can be in play."
+        "reason": "Apenas 1 personagem jinxed pode estar em jogo."
       }
     ]
   },
@@ -142,7 +142,7 @@
     "hatred": [
       {
         "id": "Scarlet Woman",
-        "reason": "If the Fang Gu chooses an Outsider and dies, the Scarlet Woman does not become the Fang Gu."
+        "reason": "Se o Fang Gu escolher um Forasteiro e morrer, a Mulher Escarlate não se tornará o Fang Gu."
       }
     ]
   },
@@ -151,23 +151,23 @@
     "hatred": [
       {
         "id": "Magician",
-        "reason": "When the Spy sees the Grimoire, the Demon and Magician's character tokens are removed."
+        "reason": "Quando o Spy vê o Grimoire, os tokens de personagem do Demônio e do Mago são removidos."
       },
       {
         "id": "Alchemist",
-        "reason": "The Alchemist can not have the Spy ability."
+        "reason": "O Alquimista não pode ter a habilidade de Espião."
       },
       {
         "id": "Poppy Grower",
-        "reason": "If the Poppy Grower is in play, the Spy does not see the Grimoire until the Poppy Grower dies."
+        "reason": "Se o Poppy Grower estiver em jogo, o Spy não verá o Grimoire até que o Poppy Grower morra."
       },
       {
         "id": "Damsel",
-        "reason": "Only 1 jinxed character can be in play. "
+        "reason": "apenas 1 personagem jinxed pode estar em jogo."
       },
       {
         "id": "Heretic",
-        "reason": "Only 1 jinxed character can be in play."
+        "reason": "apenas 1 personagem jinxed pode estar em jogo."
       }
     ]
   },
