@@ -168,7 +168,7 @@
             <template v-else-if="player.id === session.playerId">
               Liberar Assento
             </template>
-            <template v-else> Seat occupied</template>
+            <template v-else> Assento Ocupado</template>
           </li>
         </ul>
       </transition>
