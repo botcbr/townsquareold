@@ -1167,7 +1167,7 @@
     "firstNightReminder": "Indique 3 jogadores incluindo um jogador do mau, em qualquer ordem.",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["Seen"],
+    "reminders": ["Visto"],
     "setup": false,
     "ability": "Você começa sabendo 3 jogadores, 1 e apenas 1 deles é mau."
   },
@@ -1276,7 +1276,7 @@
     "firstNightReminder": "",
     "otherNight": 23,
     "otherNightReminder": "O Licantropo escolhe um jogador vivo: se for bom, eles morre e ninguém mais pode morrer esta noite. Se por algum motivo o jogador escolhido for do bem e não morreu, a habilidade do Licantropo não impede alguém de morrer esta noite.",
-    "reminders": ["Dead"],
+    "reminders": ["Morto"],
     "setup": false,
     "ability": "Cada Noite*, escolha um jogador vivo: Se ele for do Bem, ele morre, mas só ele poderá morrer essa noite."
   },
@@ -1295,14 +1295,14 @@
   },
   {
     "id": "engineer",
-    "name": "Engineer",
+    "name": "Engenheiro",
     "edition": "",
     "team": "townsfolk",
     "firstNight": 13,
-    "firstNightReminder": "The Engineer shows a 'no' head signal, or points to a Demon or points to the relevant number of Minions. If the Engineer chose characters, replace the Demon or Minions with the choices, then wake the relevant players and show them the You are card and the relevant character tokens.",
+    "firstNightReminder": "O Engineer mostra um sinal de 'não' com a cabeça, ou aponta para um Demônio ou aponta para o número relevante de Minions. Se o Engenheiro escolheu personagens, substitua o Demônio ou Minions pelas escolhas, então desperte os jogadores relevantes e mostre a eles a carta Você é e as fichas de personagem relevantes. ",
     "otherNight": 6,
-    "otherNightReminder": "The Engineer shows a 'no' head signal, or points to a Demon or points to the relevant number of Minions. If the Engineer chose characters, replace the Demon or Minions with the choices, then wake the relevant players and show them the 'You are' card and the relevant character tokens.",
-    "reminders": ["No ability"],
+    "otherNightReminder": "O Engineer mostra um sinal de 'não' com a cabeça, ou aponta para um Demônio ou aponta para o número relevante de Minions. Se o Engenheiro escolheu personagens, substitua o Demônio ou Minions pelas escolhas, então desperte os jogadores relevantes e mostre a eles a carta 'Você é' e as fichas de personagem relevantes.",
+    "reminders": ["Sem habilidade"],
     "setup": false,
     "ability": "Uma vez por jogo, à noite, escolha quais lacaios ou demônios estão em jogo."
   },
@@ -1348,13 +1348,13 @@
   },
   {
     "id": "farmer",
-    "name": "Farmer",
+    "name": "Fazendeiro",
     "edition": "",
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 46,
-    "otherNightReminder": "If a Farmer died tonight, choose another good player and make them the Farmer. Wake this player, show them the 'You are' card and the Farmer character token.",
+    "otherNightReminder": "Se o fazendeiro morreu essa noite, escolha um personagem bom, ele se torna o fazendeiro. Acorde esse jogador e informe-o que ele é o fazendeiro.",
     "reminders": [],
     "setup": false,
     "ability": "Se você morrer à noite, um bom jogador vivo se torna um fazendeiro."
@@ -1387,16 +1387,16 @@
   },
   {
     "id": "poppygrower",
-    "name": "Poppy Grower",
+    "name": "Cultivadora",
     "edition": "",
     "team": "townsfolk",
     "firstNight": 4,
-    "firstNightReminder": "Do not inform the Demon/Minions who each other are",
+    "firstNightReminder": "Não informe ao Demônio/Lacaio quem o outro é.",
     "otherNight": 3,
-    "otherNightReminder": "If the Poppy Grower has died, show the Minions/Demon who each other are.",
+    "otherNightReminder": "Se a cultivadora morreu, mostre aos Lacaio/Demônios quem o outro é.",
     "reminders": ["Evil wakes"],
     "setup": false,
-    "ability": "Minions & Demons do not know each other. If you die, they learn who each other are that night."
+    "ability": "Lacaios e Demônios não se conhecem. Se você morre, eles descobrem uns aos outros essa noite."
   },
     {
     "id": "atheist",
@@ -1431,7 +1431,7 @@
     "edition": "",
     "team": "outsider",
     "firstNight": 6,
-    "firstNightReminder": "After Minion info wake each Minion and show them three not-in-play character tokens. These may be the same or different to each other and the ones shown to the Demon.",
+    "firstNightReminder": "Depois das Informações do Lacaio, acorde cada Lacaio e mostre a eles três personagens que não estão em jogo. Esses personagens podem ser os mesmos ou diferentes dos personagens mostrados ao demônio.",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
