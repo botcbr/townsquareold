@@ -1398,6 +1398,19 @@
     "setup": false,
     "ability": "Minions & Demons do not know each other. If you die, they learn who each other are that night."
   },
+    {
+    "id": "atheist",
+    "name": "Ateísta",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": true,
+    "ability": "O narrador pode quebrar as regras do jogo e se executado, o bem ganha, mesmo que você esteja morto. [Sem personagens mals.]"
+  },
   {
     "id": "cannibal",
     "name": "Canibal",
@@ -1713,18 +1726,5 @@
     "reminders": [],
     "setup": false,
     "ability": "Uma vez por dia, você pode escolher matar um vizinho vivo, desde que o outro vizinho concorde."
-  },
-    {
-    "id": "atheist",
-    "name": "Ateísta",
-    "edition": "",
-    "team": "townsfolk",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "ability": "O narrador pode quebrar as regras e se executado, o bem ganha, mesmo que você esteja morto. [Sem personagens mals]"
   }
 ]
