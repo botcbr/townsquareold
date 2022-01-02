@@ -1604,11 +1604,11 @@
     "edition": "",
     "team": "minion",
     "firstNight": 11,
-    "firstNightReminder": "Select one of the good players next to the Demon and place the Is the Marionette reminder token. Wake the Demon and show them the Marionette.",
+    "firstNightReminder": "Selecione um dos bons jogadores ao lado do Demônio e coloque o token de lembrete É a Marionete. Acorde o Demônio e mostre a Marionete a eles.",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
-    "remindersGlobal": ["Is the Marionette"],
+    "remindersGlobal": ["É a marionete"],
     "setup": true,
     "ability": "Você acredita ser um personagem bom. O Demônio sabe quem você é. [Você é vizinho do Demônio]"
   },
