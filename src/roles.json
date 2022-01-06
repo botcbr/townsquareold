@@ -722,8 +722,8 @@
   },
 
  {
-    "id": "matron",
-    "name": "Matrona",
+    "id": "narrador",
+    "name": "Narrador",
     "edition": "bmr",
     "team": "traveler",
     "firstNight": 0,
@@ -736,8 +736,8 @@
   },
 
   {
-    "id": "narrador",
-    "name": "Narrador",
+    "id": "judge",
+    "name": "Juiz",
     "edition": "bmr",
     "team": "traveler",
     "firstNight": 0,
