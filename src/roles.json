@@ -287,7 +287,7 @@
     "otherNightReminder": ". O Capeta escolhe um jogador. O jogador morre. Se o Capeta escolher a si mesmo: Substitua o token de personagem de um Lacaio vivo por outro token de Capeta. Avise ao novo Capeta sobre a mudança de personagem.",
     "reminders": ["Morto"],
     "setup": false,
-    "ability": "A cada noite*, escolha um jogador: Ele morre. Se você se matar com sua habilidade, um Laciao se torna o Capeta."
+    "ability": "A cada noite*, escolha um jogador: Ele morre. Se você se matar com sua habilidade, um Lacaio se torna o Capeta."
   },
   {
     "id": "bureaucrat",
@@ -1438,7 +1438,7 @@
     "reminders": ["Habilidade adquirida",
       "Envenenado"],
     "setup": false,
-    "ability": "Você tem a habilidade do jogador executado mais recente. Se ele for do mal, você está envenenado até um jogador do Bem ser executado."
+    "ability": "Você tem a habilidade do jogador morto por execução mais recente. Se ele for do mal, você está envenenado até um jogador do Bem ser executado."
   },
   {
     "id": "snitch",
