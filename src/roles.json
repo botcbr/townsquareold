@@ -658,11 +658,11 @@
     "firstNight": 28,
     "firstNightReminder": "A Pukka aponta para um jogador. Esse jogador fica envenenado.",
     "otherNight": 26,
-    "otherNightReminder": "A Pukka aponta para um jogador. Esse jogador fica envenenado. O jogador envenenado anteriormente morre e fica sadio.",
+    "otherNightReminder": "A Pukka aponta para um jogador. Esse jogador fica envenenado. O jogador envenenado anteriormente morre e o veneno anterior passa.",
     "reminders": ["Envenenado",
         "Morto"],
     "setup": false,
-    "ability": "A cada noite, escolha um jogador: ele fica envenenado. O jogador envenenado anteriormente morre e então fica sadio."
+    "ability": "A cada noite, escolha um jogador: ele fica envenenado. O jogador envenenado anteriormente morre e então é desenvenenado."
   },
   {
     "id": "shabaloth",
