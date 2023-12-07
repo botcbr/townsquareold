@@ -11,125 +11,125 @@ Where you come across nested translations (those where the key names include one
 $iEquip_wc_not_updating{}	iEquip updated to version {}
 $iEquip_wc_msg_oldVersion	You appear to be loading an older version of iEquip than the one currently found in your save.\n\nPlease exit the game and ensure you have the latest version installed with nothing overwriting it.
 
-$iEquip_swf_EditModeTitleText	iEquip Edit Mode
-$iEquip_swf_InstructionsHeaderText	Instructions
-$iEquip_swf_NextPrevInstructionText	Select previous/next element
-$iEquip_swf_NextPrevToggleText	Press and hold to switch between cycling widget groups and individual elements
-$iEquip_swf_MoveInstructionText	Move selected element
-$iEquip_swf_ScaleInstructionText	Adjust the size of the selected element
-$iEquip_swf_ToggleMoveInstructionText	Press and hold any move/scale button to toggle increments
-$iEquip_swf_RotateInstructionText	Rotate the selected element
-$iEquip_swf_ToggleRotateInstructionText	Press and hold to toggle rotate increments
-$iEquip_swf_RotationDirectionInstructionText	Double tap to change direction of rotation
-$iEquip_swf_AlignmentInstructionText	Set text alignment (right/centre/left)
-$iEquip_swf_potSelAlignInstTxt	Set potion selector alignment (left/right)
-$iEquip_swf_TextColorInstructionText	Press and hold to set text color
-$iEquip_swf_AlphaInstructionText	Adjust the opacity of the selected element
-$iEquip_swf_ToggleAlphaInstructionText	Press and hold to toggle opacity increments
-$iEquip_swf_DepthInstructionText	Bring selected element in front of another
-$iEquip_swf_ToggleGridInstructionText	Toggle grid - edge/fullscreen/off
-$iEquip_swf_HighlightColorInstructionText	Press and hold to set selected item highlight color
-$iEquip_swf_CurrInfoColorInstructionText	Double tap to set selected item info text color
-$iEquip_swf_ResetInstructionText	Reset selected element to default
-$iEquip_swf_ExitEditModeText	Exit Edit Mode
+$iEquip_swf_EditModeTitleText	Modo de edição iEquip
+$iEquip_swf_InstructionsHeaderText	Instruções
+$iEquip_swf_NextPrevInstructionText	Selecione o elemento anterior/seguinte
+$iEquip_swf_NextPrevToggleText	Pressione e segure para alternar entre rolamento de grupos de widgets e elementos individuais
+$iEquip_swf_MoveInstructionText	Mover elemento selecionado
+$iEquip_swf_ScaleInstructionText	Ajuste o tamanho do elemento selecionado
+$iEquip_swf_ToggleMoveInstructionText	Pressione e segure qualquer botão de movimento/escala para alternar incrementos
+$iEquip_swf_RotateInstructionText	Rodar o elemento selecionado
+$iEquip_swf_ToggleRotateInstructionText	Pressione e segure para alternar os incrementos de rotação
+$iEquip_swf_RotationDirectionInstructionText	Toque duas vezes para alterar a direção da rotação
+$iEquip_swf_AlignmentInstructionText	Definir o alinhamento do texto (direita/centro/esquerda)
+$iEquip_swf_potSelAlignInstTxt	Definir o alinhamento do seletor de poções (esquerda/direita)
+$iEquip_swf_TextColorInstructionText	Pressione e segure para definir a cor do texto
+$iEquip_swf_AlphaInstructionText	Ajuste a opacidade do elemento selecionado
+$iEquip_swf_ToggleAlphaInstructionText	Pressione e segure para alternar os incrementos de opacidade
+$iEquip_swf_DepthInstructionText	Traga o elemento selecionado na frente de outro
+$iEquip_swf_ToggleGridInstructionText	Alternar grade - borda/tela cheia/desligado
+$iEquip_swf_HighlightColorInstructionText	Pressione e segure para definir a cor de destaque do item selecionado
+$iEquip_swf_CurrInfoColorInstructionText	Toque duas vezes para definir a cor do texto da informação do item selecionado
+$iEquip_swf_ResetInstructionText	Redefinir o elemento selecionado para o padrão
+$iEquip_swf_ExitEditModeText	Sair do Modo de Edição
 
-$iEquip_common_LoadPreset	Load preset
-$iEquip_common_SavePreset	Save preset
-$iEquip_common_SaveUpdatePreset	Save/Update preset
-$iEquip_common_DiscardChanges	Discard changes
-$iEquip_common_Unarmed	Unarmed
-$iEquip_common_Claws	Claws
-$iEquip_common_HealthPotions	Health Potions
-$iEquip_common_StaminaPotions	Stamina Potions
-$iEquip_common_MagickaPotions	Magicka Potions
-$iEquip_common_left	left
-$iEquip_common_right	right
-$iEquip_common_alteration	Alteration
-$iEquip_common_conjuration	Conjuration
-$iEquip_common_destruction	Destruction
-$iEquip_common_illusion	Illusion
-$iEquip_common_restoration	Restoration
-$iEquip_common_bound	bound
-$iEquip_common_BoundBow	Bound Bow
-$iEquip_common_BoundCrossbow	Bound Crossbow
-$iEquip_common_BoundArrow	Bound Arrow
-$iEquip_common_BoundBolt	Bound Bolt
-$iEquip_common_Default	Default
-$iEquip_common_Custom	Custom
-$iEquip_common_Hidden	Hidden
-$iEquip_common_msg_NextPage	Next Page
-$iEquip_common_msg_Exit	Exit
-$iEquip_common_LoadPresetError	This preset is in an older format and is not compatible with the current version.  The preset has not been loaded to protect against issues which may have arisen as a result.
-$iEquip_common_LoadPresetBusy	Please wait for the previous preset to finish loading before attempting to load another.
-$iEquip_common_msg_noRefHandle	The weapon you are attempting to poison does not have a valid iEquip item reference. This can happen occasionally. The easiest way to fix it is to place the item into a chest or other container, wait a few seconds, then take it back and equip it again. This should generate a new reference and get things working again.
+$iEquip_common_LoadPreset	Carregar predefinido
+$iEquip_common_SavePreset	Salvar predefinido
+$iEquip_common_SaveUpdatePreset	Salvar/Atualizar Predefinição
+$iEquip_common_DiscardChanges	Descartar mudanças
+$iEquip_common_Unarmed	Desarmado
+$iEquip_common_Claws	Garras
+$iEquip_common_HealthPotions	Poções de Saúde
+$iEquip_common_StaminaPotions	Poções de Vigor
+$iEquip_common_MagickaPotions	Poções de Magicka
+$iEquip_common_left	esquerda
+$iEquip_common_right	direita
+$iEquip_common_alteration	Alteração
+$iEquip_common_conjuration	Conjuração
+$iEquip_common_destruction	Destruição
+$iEquip_common_illusion	Ilusão
+$iEquip_common_restoration	Restauração
+$iEquip_common_bound	Vinculado
+$iEquip_common_BoundBow	Arco Vinculado
+$iEquip_common_BoundCrossbow	Crossbow Vinculada
+$iEquip_common_BoundArrow	Flecha Vinculada
+$iEquip_common_BoundBolt	Dardo Vinculado
+$iEquip_common_Default	Padrão
+$iEquip_common_Custom	Personalizadas
+$iEquip_common_Hidden	Escondido
+$iEquip_common_msg_NextPage	Próxima Página
+$iEquip_common_msg_Exit	Sair
+$iEquip_common_LoadPresetError	Esta predefinição está em um formato mais antigo e não é compatível com a versão atual. A predefinição não foi carregada para proteger contra problemas que possam ter surgido como resultado.
+$iEquip_common_LoadPresetBusy	Por favor, aguarde até que a predefinição anterior termine o carregamento antes de tentar carregar outra.
+$iEquip_common_msg_noRefHandle	A arma que você está tentando envenenar não possui uma referência de item iEquip válida. Isso pode acontecer ocasionalmente. A maneira mais fácil de consertar é colocar o item em um baú ou outro recipiente, esperar alguns segundos e, em seguida, pegar e equipar novamente. Isso deve gerar uma nova referência e fazer as coisas funcionarem novamente.
 
-$iEquip_btn_next	Next Page
-$iEquip_btn_exit	Exit
-$iEquip_btn_back	Back
-$iEquip_btn_backToMenu	Back to menu
-$iEquip_btn_continue	Ignore & Continue
+$iEquip_btn_next	Próxima Página
+$iEquip_btn_exit	Sair
+$iEquip_btn_back	Voltar
+$iEquip_btn_backToMenu	Voltar ao menu
+$iEquip_btn_continue	Ignorar e Continuar
 
 NOTE FOR TRANSLATORS - The {} in the following string will insert the number of items in the current blacklist, for example "Show blacklist (12)"
-$iEquip_btn_showBlacklist{}	Show blacklist ({})
-$iEquip_btn_backToQueue	Back to queue
-$iEquip_btn_removeFromList	Remove from list
-$iEquip_btn_removeFromQueue	Remove from queue
-$iEquip_btn_clearBlacklist	Clear blacklist
-$iEquip_btn_clearQueue	Clear queue
-$iEquip_btn_clearFlag	Clear (T) flag
-$iEquip_btn_resetAmmoQueues	Reset ammo queues
-$iEquip_btn_moveUp	Move up
-$iEquip_btn_moveDown	Move down
-$iEquip_btn_controls	Controls
-$iEquip_btn_addItems	Adding Items
-$iEquip_btn_ammoMode	Ammo Mode
-$iEquip_btn_recharge	Recharging
-$iEquip_btn_usingPoisons	Using Poisons
-$iEquip_btn_applyingPoisons	Applying Poisons
-$iEquip_btn_throwingPoisons	Throwing Poisons
-$iEquip_btn_potGroups	Potion Groups
-$iEquip_btn_proMode	Advanced Features
-$iEquip_btn_preselect	Preselect Mode
-$iEquip_btn_quickRanged	QuickRanged
-$iEquip_btn_quickShield	QuickShield
-$iEquip_btn_quickHeal	QuickHeal
-$iEquip_btn_quickRestore	QuickRestore
-$iEquip_btn_quickDual	Dual Equip Spells
-$iEquip_btn_queueMenu	Manage Queues
-$iEquip_btn_editMode	Enter Edit Mode
-$iEquip_btn_helpMenu	Help Menu
-$iEquip_btn_refresh	Refresh Widget
-$iEquip_btn_left	Left Hand
-$iEquip_btn_right	Right Hand
-$iEquip_btn_shout	Shouts/Powers
-$iEquip_btn_cons	Consumables
-$iEquip_btn_pois	Poisons
-$iEquip_btn_arrow	Arrows
-$iEquip_btn_bolt	Bolts
-$iEquip_btn_yes	Yes
-$iEquip_btn_no	No
-$iEquip_btn_confirm	Confirm
-$iEquip_btn_cancel	Cancel
-$iEquip_btn_carryOn	Carry on editing
-$iEquip_btn_discard	Discard changes
-$iEquip_btn_savePreset	Save New Preset
-$iEquip_btn_updatePreset	Update Existing Preset
-$iEquip_btn_delPreset	Delete Preset
-$iEquip_btn_addToQueue	Add to queue
+$iEquip_btn_showBlacklist{}	Mostrar lista negra ({})
+$iEquip_btn_backToQueue	Volta à fila
+$iEquip_btn_removeFromList	Remover da lista
+$iEquip_btn_removeFromQueue	Remover da fila
+$iEquip_btn_clearBlacklist	Limpar lista negra
+$iEquip_btn_clearQueue	Limpar fila
+$iEquip_btn_clearFlag	Limpar (T) sinalizador
+$iEquip_btn_resetAmmoQueues	Repor filas de munição
+$iEquip_btn_moveUp	Move para cima
+$iEquip_btn_moveDown	Mover para baixo
+$iEquip_btn_controls	Controles
+$iEquip_btn_addItems	Adicionando Itens
+$iEquip_btn_ammoMode	Modo de Munição
+$iEquip_btn_recharge	Recarregando
+$iEquip_btn_usingPoisons	Usando Venenos
+$iEquip_btn_applyingPoisons	Aplicando Venenos
+$iEquip_btn_throwingPoisons	Jogar Venenos
+$iEquip_btn_potGroups	Grupos de Poções
+$iEquip_btn_proMode	Recursos Avançados
+$iEquip_btn_preselect	Modo de Pré-Seleção
+$iEquip_btn_quickRanged	Arco Rápido
+$iEquip_btn_quickShield	Escudo Rápido
+$iEquip_btn_quickHeal	Cura Rápida
+$iEquip_btn_quickRestore	Restaurar Rápido
+$iEquip_btn_quickDual	Magias de Equipamento Duplo
+$iEquip_btn_queueMenu	Gerenciar Filas
+$iEquip_btn_editMode	Entre no Modo de Edição
+$iEquip_btn_helpMenu	Menu Ajuda
+$iEquip_btn_refresh	Atualizar Widget
+$iEquip_btn_left	Mão Esquerda
+$iEquip_btn_right	Mão Direita
+$iEquip_btn_shout	Gritos/Poderes
+$iEquip_btn_cons	Consumíveis
+$iEquip_btn_pois	Venenos
+$iEquip_btn_arrow	Flechas
+$iEquip_btn_bolt	Dardos
+$iEquip_btn_yes	Sim
+$iEquip_btn_no	Não
+$iEquip_btn_confirm	Confirmar
+$iEquip_btn_cancel	Cancelar
+$iEquip_btn_carryOn	Continue editando
+$iEquip_btn_discard	Descartar mudanças
+$iEquip_btn_savePreset	Salvar Nova Predefinição
+$iEquip_btn_updatePreset	Atualizar Predefinição Existente
+$iEquip_btn_delPreset	Excluir Predefinição
+$iEquip_btn_addToQueue	Adicionar à fila
 
-$iEquip_itemName_torch	Half burnt torch
-$iEquip_itemName_throwingPoison	Poison you were about to throw
+$iEquip_itemName_torch	Tocha meio queimada
+$iEquip_itemName_throwingPoison	Veneno que você estava prestes a jogar
 
-$iEquip_utilitymenu_title	What would you like to do?
-$iEquip_queuemenu_title	Which queue would you like to edit?
-$iEquip_queuemenu_flagKey	(T) Temporary Queue Item
-$iEquip_utilitymenu_notWithWeaponsDrawn	iEquip Utility Menu blocked while weapons drawn
-$iEquip_help_title	What would you like help with?
-$iEquip_msg_confReset	Are you sure you want to reset this item?
-$iEquip_msg_confResetParent	Are you sure you want to reset this widget and all of it's component parts?
-$iEquip_msg_confDiscard	Are you sure you want to discard any changes you have made in your current Edit Mode session and reset the widgets to where they were when you entered Edit Mode?
-$iEquip_msg_delPreset	Are you sure you want to delete this preset?
-$iEquip_msg_clearQueue	Are you sure you want to clear all items from the current queue?
+$iEquip_utilitymenu_title	O que você gostaria de fazer?
+$iEquip_queuemenu_title	Qual fila você gostaria de editar?
+$iEquip_queuemenu_flagKey	(T) Item de Fila Temporário
+$iEquip_utilitymenu_notWithWeaponsDrawn	Menu Utilitário iEquip bloqueado enquanto armas desenhadas
+$iEquip_help_title	O que você gostaria de ajudar?
+$iEquip_msg_confReset	Tem certeza de que deseja redefinir este item?
+$iEquip_msg_confResetParent	Tem certeza de que deseja redefinir este widget e todos os seus componentes?
+$iEquip_msg_confDiscard	Tem certeza de que deseja descartar quaisquer alterações feitas na sua sessão atual do Modo de Edição e redefinir os widgets para onde eles estavam quando você entrou no Modo de Edição?
+$iEquip_msg_delPreset	Tem certeza de que deseja excluir esta predefinição?
+$iEquip_msg_clearQueue	Tem certeza de que deseja limpar todos os itens da fila atual?
 
 $iEquip_help_addingItems1	Adding items to iEquip\n\nThere are two ways in which you can add items to your queues.  Firstly, you can add items directly from your Inventory, Magic or Favorites menus by simply highlighting any item (you don't need to equip it) and pressing the hotkey for the slot you want to add it to.\nAlternatively, you can enable Auto-Add and simply carry on equipping items, spells and shouts as normal and each time iEquip detects a new item being equipped it will automagically be added to the relevant queue for you.\n\nPage 1/2
 
@@ -197,107 +197,107 @@ $iEquip_help_controls6	Consumable/Poison Hotkey\n\nSingle Press - Cycle consumab
 
 $iEquip_help_controls7	Utility Hotkey\n\nSingle Press - Open Utility Menu\n\nThe Utility Menu gives you access to\nthe queue management menus, Edit Mode\nand the In-Game Help Menu\n\nUtility + Double Press L/R/S (Regular Mode)\nDirect access to Queue Menu for that queue\n\n
 
-$iEquip_WC_lbl_CompleteWidget	Complete widget
-$iEquip_WC_lbl_LeftWidget	Left Hand Widget
-$iEquip_WC_lbl_RightWidget	Right Hand Widget
-$iEquip_WC_lbl_ShoutWidget	Shout Widget
-$iEquip_WC_lbl_ConsWidget	Consumable Widget
-$iEquip_WC_lbl_PoisonWidget	Poison Widget
-$iEquip_WC_lbl_LeftBg	Left Hand Background
-$iEquip_WC_lbl_LeftIcon	Left Hand Icon
-$iEquip_WC_lbl_LeftName	Left Hand Item Name
-$iEquip_WC_lbl_LeftCount	Left Hand Item Count
-$iEquip_WC_lbl_LeftPoisIcon	Left Hand Poison Icon
-$iEquip_WC_lbl_LeftPoisName	Left Hand Poison Name
-$iEquip_WC_lbl_LeftAttIcon	Left Hand Attribute Icons
-$iEquip_WC_lbl_LeftMeter	Left Hand Enchantment Meter
-$iEquip_WC_lbl_LeftGem	Left Hand Soul Gem Icon
-$iEquip_WC_lbl_LeftRadialMeter	Left Hand Radial Enchantment Meter
-$iEquip_WC_lbl_LeftTierInd	Left Hand Temper Tier Indicator
-$iEquip_WC_lbl_LeftPosInd	Left Queue Position Indicator
-$iEquip_WC_lbl_LeftPreBg	Left Hand Preselect Background
-$iEquip_WC_lbl_LeftPreIcon	Left Hand Preselect Icon
-$iEquip_WC_lbl_LeftPreName	Left Hand Preselect Item Name
-$iEquip_WC_lbl_LeftPreAtt	Left Hand Preselect Attribute Icons
-$iEquip_WC_lbl_LeftPreTierInd	Left Preselect Temper Tier Indicator
-$iEquip_WC_lbl_RightBg	Right Hand Background
-$iEquip_WC_lbl_RightIcon	Right Hand Icon
-$iEquip_WC_lbl_RightName	Right Hand Item Name
-$iEquip_WC_lbl_RightCount	Right Hand Item Count
-$iEquip_WC_lbl_RightPoisIcon	Right Hand Poison Icon
-$iEquip_WC_lbl_RightPoisName	Right Hand Poison Name
-$iEquip_WC_lbl_RightAttIcon	Right Hand Attribute Icons
-$iEquip_WC_lbl_RightMeter	Right Hand Enchantment Meter
-$iEquip_WC_lbl_RightGem	Right Hand Soul Gem Icon
-$iEquip_WC_lbl_RightRadialMeter	Right Hand Radial Enchantment Meter
-$iEquip_WC_lbl_RightTierInd	Right Hand Temper Tier Indicator
-$iEquip_WC_lbl_RightPosInd	Right Queue Position Indicator
-$iEquip_WC_lbl_RightPreBg	Right Hand Preselect Background
-$iEquip_WC_lbl_RightPreIcon	Right Hand Preselect Icon
-$iEquip_WC_lbl_RightPreName	Right Hand Preselect Item Name
-$iEquip_WC_lbl_RightPreAtt	Right Hand Preselect Attribute Icons
-$iEquip_WC_lbl_RightPreTierInd	Right Preselect Temper Tier Indicator
-$iEquip_WC_lbl_ShoutBg	Shout Background
-$iEquip_WC_lbl_ShoutIcon	Shout Icon
-$iEquip_WC_lbl_ShoutName	Shout Item Name
-$iEquip_WC_lbl_ShoutPosInd	Shout Queue Position Indicator
-$iEquip_WC_lbl_ShoutPreBg	Shout Preselect Background
-$iEquip_WC_lbl_ShoutPreIcon	Shout Preselect Icon
-$iEquip_WC_lbl_ShoutPreName	Shout Preselect Item Name
-$iEquip_WC_lbl_ConsBg	Consumable Background
-$iEquip_WC_lbl_ConsIcon	Consumable Icon
-$iEquip_WC_lbl_ConsName	Consumable Item Name
-$iEquip_WC_lbl_ConsCount	Consumable Item Count
-$iEquip_WC_lbl_potSelector	Potion Type Selector
-$iEquip_WC_lbl_PoisonBg	Poison Background
-$iEquip_WC_lbl_PoisonIcon	Poison Icon
-$iEquip_WC_lbl_PoisonName	Poison Item Name
-$iEquip_WC_lbl_PoisonCount	Poison Item Count
+$iEquip_WC_lbl_CompleteWidget	Widget completo
+$iEquip_WC_lbl_LeftWidget	Widget Mão Esquerda
+$iEquip_WC_lbl_RightWidget	Widget Mão Direita
+$iEquip_WC_lbl_ShoutWidget	Widget de Grito
+$iEquip_WC_lbl_ConsWidget	Widget consumível
+$iEquip_WC_lbl_PoisonWidget	Widget de Veneno
+$iEquip_WC_lbl_LeftBg	Segundo plano da Mão Esquerda
+$iEquip_WC_lbl_LeftIcon	Ícone Mão Esquerda
+$iEquip_WC_lbl_LeftName	Nome Ítem Mão Esquerda
+$iEquip_WC_lbl_LeftCount	Contagem de Intem da Mão Esquerda
+$iEquip_WC_lbl_LeftPoisIcon	Ícone Veneno Mão Esquerda
+$iEquip_WC_lbl_LeftPoisName	Nome Veneno Mão Esquerda
+$iEquip_WC_lbl_LeftAttIcon	Ícones de Atributo da Mão Esquerda
+$iEquip_WC_lbl_LeftMeter	Medidor Encantamento Mão Esquerda
+$iEquip_WC_lbl_LeftGem	Ícone Gema da Alma Mão Esquerda
+$iEquip_WC_lbl_LeftRadialMeter	Medidor de Encantamento Radial Mão Esquerda
+$iEquip_WC_lbl_LeftTierInd	Indicador de Nível de Temperamento da Mão Esquerda
+$iEquip_WC_lbl_LeftPosInd	Indicador de Posição da fila Esquerda
+$iEquip_WC_lbl_LeftPreBg	Segundo plano Pré-selecionado Mão Esquerda
+$iEquip_WC_lbl_LeftPreIcon	Ícone Pré-selecionado Mão Esquerda
+$iEquip_WC_lbl_LeftPreName	Nome Item Pré-selecionado Mão Esquerda
+$iEquip_WC_lbl_LeftPreAtt	Ícones de Atributos Pré-selecionados Mão Esquerda
+$iEquip_WC_lbl_LeftPreTierInd	Indicador de Nível de Temperamento de Pré-seleção à Esquerda
+$iEquip_WC_lbl_RightBg	Segundo plano da Mão Direita
+$iEquip_WC_lbl_RightIcon	Ícone Mão Direita
+$iEquip_WC_lbl_RightName	Nome Ítem Mão Direita
+$iEquip_WC_lbl_RightCount	Contagem de Intem da Mão Direita
+$iEquip_WC_lbl_RightPoisIcon	Ícone Veneno Mão Direita
+$iEquip_WC_lbl_RightPoisName	Nome Veneno Mão Direita
+$iEquip_WC_lbl_RightAttIcon	Ícones de Atributo da Mão Direita
+$iEquip_WC_lbl_RightMeter	Medidor Encantamento Mão Direita
+$iEquip_WC_lbl_RightGem	Ícone Gema da Alma Mão Direita
+$iEquip_WC_lbl_RightRadialMeter	Medidor de Encantamento Radial Mão Direita
+$iEquip_WC_lbl_RightTierInd	Indicador de Nível de Temperamento da Mão Direita
+$iEquip_WC_lbl_RightPosInd	Indicador de Posição da fila Direita
+$iEquip_WC_lbl_RightPreBg	Segundo plano Pré-selecionado Mão Direita
+$iEquip_WC_lbl_RightPreIcon	Ícone Pré-selecionado Mão Direita
+$iEquip_WC_lbl_RightPreName	Nome Item Pré-selecionado Mão Direita
+$iEquip_WC_lbl_RightPreAtt	Ícones de Atributos Pré-selecionados Mão Direita
+$iEquip_WC_lbl_RightPreTierInd	Indicador de Nível de Temperamento de Pré-seleção à Direita
+$iEquip_WC_lbl_ShoutBg	Segundo plano de Grito
+$iEquip_WC_lbl_ShoutIcon	Ícone de Grito
+$iEquip_WC_lbl_ShoutName	Nome do Item de Grito
+$iEquip_WC_lbl_ShoutPosInd	Indicador de Posição da Fila de Gritos
+$iEquip_WC_lbl_ShoutPreBg	Segundo plano de Pré-seleção de Grito
+$iEquip_WC_lbl_ShoutPreIcon	Ícone de Pré-seleção do Grito
+$iEquip_WC_lbl_ShoutPreName	Nome do Item de Pré-seleção do Grito
+$iEquip_WC_lbl_ConsBg	Segundo Plano Consumível
+$iEquip_WC_lbl_ConsIcon	Ícone Consumível
+$iEquip_WC_lbl_ConsName	Nome do item consumível
+$iEquip_WC_lbl_ConsCount	Contagem de itens consumíveis
+$iEquip_WC_lbl_potSelector	Seletor de Tipo de Poção
+$iEquip_WC_lbl_PoisonBg	Segundo plano de Veneno
+$iEquip_WC_lbl_PoisonIcon	Ícone de Veneno
+$iEquip_WC_lbl_PoisonName	Nome Item de Veneno
+$iEquip_WC_lbl_PoisonCount	Contagem de Item de Veneno
 
-$iEquip_WC_common_leftQ	left hand queue
-$iEquip_WC_common_rightQ	right hand queue
-$iEquip_WC_common_shoutQ	shout queue
-$iEquip_WC_common_consQ	consumable queue
-$iEquip_WC_common_poisonQ	poison queue
-$iEquip_WC_common_arrowQ	arrow queue
-$iEquip_WC_common_boltQ	bolt queue
+$iEquip_WC_common_leftQ	fila da mão esquerda
+$iEquip_WC_common_rightQ	fila da mão direita
+$iEquip_WC_common_shoutQ	fila de gritos
+$iEquip_WC_common_consQ	fila consumível
+$iEquip_WC_common_poisonQ	fila de veneno
+$iEquip_WC_common_arrowQ	fila de flecha
+$iEquip_WC_common_boltQ	fila de dardo
 
-$iEquip_WC_common_leftBlacklist	left hand blacklist
-$iEquip_WC_common_rightBlacklist	right hand blacklist
-$iEquip_WC_common_generalBlacklist	general blacklist
-$iEquip_WC_common_ammoBlacklist	ammo blacklist
+$iEquip_WC_common_leftBlacklist	lista negra da mão esquerda
+$iEquip_WC_common_rightBlacklist	lista negra da mão direita
+$iEquip_WC_common_generalBlacklist	lista negra geral
+$iEquip_WC_common_ammoBlacklist	lista negra de munição
 
 NOTE FOR TRANSLATORS - The {} in the following string will insert the ammo sorting method, for example "Your ammo queues are currently sorted by damage"
-$iEquip_WC_ammoSorting_text{}	Your ammo queues are currently sorted {}
-$iEquip_WC_ammoSorting_manually	manually
-$iEquip_WC_ammoSorting_byDamage	by damage
-$iEquip_WC_ammoSorting_alphabetically	alphabetically
-$iEquip_WC_ammoSorting_byQuantity	by quantity
+$iEquip_WC_ammoSorting_text{}	Suas filas de munição estão classificadas no momento {}
+$iEquip_WC_ammoSorting_manually	manualmente
+$iEquip_WC_ammoSorting_byDamage	por dano
+$iEquip_WC_ammoSorting_alphabetically	alfabeticamente
+$iEquip_WC_ammoSorting_byQuantity	por quantidade
 
 NOTE FOR TRANSLATORS - The {} in the following three strings will insert the numerical value for the number of potions of that type, for example "Restore (8)"
-$iEquip_WC_potionSelector_restore{}	Restore ({})
-$iEquip_WC_potionSelector_fortify{}	Fortify ({})
-$iEquip_WC_potionSelector_regen{}	Regenerate ({})
-$iEquip_WC_not_refreshingWidget	Refreshing iEquip widget...
-$iEquip_WC_not_doneRefreshing	iEquip widget refresh complete
-$iEquip_WC_msg_setDefaultKeysForGPP	Using iEquip with Gamepad++\n\niEquip was designed from the outset with controller users in mind. When using iEquip in conjunction with Gamepad++ we recommend you set your main iEquip hotkeys to use the controller DPad, and the iEquip Utility Key to use B. You can always edit the hotkeys in the MCM if you later change your mind.\n\nWould you like to set the recommended keys now?
-$iEquip_WC_msg_addingItems	Adding items to iEquip\n\nYour currently equipped items, shout or power, and a few consumables and poisons have been added to your queues. To add more gear into each slot simply open your Inventory, Magic or Favorites menu and follow the instructions there.\nYou can also enable Auto-Add for any slot, so that newly equipped items will automatically be added to the respective queue. Equipped items will always be displayed on the widget regardless of the queue settings.
-$iEquip_WC_msg_inventoryFirstLook	Adding to your iEQUIP queues\n\nFrom within your Inventory, Magic and Favorites menus you can add items, spells, powers or shouts to your iEquip queues by simply highlighting an item (you don't need to equip it) and pressing the hotkey for the slot you want to add it to.
-$iEquip_WC_not_controlsUnlocked	iEquip controls unlocked and ready to use
+$iEquip_WC_potionSelector_restore{}	Restaurar ({})
+$iEquip_WC_potionSelector_fortify{}	Fortificar ({})
+$iEquip_WC_potionSelector_regen{}	Regenerar ({})
+$iEquip_WC_not_refreshingWidget	Atualizando widget iEquip...
+$iEquip_WC_not_doneRefreshing	Atualização de widget do iEquip concluída
+$iEquip_WC_msg_setDefaultKeysForGPP	Usando o iEquip com o Gamepad ++\n\niEquip foi projetado desde o início com os usuários de controle em mente. Ao usar o iEquip em conjunto com o Gamepad ++, recomendamos que você defina suas hotkeys principais do iEquip para usar o controlador DPad e a chave do utilitário iEquip para usar B. Você sempre pode editar as teclas de atalho no MCM se mudar de ideia posteriormente.\n\n você gosta de definir as chaves recomendadas agora?
+$iEquip_WC_msg_addingItems	Adicionando itens ao iEquip\n\nSeus itens equipados atualmente, grito ou poder, e alguns consumíveis e venenos foram adicionados às suas filas. Para adicionar mais equipamentos em cada slot, basta abrir o menu Inventário, Mágia ou Favoritos e seguir as instruções lá.\nVocê também pode ativar Auto-adicionar para qualquer slot, para que os itens recém-equipados sejam adicionados automaticamente à respectiva fila. Os itens equipados sempre serão exibidos no widget, independentemente das configurações da fila.
+$iEquip_WC_msg_inventoryFirstLook	Adicionando às suas filas iEQUIP\n\nDentro dos seus menus de Inventário, Magia e Favoritos, você pode adicionar itens, mágicas, poderes ou gritos às suas filas iEquip simplesmente destacando um item (você não precisa equipá-lo) e pressionando a tecla de atalho para o slot que você deseja adicioná-lo.
+$iEquip_WC_not_controlsUnlocked	Controles iEquip desbloqueados e prontos para uso
 
 NOTE FOR TRANSLATORS - The {} in the following string will insert the name of the widget element which has failed, for example "iEquip: Failed to add element to widget arrays (Left Icon)"
-$iEquip_WC_msg_failedToAddWidget{}	iEquip: Failed to add element to widget arrays ({})
+$iEquip_WC_msg_failedToAddWidget{}	iEquip: falha ao adicionar elemento as matrizes de widgets ({})
 
 NOTE FOR TRANSLATORS - The {} in the following string will insert the queue name, for example "Your left hand queue is currently empty"
-$iEquip_WC_common_EmptyQueue{}	Your {} is currently empty
+$iEquip_WC_common_EmptyQueue{}	Seu {} está vazio no momento
 NOTE FOR TRANSLATORS - The {} in the following string will insert the queue name, for example "There are no items in your right hand blacklist"
-$iEquip_WC_common_emptyBlacklist{}	There are no items in your {}
-$iEquip_WC_not_inOtherhand	is already equipped in your other hand
-$iEquip_WC_msg_AmmoModeFirstLook1	iEQUIP Ammo Mode\n\nYou have equipped a ranged weapon for the first time using iEquip and you will see that the left hand widget is now showing the first ammo in your ammo queue. If you have enabled ammo sorting in the MCM then this will either be the ammo with the highest base damage, the one you have most of, or the first alphabetically\nThe smaller icon shows the item you will re-equip when you unequip your ranged weapon.
-$iEquip_WC_msg_AmmoModeFirstLook2	iEQUIP Ammo Mode Controls\n\nSingle press left hotkey cycles the ammo\n\nDouble press left hotkey cycles the left hand item shown in the smaller icon ready for re-equipping\n\nCycling your right hand will return the left hand widget to the regular state, or you can longpress the left hotkey to re-equip the left hand item shown and swap your ranged weapon for a 1H item in the right hand
+$iEquip_WC_common_emptyBlacklist{}	Não há itens no seu {}
+$iEquip_WC_not_inOtherhand	já está equipado na sua outra mão
+$iEquip_WC_msg_AmmoModeFirstLook1	Modo de Munição do iEQUIP\n\nVocê equipou uma arma de longo alcance pela primeira vez usando o iEquip e você verá que o widget da mão esquerda está agora mostrando a primeira munição na sua fila de munição. Se você ativou a classificação de munição no MCM, essa será a munição com o maior dano base, o que você tem mais, ou o primeiro alfabeticamente\nO ícone menor mostra o item que você irá reequipar quando desequipar sua arma de longo alcance.
+$iEquip_WC_msg_AmmoModeFirstLook2	Controles do Modo de Munição do iEQUIP\n\nPressione Simples tecla de atalho esquerda para rolar a munição\n\nPressionar duas vezes a tecla de atalho esquerda o item da esquerda mostrado no ícone menor pronto para reequipar\n\nRolando sua mão direita retornará o widget da esquerda o estado regular, ou você pode pressionar longo a tecla de atalho esquerda para reequipar o item da mão esquerda mostrado e trocar sua arma de longo alcance por um item de Um-mão na mão direita
 
 NOTE FOR TRANSLATORS - The {} in the following string will insert the name of the hand, for example "You don't currently have a weapon in your right hand to poison"
-$iEquip_WC_not_noWeapon{}	You don't currently have a weapon in your {} hand to poison	
+$iEquip_WC_not_noWeapon{}	Você não tem uma arma na mão {} para envenenar
 
 NOTE FOR TRANSLATORS - The {}{} in the following string will insert the weapon and poison names, for example "Your Steel Greatsword is already poisoned with Potent Fear Poison"
 $iEquip_WC_not_alreadyPoisioned{}{}	Your {} is already poisoned with {}
@@ -967,337 +967,337 @@ $iEquip_MCM_poi_txt_throwingPoisonDuration	Adjust the duration of the thrown poi
 $iEquip_MCM_poi_txt_throwingPoisonLimit	Adjust the maximum number of thrown poison gas clouds that can be active at any one time. If you reach the maximum limit and throw another poison the oldest cloud will be removed first.
 $iEquip_MCM_poi_txt_throwingPoisonGravity	Adjust how strongly gravity affects the trajectory of the thrown poison bottles. Setting this to 0 will make the poison fly straight at your crosshair, like a fireball spell for example. The default value of 1.2 seems to give a nice arc and means you have to judge how high to throw it to get it to go where you want.
 
-$iEquip_MCM_pot_opt_fadeIcon	Fade icon
-$iEquip_MCM_pot_opt_hideIcon	Hide icon
-$iEquip_MCM_pot_opt_leaveIcon	Don't fade or hide
-$iEquip_MCM_pot_opt_alwaysStrongest	Strongest
-$iEquip_MCM_pot_opt_smartSelect	Smart Select
-$iEquip_MCM_pot_opt_alwaysWeakest	Weakest
-$iEquip_MCM_pot_opt_allow	Allow
-$iEquip_MCM_pot_opt_allowIfStronger	Allow if stronger
-$iEquip_MCM_pot_opt_onlyInCombat	Only allow in combat
-$iEquip_MCM_pot_opt_block	Don't consume
-$iEquip_MCM_pot_opt_alwaysShowSelector	Always show
-$iEquip_MCM_pot_opt_consOrShowSelector	Consume or show
-$iEquip_MCM_pot_opt_consAndShowSelector	Always consume & show
-$iEquip_MCM_pot_opt_left	in your left hand
-$iEquip_MCM_pot_opt_right	in your right hand
-$iEquip_MCM_pot_opt_both	in both hands
-$iEquip_MCM_pot_opt_whereFound	where it is found
-$iEquip_MCM_pot_opt_eitherBuff	Fortify or Regen
-$iEquip_MCM_pot_opt_fortifyOnly	Fortify only
-$iEquip_MCM_pot_opt_regenOnly	Regen only
-$iEquip_MCM_pot_opt_bothBuffs	Fortify & Regen
-$iEquip_MCM_pot_opt_alwaysQB	Always QuickBuff
-$iEquip_MCM_pot_opt_QBOn2ndPress	On 2nd Press
-$iEquip_MCM_pot_opt_2ndPressInCombat	2nd Press In Combat
+$iEquip_MCM_pot_opt_fadeIcon	Ícone Desvanecer
+$iEquip_MCM_pot_opt_hideIcon	Esconder ícone
+$iEquip_MCM_pot_opt_leaveIcon	Não desvanece ou esconde
+$iEquip_MCM_pot_opt_alwaysStrongest	Mais Forte
+$iEquip_MCM_pot_opt_smartSelect	Seleção Inteligente
+$iEquip_MCM_pot_opt_alwaysWeakest	Mais Fraco
+$iEquip_MCM_pot_opt_allow	Permitir
+$iEquip_MCM_pot_opt_allowIfStronger	Permitir se mais forte
+$iEquip_MCM_pot_opt_onlyInCombat	Permitir apenas em combate
+$iEquip_MCM_pot_opt_block	Não consuma
+$iEquip_MCM_pot_opt_alwaysShowSelector	Sempre aparece
+$iEquip_MCM_pot_opt_consOrShowSelector	Consumo ou Mostrar
+$iEquip_MCM_pot_opt_consAndShowSelector	Sempre consumir e mostrar
+$iEquip_MCM_pot_opt_left	na sua mão esquerda
+$iEquip_MCM_pot_opt_right	na sua mão direita
+$iEquip_MCM_pot_opt_both	em ambas as mãos
+$iEquip_MCM_pot_opt_whereFound	onde é encontrado
+$iEquip_MCM_pot_opt_eitherBuff	Fortificar ou Regenenar
+$iEquip_MCM_pot_opt_fortifyOnly	Fortificar apenas
+$iEquip_MCM_pot_opt_regenOnly	Regenerar apenas
+$iEquip_MCM_pot_opt_bothBuffs	Fortificar e Regenerar
+$iEquip_MCM_pot_opt_alwaysQB	Sempre Buff Rápido
+$iEquip_MCM_pot_opt_QBOn2ndPress	No Segundo Toque
+$iEquip_MCM_pot_opt_2ndPressInCombat	Segundo Toque Em Combate
 $iEquip_MCM_pot_opt_byMag	Magnitude
-$iEquip_MCM_pot_opt_byDur	Duration
-$iEquip_MCM_pot_opt_byMagxDur	Magnitude x Duration
-$iEquip_MCM_pot_lbl_potOpts	Potion Group Options
-$iEquip_MCM_pot_lbl_enblPotionGroup	Enable Potion Grouping
-$iEquip_MCM_pot_lbl_checkAllEffects	Include multi-effect potions
-$iEquip_MCM_pot_lbl_prioritiseRestoreEffects	Prioritise 'Restore' effects
-$iEquip_MCM_pot_lbl_exclHostilePotions	Exclude potions with detrimental effects
-$iEquip_MCM_pot_lbl_exclRestAllEffects	Exclude 'Restore All' potions
-$iEquip_pot_msg_addRestAllToGroups	If you have Restore All potions in your inventory and wish them to be added into the potion groups simply drop one of each and pick them back up and they will be added to the groups automatically
-$iEquip_MCM_pot_lbl_potConsOpts	Consumption Thresholds & Exceptions
-$iEquip_MCM_pot_lbl_ConsRestoreThreshold	Don't restore if stat above
-$iEquip_MCM_pot_lbl_whatSmartSelect	What is Smart Select?
-$iEquip_MCM_pot_lbl_PotionSelect	Which potion to consume
-$iEquip_MCM_pot_lbl_StatThreshold	Smart Select threshold
-$iEquip_MCM_pot_lbl_whenEffectActive	If effect active
-$iEquip_MCM_pot_lbl_aboveCurrEffectMagThreshold	Only allow if new potion is
-$iEquip_MCM_pot_lbl_potSelOpts	Potion Type Selector Options
-$iEquip_MCM_pot_lbl_showSelector	When to show
-$iEquip_MCM_pot_lbl_selectorFadeDelay	Potion type selector fadeout
-$iEquip_MCM_pot_lbl_whenNoPotions	When no potions left...
-$iEquip_MCM_pot_lbl_consIcoFade	Consumable icon fade
-$iEquip_MCM_pot_lbl_warningOnLastPotion	Warning flash when last potion used
-$iEquip_MCM_pot_lbl_enblRestPotWarn	Low Restore potions warning system
-$iEquip_MCM_pot_lbl_lowRestPotNot	Show warning notifications
-$iEquip_MCM_pot_lbl_showConsumedNotifications	When potion consumed
-$iEquip_MCM_pot_lbl_showNoPotionsNotifications	When no potions left
-$iEquip_MCM_pot_lbl_showEffectActiveNotifications	Effect already active
-$iEquip_MCM_pot_lbl_showStatFullNotifications	Target stat already full
-$iEquip_MCM_pot_lbl_quickRestoreOpts	QuickRestore Options
-$iEquip_MCM_pot_lbl_whatQuickRestore	What is QuickRestore?
-$iEquip_MCM_pot_lbl_enblQuickRestore	Enable QuickRestore
-$iEquip_MCM_pot_lbl_enblQuickheal	- Include QuickHeal
-$iEquip_MCM_pot_lbl_enblQuickMagicka	- Include QuickMagicka
-$iEquip_MCM_pot_lbl_enblQuickStamina	- Include QuickStamina
-$iEquip_MCM_pot_lbl_quickBuff	Enable QuickBuff
-$iEquip_MCM_pot_lbl_quickBuffControl	QuickBuff Activation
-$iEquip_MCM_pot_lbl_quickBuffFortify	Use Fortify Potions
-$iEquip_MCM_pot_lbl_quickBuffRegen	Use Regen Rate Potions
-$iEquip_MCM_pot_lbl_quickBuffResistances	Buff Resistances
-$iEquip_MCM_pot_lbl_quickBuffResistFire	- Resist Fire
-$iEquip_MCM_pot_lbl_quickBuffResistFrost	- Resist Frost
-$iEquip_MCM_pot_lbl_quickBuffResistMagic	- Resist Magic
-$iEquip_MCM_pot_lbl_quickBuffResistPoison	- Resist Poison
-$iEquip_MCM_pot_lbl_quickBuffResistShock	- Resist Shock
-$iEquip_MCM_pot_lbl_quickBuffCombatSkills	Buff Combat Skills
-$iEquip_MCM_pot_lbl_quickBuffFortifyLightArmor	- Fortify Light Armour
-$iEquip_MCM_pot_lbl_quickBuffFortifyHeavyArmor	- Fortify Heavy Armour
-$iEquip_MCM_pot_lbl_quickBuffFortifyBlock	- Fortify Block
-$iEquip_MCM_pot_lbl_quickBuffFortifyOneHanded	- Fortify One Handed
-$iEquip_MCM_pot_lbl_quickBuffFortifyTwoHanded	- Fortify Two Handed
-$iEquip_MCM_pot_lbl_quickBuffFortifyMarksman	- Fortify Marksman
-$iEquip_MCM_pot_lbl_quickBuffMagicSkills	Buff Magic Skills
-$iEquip_MCM_pot_lbl_quickBuffFortifyAlteration	- Fortify Alteration
-$iEquip_MCM_pot_lbl_quickBuffFortifyConjuration	- Fortify Conjuration
-$iEquip_MCM_pot_lbl_quickBuffFortifyDestruction	- Fortify Destruction
-$iEquip_MCM_pot_lbl_quickBuffFortifyIllusion	- Fortify Illusion
-$iEquip_MCM_pot_lbl_quickBuffFortifyRestoration	- Fortify Restoration
-$iEquip_MCM_pot_lbl_quickBuffDelay	2nd press within
-$iEquip_MCM_pot_lbl_buffsToApply	Which buffs to apply
-$iEquip_MCM_pot_lbl_quickHealOpts	QuickHeal Options
-$iEquip_MCM_pot_lbl_useFallback	Use either healing method
-$iEquip_MCM_pot_lbl_prefHealMagIgnoreTHold	Prefer Magic ignores threshold
-$iEquip_MCM_pot_lbl_alwysEqpSpll	Always equip spell...
-$iEquip_MCM_pot_lbl_swtchBck	Switch Back
-$iEquip_MCM_pot_lbl_swtchBckRest	Restore when switching back
-$iEquip_MCM_pot_txt_checkAllEffects	For potions with multiple effects where the primary effect is not a health/magicka/stamina restore/fortify/regen effect all effects will be checked. If one or more of the other effects are found to be a health/magicka/stamina restore/fortify/regen effect the potion will be included in the Potion Groups for that effect.  If more than one matching additional effect is found priority will be given to restore effects.
-$iEquip_MCM_pot_txt_prioritiseRestoreEffects	Where a potion has two or more beneficial effects give priority to 'Restore' effects so they are classed as Restore potions in the Potion Groups.
-$iEquip_MCM_pot_txt_exclHostilePotions	Exclude multi-effect potions where one or more of the other effects is detrimental to the player.
-$iEquip_MCM_pot_txt_exclRestAllEffects	Enable if you do not want the strongest Restore All potions to be included in your Potion Groups.  You can still add them manually to your consumables queue through the inventory menu, or if you have Auto-Add Potions enabled in the Queue Options page.  If you currently have them included in your Potion Groups and you turn this off they will be removed from the groups and added to the consumable queue if Auto-Add Potions is enabled
-$iEquip_MCM_pot_txt_showSelector	When a Potion Group is displayed, hold the consumable key to: \nAlways show - Potion type selector is displayed, nothing is consumed\nConsume or Show - Consume a restore potion if required, otherwise show the selector\nAlways Consume & Show - Selector is displayed, and a restore potion is consumed if required\nPotion selection always follows your Strongest/Weakest/SmartSelect setting
-$iEquip_MCM_pot_txt_selectorFadeDelay	Set the delay in seconds if nothing is consumed before the potion type selector fades out and you return to cycling the consumables queue as normal.
-$iEquip_MCM_pot_txt_ConsRestoreThreshold	Restore potions will not be consumed if the target stat is above this level.\nThis applies both to holding the consumable key with one of the Potion Groups displayed to consume a restore potion, and to QuickRestore. If the target stat is below this level then which potion is consumed will be determined by the setting below.\nNB - This threshold does not apply when using the Potion Type Selector, where a restore potion will always be consumed if below 100%.
-$iEquip_MCM_pot_msg_whatSmartSelect	About 'Smart Select'\nIf you are in combat and the current stat level is below the Smart Select threshold, the fastest acting potion will be consumed (best over 3 secs).\nAbove the threshold the strongest potion needed to fully restore the stat, which may be slower acting, will be consumed.\nIf you are not in combat, the weakest potion will be consumed.
-$iEquip_MCM_pot_txt_PotionSelect	Choose how restore potions should be selected. This applies both to consuming through the Potion Groups and to QuickRestore.
-$iEquip_MCM_pot_txt_StatThreshold	Set the stat (health/magicka/stamina) percentage threshold for Smart Select
-$iEquip_MCM_pot_txt_whenEffectActive	This setting helps prevent similar potions from being wasted, when the same effect is already active on the player.  Selecting "Allow if stronger" or "Only allow in combat" will allow potions with the same effect to be consumed ONLY if they are X% stronger than the active effect, configurable in the slider below.  If 'Allow' is selected, a new potion will be consumed unconditionally every time.
-$iEquip_MCM_pot_txt_aboveCurrEffectMagThreshold	Select how much stronger the new potion must be than the currently active effect before a potion is consumed.  Setting this to 0% will mean a potion will always be consumed.  Regardless of the value you set here the conditions from the setting above must have been met first.
-$iEquip_MCM_pot_txt_whenNoPotions	When you run out of health, stamina or magicka potions you can choose to either fade out the icon for the relevant potion group, or hide it in which case it will not appear while cycling until you have more potions back in your inventory
-$iEquip_MCM_pot_txt_consIcoFade	Choose how much you would like the consumable icon faded out by if displaying an empty potion group.\nDefault: 70%
-$iEquip_MCM_pot_txt_warningOnLastPotion	The potion icon will flash twice when the final health, stamina or magicka potion in your inventory is used before fading or hiding
-$iEquip_MCM_pot_txt_enblRestPotWarn	When potion groups are enabled you will be warned when you are running low on Restore potions for any group. At 5 potions remaining the group count will turn yellow, at 2 it will turn orange, and at 0 it will turn red (it will still show the correct full group count). Additionally if you have flash warning enabled the warning flash will play at each threshold.  Both of these only apply if the relevant potion group is currently displayed in the consumable slot
-$iEquip_MCM_pot_txt_lowRestPotNot	In addition to the count colour and warning flash notifications will be displayed warning you at each threshold that you are running low, almost out or all out of restore potions.  These will display regardless of what is currently showing in the consumable slot.
-$iEquip_MCM_pot_txt_showConsumedNotifications	Show notification messages when you consume a potion or other consumable item.  For example:\n\n`Weak Potion of Health consumed`
-$iEquip_MCM_pot_txt_showNoPotionsNotifications	Show notification messages when you have none of the required potion type in your inventory.  For example:\n\n`You do not appear to have any suitable stamina potions left`
-$iEquip_MCM_pot_txt_showEffectActiveNotifications	Show notification messages when the same effects of a previous potion have not yet worn off.  For example:\n\n`The effects of your previous Fortify Health potion have not yet worn off`
-$iEquip_MCM_pot_txt_showStatFullNotifications	Show notification messages when the target stat is currently full.  For example:\n\n`You are currently at full health` or 'No need to QuickRestore magicka'
-$iEquip_MCM_pot_txt_enblQuickRestore	QuickRestore is an advanced situationally aware feature giving you the ability to quickly restore and/or buff all three stats at once based on several variables.  Enabling `Always QuickBuff` along along with your preferred choice of buffs can, depending on the situation and your settings below, consume a large number of potions with one click for full on Combat Stims!
-$iEquip_MCM_pot_txt_enblQuickheal	QuickRestore will look for the best way to restore or buff your Health
-$iEquip_MCM_pot_txt_enblQuickMagicka	QuickRestore will look for the best way to restore or buff your Magicka
-$iEquip_MCM_pot_txt_enblQuickStamina	QuickRestore will look for the best way to restore or buff your Stamina
-$iEquip_MCM_pot_txt_quickBuff	When enabled, based on your settings below, QuickRestore will look for Fortify and/or Regen Rate potions to buff each enabled stat. Additionally, you can also choose to consume potions of resistance, and potions to fortify combat and magic skills.
-$iEquip_MCM_pot_txt_quickBuffControl	Always QuickBuff - QuickRestore will restore all enabled stats as required and then proceed to buff each in turn\nQuickBuff on 2nd press - The first time you activate QuickRestore it will restore all enabled stats as required. Activating a second time within the specified 2nd Press period will instead buff each stat in turn\n2nd Press In Combat - Always QuickBuff applies when not in combat, QuickBuff on 2nd press applies when in combat
-$iEquip_MCM_pot_txt_quickBuffDelay	Set the length of time in seconds following a QuickRestore activation during which if you triple press your consumable key again QuickBuff will be activated
-$iEquip_MCM_pot_txt_quickBuffFortify	With this enabled QuickBuff will select and consume potions to fortify the stats selected above.  Potions will be consumed according to the "If effect active" setting on the left.
-$iEquip_MCM_pot_txt_quickBuffRegen	With this enabled QuickBuff will select and consume regeneration rate potions to buff the stats selected above.  Potions will be consumed according to the "If effect active" setting on the left.
-$iEquip_MCM_pot_txt_quickBuffResistances	With this enabled QuickBuff will select and consume potions of fire, frost, magic, poison and shock resistance depending on your selections below.  Potions will be consumed according to the "If effect active" setting on the left.
-$iEquip_MCM_pot_txt_quickBuffCombatSkills	With this enabled QuickBuff will select and consume potions to fortify each combat skill depending on your selections below. Potions will be consumed according to the "If effect active" setting on the left.
-$iEquip_MCM_pot_txt_quickBuffMagicSkills	With this enabled QuickBuff will select and consume potions to fortify each school of magic depending on your selections below. Potions will be consumed according to the "If effect active" setting on the left.
+$iEquip_MCM_pot_opt_byDur	Duração
+$iEquip_MCM_pot_opt_byMagxDur	Magnitude x Duração
+$iEquip_MCM_pot_lbl_potOpts	Opções do grupo de poções
+$iEquip_MCM_pot_lbl_enblPotionGroup	Ativar Agrupamento de Poções
+$iEquip_MCM_pot_lbl_checkAllEffects	Inclua poções multi-efeito
+$iEquip_MCM_pot_lbl_prioritiseRestoreEffects	Priorize os efeitos de 'Restaurar'
+$iEquip_MCM_pot_lbl_exclHostilePotions	Exclua poções com efeitos prejudiciais
+$iEquip_MCM_pot_lbl_exclRestAllEffects	Excluir as poções 'Restaurar Tudo'
+$iEquip_pot_msg_addRestAllToGroups	Se você tiver Restaurar todas as poções em seu inventário e desejar que elas sejam adicionadas aos grupos de poções, simplesmente solte uma de cada uma e pegue-as novamente e elas serão adicionadas aos grupos automaticamente
+$iEquip_MCM_pot_lbl_potConsOpts	Limites e Exceções de Consumo
+$iEquip_MCM_pot_lbl_ConsRestoreThreshold	Não restaure estado acima
+$iEquip_MCM_pot_lbl_whatSmartSelect	O que é Seleção Inteligente?
+$iEquip_MCM_pot_lbl_PotionSelect	Qual poção para consumir
+$iEquip_MCM_pot_lbl_StatThreshold	Limite de Seleção Inteligente
+$iEquip_MCM_pot_lbl_whenEffectActive	Se o efeito estiver ativo
+$iEquip_MCM_pot_lbl_aboveCurrEffectMagThreshold	Permitir apenas se a nova poção for
+$iEquip_MCM_pot_lbl_potSelOpts	Opções de Seleção de Tipo de Poção
+$iEquip_MCM_pot_lbl_showSelector	Quando mostrar
+$iEquip_MCM_pot_lbl_selectorFadeDelay	Seletor de desaparecimento de tipo de poção
+$iEquip_MCM_pot_lbl_whenNoPotions	Quando não há poções ...
+$iEquip_MCM_pot_lbl_consIcoFade	Desvanecer Ícone de consumíveis
+$iEquip_MCM_pot_lbl_warningOnLastPotion	Aviso instantâneo quando a última poção usada
+$iEquip_MCM_pot_lbl_enblRestPotWarn	Sistema de aviso de poções de Restauração Baixo
+$iEquip_MCM_pot_lbl_lowRestPotNot	Mostrar notificações de aviso
+$iEquip_MCM_pot_lbl_showConsumedNotifications	Quando a poção é consumida
+$iEquip_MCM_pot_lbl_showNoPotionsNotifications	Quando nenhuma poção sobrou
+$iEquip_MCM_pot_lbl_showEffectActiveNotifications	Efeito já ativo
+$iEquip_MCM_pot_lbl_showStatFullNotifications	Estatística alvo já cheia
+$iEquip_MCM_pot_lbl_quickRestoreOpts	Opções Restaurar Rápido
+$iEquip_MCM_pot_lbl_whatQuickRestore	O que é o Restaurar Rápido?
+$iEquip_MCM_pot_lbl_enblQuickRestore	Ativar Restaurar Rápido
+$iEquip_MCM_pot_lbl_enblQuickheal	- Incluir Cura Rápida
+$iEquip_MCM_pot_lbl_enblQuickMagicka	- Incluir Magia Rápida
+$iEquip_MCM_pot_lbl_enblQuickStamina	- Incluir Vigor Rápido
+$iEquip_MCM_pot_lbl_quickBuff	Ativar Buff Rápido
+$iEquip_MCM_pot_lbl_quickBuffControl	Ativação do Buff Rápido
+$iEquip_MCM_pot_lbl_quickBuffFortify	Use Poções de Fortificar
+$iEquip_MCM_pot_lbl_quickBuffRegen	Use Poções de Taxa de Regeneração
+$iEquip_MCM_pot_lbl_quickBuffResistances	Buff de Resistências
+$iEquip_MCM_pot_lbl_quickBuffResistFire	- Resistir ao Fogo
+$iEquip_MCM_pot_lbl_quickBuffResistFrost	- Resistir ao Frio
+$iEquip_MCM_pot_lbl_quickBuffResistMagic	- Resistir a Magica
+$iEquip_MCM_pot_lbl_quickBuffResistPoison	- Resistir a Veneno
+$iEquip_MCM_pot_lbl_quickBuffResistShock	- Resistir a Choque
+$iEquip_MCM_pot_lbl_quickBuffCombatSkills	Habilidades de Buff de Combate
+$iEquip_MCM_pot_lbl_quickBuffFortifyLightArmor	- Fortificar Armadura Leve
+$iEquip_MCM_pot_lbl_quickBuffFortifyHeavyArmor	- Fortify Armadura Pesada
+$iEquip_MCM_pot_lbl_quickBuffFortifyBlock	- Fortificar Bloqueio
+$iEquip_MCM_pot_lbl_quickBuffFortifyOneHanded	- Fortificar Uma-mão
+$iEquip_MCM_pot_lbl_quickBuffFortifyTwoHanded	- Fortificar Duas-mãos
+$iEquip_MCM_pot_lbl_quickBuffFortifyMarksman	- Fortificar Atirador
+$iEquip_MCM_pot_lbl_quickBuffMagicSkills	Habilidades de Buff de Magias
+$iEquip_MCM_pot_lbl_quickBuffFortifyAlteration	- Fortificar Alteração
+$iEquip_MCM_pot_lbl_quickBuffFortifyConjuration	- Fortificar Conjuração
+$iEquip_MCM_pot_lbl_quickBuffFortifyDestruction	- Fortificar Destruição
+$iEquip_MCM_pot_lbl_quickBuffFortifyIllusion	- Fortificar Ilusão
+$iEquip_MCM_pot_lbl_quickBuffFortifyRestoration	- Fortificar Restauração
+$iEquip_MCM_pot_lbl_quickBuffDelay	Segundo toque dentro do limite
+$iEquip_MCM_pot_lbl_buffsToApply	Qual buffs para aplicar
+$iEquip_MCM_pot_lbl_quickHealOpts	Opções Cura Rápida
+$iEquip_MCM_pot_lbl_useFallback	Use o método de cura
+$iEquip_MCM_pot_lbl_prefHealMagIgnoreTHold	Prefere ignora limite Magica
+$iEquip_MCM_pot_lbl_alwysEqpSpll	Sempre equipar magia ...
+$iEquip_MCM_pot_lbl_swtchBck	Mudar de volta
+$iEquip_MCM_pot_lbl_swtchBckRest	Restaurar ao voltar
+$iEquip_MCM_pot_txt_checkAllEffects	Para poções com múltiplos efeitos onde o efeito primário não é um efeito de restauração/fortificação/regeneração de saúde/magicka/resistência, todos os efeitos serão verificados. Se um ou mais dos outros efeitos forem encontrados como um efeito de restauração/fortificação/regeneração de saúde/magicka/resistência, a poção será incluída nos Grupos de Poção para esse efeito. Se mais de um efeito adicional correspondente for encontrado, a prioridade será dada para efeitos de restaurar.
+$iEquip_MCM_pot_txt_prioritiseRestoreEffects	Quando uma poção tem dois ou mais efeitos benéficos, dê prioridade aos efeitos de 'Restaurar' para que sejam classificados como poções de Restauração nos Grupos de Poções.
+$iEquip_MCM_pot_txt_exclHostilePotions	Exclua poções de múltiplos efeitos onde um ou mais dos outros efeitos são prejudiciais para o jogador.
+$iEquip_MCM_pot_txt_exclRestAllEffects	Ative se você não quiser que as mais fortes poções Restaurar Todas sejam incluídas nos Grupos de Poções. Você ainda pode adicioná-los manualmente à sua fila de consumíveis através do menu de inventário, ou se você tiver 'Auto-adicionar Poções' ativadas na página 'Opções da Fila'. Se você atualmente os inclui em seus grupos de poções e desliga isso, eles serão removidos dos grupos e adicionados à fila de consumíveis se 'Auto-adicionar Poções' estiver habilitado
+$iEquip_MCM_pot_txt_showSelector	Quando um grupo de poções é exibido, segure a tecla consumível para: \nSempre mostrar - o seletor de tipo de poção é exibido, nada é consumido\nConsumir ou Mostrar - consumir uma poção de restauração se necessário, caso contrário, mostrar o seletor\nSempre Consumir e Mostrar - o seletor é exibido, e uma poção de restauração é consumida se necessário\nSeleção de poção sempre segue sua configuração Mais forte/Mais fraca/Seleção Inteligente
+$iEquip_MCM_pot_txt_selectorFadeDelay	Defina o atraso em segundos se nada for consumido antes que o seletor do tipo de poção diminua e você retorne ao rolamento da fila de consumíveis normalmente.
+$iEquip_MCM_pot_txt_ConsRestoreThreshold	As poções de restauração não serão consumidas se a estatística alvo estiver acima deste nível.\nIsso se aplica tanto a segurar a chave consumível com um dos grupos de poções exibidos para consumir uma poção de restauração, quanto ao Restaurar Rápido. Se a estatística de destino estiver abaixo deste nível, então qual poção será consumida será determinada pela configuração abaixo.\nNB - Este limite não se aplica ao usar o Seletor de tipo de poção, onde uma poção de restauração sempre será consumida se estiver abaixo de 100%.
+$iEquip_MCM_pot_msg_whatSmartSelect	Sobre a 'Seleção Inteligente'\nSe você estiver em combate e o nível de estatística atual estiver abaixo do limite da Seleção Inteligente, a poção de ação mais rápida será consumida (melhor em 3 segundos).\nAcima do limite, a poção mais forte necessária para restaurar totalmente a estatística , que pode ter ação mais lenta, será consumido.\nSe você não estiver em combate, a poção mais fraca será consumida.
+$iEquip_MCM_pot_txt_PotionSelect	Escolha como as poções de restauração devem ser selecionadas. Isso se aplica tanto ao consumo por meio dos Grupos de Poções quanto ao Restaurar Rápido.
+$iEquip_MCM_pot_txt_StatThreshold	Defina o limite de porcentagem do estado (saúde/magia/vigor) para a Seleção Inteligente
+$iEquip_MCM_pot_txt_whenEffectActive	Esta configuração ajuda a prevenir o desperdício de poções semelhantes, quando o mesmo efeito já está ativo no jogador. Selecionar "Permitir se mais forte" ou "Permitir apenas em combate" permitirá que poções com o mesmo efeito sejam consumidas SOMENTE se forem X% mais fortes que o efeito ativo, configurável no controle deslizante abaixo. Se 'Permitir' for selecionado, uma nova poção será consumida incondicionalmente todas as vezes.
+$iEquip_MCM_pot_txt_aboveCurrEffectMagThreshold	Selecione o quanto a nova poção deve ser mais forte do que o efeito atualmente ativo antes que uma poção seja consumida. Definir como 0% significa que uma poção sempre será consumida. Independentemente do valor definido aqui, as condições da configuração acima devem ser atendidas primeiro.
+$iEquip_MCM_pot_txt_whenNoPotions	Quando você ficar sem poções de cura, resistência ou de magicka, você pode optar por diminuir o ícone do grupo de poções relevante, ou ocultá-lo, caso em que ele não aparecerá enquanto estiver rolando a lista até que você tenha mais poções de volta no seu inventário
+$iEquip_MCM_pot_txt_consIcoFade	Escolha o quanto você gostaria que o ícone consumível fosse eliminado se exibisse um grupo de poções vazio.\nPadrão: 70%
+$iEquip_MCM_pot_txt_warningOnLastPotion	O ícone da poção piscará duas vezes quando a última poção de saúde, resistência ou magicka no seu inventário for usada antes de desaparecer ou se esconder
+$iEquip_MCM_pot_txt_enblRestPotWarn	Quando os grupos de poções estão habilitados, você será avisado quando estiver com pouca energia em Restaurar poções para qualquer grupo. Com 5 poções restantes a contagem de grupos ficará amarela, aos 2 ela ficará laranja e a 0 ficará vermelha (ela ainda mostrará a contagem completa correta de grupos). Além disso, se você tiver um aviso de flash ativado, o flash de aviso será reproduzido em cada limite. Ambos aplicam-se apenas se o grupo de poções relevante estiver atualmente exibido no slot consumível
+$iEquip_MCM_pot_txt_lowRestPotNot	Além da contagem de cor e notificações de aviso instantâneo será exibido avisando você em cada limite que você está executando baixo, quase fora ou todos fora de restaurar poções. Eles serão exibidos independentemente do que estiver sendo exibido no slot consumível.
+$iEquip_MCM_pot_txt_showConsumedNotifications	Mostrar mensagens de notificação quando você consumir uma poção ou outro item consumível. Por exemplo:\n\n`Poção Fraca de Saúde consumida`
+$iEquip_MCM_pot_txt_showNoPotionsNotifications	Mostre mensagens de notificação quando você não tiver nenhum tipo de poção necessária em seu inventário. Por exemplo:\n\n`Você não parece ter mais nenhuma poção de resistência adequada`
+$iEquip_MCM_pot_txt_showEffectActiveNotifications	Mostrar mensagens de notificação quando os mesmos efeitos de uma poção anterior ainda não tiverem passado. Por exemplo:\n\n`Os efeitos da sua poção Fortificar Saúde anterior ainda não acabaram`
+$iEquip_MCM_pot_txt_showStatFullNotifications	Mostrar mensagens de notificação quando a estatística de destino estiver cheia. Por exemplo:\n\n`Você está com saúde cheia` ou 'Não há necessidade de Restaurar Rápido Magicka'
+$iEquip_MCM_pot_txt_enblQuickRestore	Restaurar Rápido é um recurso avançado com reconhecimento de situação, que oferece a capacidade de restaurar e/ou aumentar rapidamente todas as três estatísticas de uma vez com base em várias variáveis. Ativar `Sempre Buff Rápido` junto com sua escolha preferida de buffs pode, dependendo da situação e suas configurações abaixo, consumir um grande número de poções com um clique completo em Combate!
+$iEquip_MCM_pot_txt_enblQuickheal	'Restaurar Rápido' irá procurar a melhor maneira de restaurar ou melhorar sua saúde
+$iEquip_MCM_pot_txt_enblQuickMagicka	'Restaurar Rápido' irá procurar a melhor maneira de restaurar ou melhorar sua Magicka
+$iEquip_MCM_pot_txt_enblQuickStamina	'Restaurar Rápido' irá procurar a melhor maneira de restaurar ou melhorar sua resistência
+$iEquip_MCM_pot_txt_quickBuff	Quando habilitado, com base em suas configurações abaixo, Restaurar Rápido irá procurar por poções de Fortificar e/ou Taxa de Regeneração para melhorar cada estatística habilitada. Além disso, você também pode optar por consumir poções de resistência e poções para fortalecer habilidades de combate e magia.
+$iEquip_MCM_pot_txt_quickBuffControl	Sempre Buff Rápido - Restaurar Rápido irá restaurar todas as estatísticas ativadas conforme necessário e, em seguida, continuará a aumentar cada um por vez\nBuff Rápido no segundo toque - Na primeira vez que você ativar Restaurar Rápido, ele restaurará todas as estatísticas ativadas conforme necessário. Ativar uma segunda vez dentro do período do segundo toque especificado, em vez disso, aumentará cada estatística por vez\nSegundo Toque em Combate - Sempre Buff Rápido se aplica quando não estiver em combate, Buff Rápido no segundo toque se aplica quando em combate
+$iEquip_MCM_pot_txt_quickBuffDelay	Defina o período de tempo em segundos após uma ativação do 'Restaurar Rápido', durante a qual, se você pressionar triplo novamente a tecla consumível. O 'Buff Rápido' será ativado
+$iEquip_MCM_pot_txt_quickBuffFortify	Com este Buff Rápido habilitado irá selecionar e consumir poções para fortalecer as estatísticas selecionadas acima. As poções serão consumidas de acordo com a configuração "Se o efeito estiver ativo" à esquerda.
+$iEquip_MCM_pot_txt_quickBuffRegen	Com este Buff Rápido habilitado irá selecionar e consumir poções de taxa de regeneração para melhorar as estatísticas selecionadas acima. As poções serão consumidas de acordo com a configuração "Se o efeito estiver ativo" à esquerda.
+$iEquip_MCM_pot_txt_quickBuffResistances	Com este Buff Rápidp habilitado irá selecionar e consumir poções de fogo, gelo, magia, veneno e resistência ao choque dependendo de suas seleções abaixo. As poções serão consumidas de acordo com a configuração "Se o efeito estiver ativo" à esquerda.
+$iEquip_MCM_pot_txt_quickBuffCombatSkills	Com este Buff Rápido habilitado, irá selecionar e consumir poções para fortalecer cada habilidade de combate dependendo de suas seleções abaixo. As poções serão consumidas de acordo com a configuração "Se o efeito estiver ativo" à esquerda.
+$iEquip_MCM_pot_txt_quickBuffMagicSkills	Com este Buff Rápido habilitado irá selecionar e consumir poções para fortificar cada escola de magia dependendo de suas seleções abaixo. As poções serão consumidas de acordo com a configuração "Se o efeito estiver ativo" à esquerda.
 
 NOTE FOR TRANSLATORS - The {} in the following string will insert the effect name, for example "Choose whether or not QuickResist should consume potions of fire resistance"
-$iEquip_MCM_pot_txt_quickBuffIncl{}	Choose whether or not QuickBuff should consume potions of {}
-$iEquip_MCM_pot_txt_prefHealMag	With this enabled iEquip will look for a healing spell in either hand queue and equip it according to your preferences set below. If disabled QuickHeal will look for and consume a suitable healing potion. 
-$iEquip_MCM_pot_txt_useFallback	Allow QuickHeal to look for an alternative healing method if your first choice method cannot be found (ie potions instead of healing spells, and vice versa)
-$iEquip_MCM_pot_txt_alwysEqpSpll	Decide whether you would like the healing spell to be equipped in the hand it is found in, in a specific hand every time or dual casting
-$iEquip_MCM_pot_txt_prefHealMagIgnoreTHold	With this enabled QuickHeal will always equip the found spell, regardless of whether your health is below the threshold or not. This allows you to equip a spell in readiness if you know you are about to take damage.
-$iEquip_MCM_pot_txt_swtchBck	Enabling this will allow you to switch back to your previously equipped items by activating QuickRestore a second time after you have finished healing. Only applies if a healing spell has been equipped.  If a potion has been consumed this will do nothing.
-$iEquip_MCM_pot_txt_swtchBckRest	As well as switching back to your previous items QuickRestore will also find and consume a Restore Magicka potion to give you a quick boost to Magicka after using your healing spell
+$iEquip_MCM_pot_txt_quickBuffIncl{}	Escolha se Buff Rápido deve ou não consumir poções de {}
+$iEquip_MCM_pot_txt_prefHealMag	Com isso habilitado, o iEquip irá procurar por uma magia de cura em qualquer fila de mãos e equipá-lo de acordo com suas preferências definidas abaixo. Se desabilitado, Cura Rápida procurará e consumirá uma poção de cura adequada.
+$iEquip_MCM_pot_txt_useFallback	Permita que 'Cura Rápida' procure um método de cura alternativo se o seu método de primeira escolha não puder ser encontrado (ou seja, poções em vez de magias de cura e vice-versa)
+$iEquip_MCM_pot_txt_alwysEqpSpll	Decida se você gostaria que a magia de cura fosse equipado na mão em que ele é encontrado, em uma mão específica toda vez ou duplo lançamento
+$iEquip_MCM_pot_txt_prefHealMagIgnoreTHold	Com Cura Rápida ativado, sempre equipará a magia encontrada, independentemente de sua saúde estar abaixo do limite ou não. Isso permite que você equipar uma magia em prontidão se você sabe que está prestes a receber dano.
+$iEquip_MCM_pot_txt_swtchBck	Habilitar isso permitirá que você volte para seus itens equipados anteriormente, ativando o Restaurar Rápido uma segunda vez depois de terminar a cura. Aplica-se apenas se uma magia de cura foi equipado. Se uma poção foi consumida, isso não fará nada.
+$iEquip_MCM_pot_txt_swtchBckRest	Além de voltar aos itens anteriores, o 'Restaurar Rápido' também encontrará e consumirá uma poção Restaurar Magicka para dar um rápido impulso a Magicka depois de usar a magia de cura
 
-$iEquip_MCM_tch_opt_TorchNothing	Torch/Nothing
-$iEquip_MCM_tch_opt_TorchCycle	Torch/Cycle
-$iEquip_MCM_tch_opt_CycleLeft	Cycle left hand
-$iEquip_MCM_tch_lbl_quickLightOptions	QuickLight Options
-$iEquip_MCM_tch_lbl_quickLight	QuickLight Toggle Hotkey
-$iEquip_MCM_tch_lbl_quickLightPreferMagic	Prefer magic
-$iEquip_MCM_tch_lbl_quickLightUseMagicIfNoTorch	Use magic if no torches left
-$iEquip_MCM_tch_lbl_quickLightEquipRH	Also equip right hand
-$iEquip_MCM_tch_lbl_quickLightConsumePotion	Consume potion if low magicka
-$iEquip_MCM_tch_lbl_torchOptions	Torch Options
-$iEquip_MCM_tch_lbl_torchDropOptions	Drop Lit Torch Options
-$iEquip_MCM_tch_lbl_showTorchMeter	Show torch life meter
-$iEquip_MCM_tch_lbl_torchMeterCol	Torch meter fill colour
-$iEquip_MCM_tch_lbl_torchMeterFillDir	Torch meter fill direction
-$iEquip_MCM_tch_lbl_torchDuration	Torches burn for
-$iEquip_MCM_tch_lbl_finiteTorchLife	Finite torch life
-$iEquip_MCM_tch_lbl_torchRadius	Torch light radius
-$iEquip_MCM_tch_lbl_torchesFade	Fade torch light
-$iEquip_MCM_tch_lbl_reequipTorch	Auto re-equip torch
-$iEquip_MCM_tch_lbl_realisticEquip	Realistic re-equip
-$iEquip_MCM_tch_lbl_realisticEquipDelay	Re-equip delay
-$iEquip_MCM_tch_lbl_dropLitTorches	Drop lit torches
-$iEquip_MCM_tch_lbl_dropLitTorchBehavior	When dropping torch
+$iEquip_MCM_tch_opt_TorchNothing	Tocha/Nada
+$iEquip_MCM_tch_opt_TorchCycle	Tocha/Ciclo
+$iEquip_MCM_tch_opt_CycleLeft	Ciclo da mão esquerda
+$iEquip_MCM_tch_lbl_quickLightOptions	Opções Luz Rápida
+$iEquip_MCM_tch_lbl_quickLight	Alternar Hotkey Luz Rápida
+$iEquip_MCM_tch_lbl_quickLightPreferMagic	Preferir Magia
+$iEquip_MCM_tch_lbl_quickLightUseMagicIfNoTorch	Use magia se não houver tochas
+$iEquip_MCM_tch_lbl_quickLightEquipRH	Também equipar a mão direita
+$iEquip_MCM_tch_lbl_quickLightConsumePotion	Consuma poção se magicka baixa
+$iEquip_MCM_tch_lbl_torchOptions	Opções de Tocha
+$iEquip_MCM_tch_lbl_torchDropOptions	Opções de soltar tocha acesa
+$iEquip_MCM_tch_lbl_showTorchMeter	Mostrar medidor de vida da tocha
+$iEquip_MCM_tch_lbl_torchMeterCol	Cor do preenchimento do medidor da tocha
+$iEquip_MCM_tch_lbl_torchMeterFillDir	Sentido de preenchimento do medidor de tocha
+$iEquip_MCM_tch_lbl_torchDuration	Tochas queimam por
+$iEquip_MCM_tch_lbl_finiteTorchLife	Vida da tocha finita
+$iEquip_MCM_tch_lbl_torchRadius	Raio de luz da tocha
+$iEquip_MCM_tch_lbl_torchesFade	Desvanece-se a luz da tocha
+$iEquip_MCM_tch_lbl_reequipTorch	Auto reequipar a tocha
+$iEquip_MCM_tch_lbl_realisticEquip	Reequipar Realista
+$iEquip_MCM_tch_lbl_realisticEquipDelay	Tempo de atraso ao Re-equipar
+$iEquip_MCM_tch_lbl_dropLitTorches	Soltar tochas acesas
+$iEquip_MCM_tch_lbl_dropLitTorchBehavior	Quando deixar cair a tocha
 $iEquip_MCM_tch_lbl_realisticTorches	Realistic Torches
-$iEquip_MCM_tch_txt_showTorchMeter	When you equip a torch a meter will show in the left slot displaying the remaining torch life
-$iEquip_MCM_tch_txt_torchMeterCol	Set the fill colour for the torch meter
-$iEquip_MCM_tch_txt_torchMeterFillDir	Set the fill direction for the torch meter
-$iEquip_MCM_tch_txt_setTorchDuration	The vanilla torch has a duration of four minutes, however quite often other mods adjust this to values which make the torches almost ever-lasting.  This allows you to reduce how long each torch will burn for.
-$iEquip_MCM_tch_txt_finiteTorchLife	This removes the vanilla never-ending torch exploit whereby you could simply unequip and re-equip the same torch to reset the torch timer.  With this enabled torches will always run out when the timer expires, no matter how many times you unequip and re-equip them.  When the timer runs out one torch is removed from your inventory, and the timer resets ready for the next one.
-$iEquip_MCM_tch_txt_setTorchRadius	This allows you to adjust the light radius for equippable torches. This will affect all carried torches, including those carried by NPCs. It does not affect any static torches, mod-added torches, equippable candles or lanterns.  Changes will be applied to the player's torch immediately, NPC torches will update the next time they are equipped. The reducing light radius during burnout, if enabled, is also calculated from this value.
-$iEquip_MCM_tch_txt_torchesFade	As the torch timer runs out the light given off by your torch will begin to fade
-$iEquip_MCM_tch_txt_reequipTorch	When your current torch runs out, if you have another one in your inventory, your next torch will be equipped automatically
-$iEquip_MCM_tch_txt_realisticEquip	When equipping the next torch there will be a short, immersive delay as you fumble for it in the dark
-$iEquip_MCM_tch_txt_quickLightHotKey	Assigning a hotkey here allows you to then single tap to equip either a torch or the Candlelight spell, and tap again to switch back to your previously equipped item. Whether you choose to prefer magic or not, if you don't have a torch but you do know Candlelight then the spell will be equipped instead.\nDouble tapping this key whilst you have a torch equipped allows you to drop a lit torch.
-$iEquip_MCM_tch_txt_quickLightPreferMagic	Prefer to equip the Candlelight spell rather than a torch.  If you don't have enough magicka to cast the spell then you can choose below to consume a Restore Magicka potion first if you have one. If you don't have a potion, or choose not to consume, but you do have a torch then the torch will be equipped instead of the spell.
-$iEquip_MCM_tch_txt_quickLightUseMagicIfNoTorch	With this enabled if you haven't opted to Prefer Magic but you have no torches left when you call QuickLight, then if you know the Candlelight spell it will be equipped this time instead of a torch.
-$iEquip_MCM_tch_txt_quickLightEquipRH	If you equip a torch or spell using the QuickLight hotkey, and you currently have a 2H or ranged weapon equipped, iEquip will also scan your right hand queue for the next available 1H item and equip it at the same time as it equips the torch in your left hand.  Using QuickLight again will still switch back to whichever 2H or ranged weapon you previously had equipped.
-$iEquip_MCM_tch_txt_quickLightConsumePotion	iEquip will check you have enough magicka to cast Candlelight before equipping it.  If not, then this will automatically select and consume a restore magicka potion first.
-$iEquip_MCM_tch_txt_dropLitTorches	With a torch equipped double tap your left hotkey to drop the current lit torch.  If you enable the torch toggle hotkey then you can also double tap it to drop a torch.
-$iEquip_MCM_tch_txt_dropLitTorchBehavior	Choose what happens with your left hand after dropping the torch.  Do Nothing - Left hand remains empty.  Torch/Nothing - Equip another torch if you have one, otherwise Do Nothing.  Torch/Cycle - Equip another torch if you have one, otherwise cycle left slot forwards. Cycle - Cycle to the next item in the left queue.  QuickShield - Equip a shield or ward, based on your QuickShield preferences.
-$iEquip_MCM_tch_txt_realisticTorches	Realistic Torches has been detected in your load order.  Now if you pick up a burnt out torch from iEquip it will be replaced in your inventory with one of Realistic Torches re-craftable Burnt Out Torch misc items.
-$iEquip_MCM_tch_txt_noRealisticTorches	For an even more immersive torch experience we highly recommend installing Realistic Torches by simsim899.  This mod adds the possibility of your torch being extinguished in the rain, blown out by wind or shouting, sound effects, re-craftable burnt out torches and more.
+$iEquip_MCM_tch_txt_showTorchMeter	Quando você equipar uma tocha, um medidor será exibido no slot esquerdo, exibindo a vida útil restante da tocha
+$iEquip_MCM_tch_txt_torchMeterCol	Defina a cor de preenchimento para o medidor da tocha
+$iEquip_MCM_tch_txt_torchMeterFillDir	Defina a direção de preenchimento do medidor da tocha
+$iEquip_MCM_tch_txt_setTorchDuration	A tocha de vanilla tem uma duração de quatro minutos, no entanto, muitas vezes outros mods ajustam isso a valores que tornam as tochas quase duradouras. Isso permite reduzir o tempo de duração de cada tocha.
+$iEquip_MCM_tch_txt_finiteTorchLife	Isso remove a exploração da tocha sem fim da vanilla onde você pode simplesmente desequipar e reequipar a mesma tocha para reiniciar o temporizador da tocha. Com isso, as tochas sempre acabarão quando o temporizador expirar, não importa quantas vezes você desequipar e reequipá-las. Quando o tempo se esgota, uma tocha é removida do seu inventário e o temporizador é reiniciado para a próxima.
+$iEquip_MCM_tch_txt_setTorchRadius	Isso permite que você ajuste o raio da luz para tochas equipáveis. Isso afetará todas as tochas carregadas, incluindo aquelas carregadas pelos NPCs. Não afeta tochas estáticas, tochas modificadas, velas equipáveis ou lanternas. As alterações serão aplicadas à tocha do jogador imediatamente, as tochas NPC serão atualizadas na próxima vez que estiverem equipadas. O raio de luz redutora durante o esgotamento, se ativado, também é calculado a partir desse valor.
+$iEquip_MCM_tch_txt_torchesFade	À medida que o tempo da tocha se esgota, a luz emitida pela sua tocha começa a desbotar
+$iEquip_MCM_tch_txt_reequipTorch	Quando sua tocha atual acabar, se você tiver outra em seu inventário, sua próxima tocha será equipada automaticamente
+$iEquip_MCM_tch_txt_realisticEquip	Ao equipar a próxima tocha, haverá um curto e imersivo atraso enquanto você procura por ela no escuro
+$iEquip_MCM_tch_txt_quickLightHotKey	A atribuição de uma tecla de atalho aqui permite que você toque uma única vez para equipar uma tocha ou a magia Luz de Velas e toque novamente para voltar ao seu item anteriormente equipado. Se você preferir magia ou não, se você não tiver uma tocha, mas você tem Luz de Velas então a magia será equipado.\nToque Duplo nesta tecla enquanto você tiver uma tocha equipada permite que você derrube uma tocha acesa.
+$iEquip_MCM_tch_txt_quickLightPreferMagic	Prefira equipar a magia Luz de Vela em vez de uma tocha. Se você não tem magicka suficiente para conjurar a magia, então você pode escolher abaixo para consumir uma poção Restaurar Magicka primeiro se você tiver uma. Se você não tem uma poção, ou escolhe não consumir, mas você tem uma tocha, então a tocha será equipada ao invés da magia.
+$iEquip_MCM_tch_txt_quickLightUseMagicIfNoTorch	Com isto ativado, se você não tiver optado por 'Preferir Magia', mas não tiver mais tochas quando ligar para 'Luz Rápida', então, se você conhecer a magia Luz de Velas, ele será equipado desta vez, em vez de uma tocha.
+$iEquip_MCM_tch_txt_quickLightEquipRH	Se você equipar uma tocha ou magia usando a tecla de atalho 'Luz Rápida', e você atualmente tem uma arma de Duas-Mãos ou de longo alcance equipada, o iEquip também escaneará sua fila de mão direita para o próximo item de Uma-mão disponível e equipará ao mesmo tempo que equipa a tocha na mão esquerda. Usar o 'Luz Rápida' novamente irá voltar para arma Duas-Mãos ou de longo alcance que você tinha equipado.
+$iEquip_MCM_tch_txt_quickLightConsumePotion	iEquip irá verificar se você tem magicka suficiente para conjurar Luz de Velas antes de equipá-lo. Se não, então isso selecionará e consumirá automaticamente uma poção de magicka de restauração primeiro.
+$iEquip_MCM_tch_txt_dropLitTorches	Com uma tocha equipada, toque duas vezes na tecla de atalho esquerda para soltar a tocha acesa. Se você habilitar a tecla de atalho da tocha, você também pode tocar duas vezes para soltar uma tocha.
+$iEquip_MCM_tch_txt_dropLitTorchBehavior	Escolha o que acontece com a mão esquerda depois de largar a tocha. Não faça nada - a mão esquerda permanece vazia. Tocha/Nada - Equipe outra tocha se você tiver uma, caso contrário, não faça nada. Tocha/Ciclo - Equipe outra tocha se você tiver uma, caso contrário, avance ciclo do slot esquerdo. Ciclo - Volta para o próximo item na fila da esquerda. Escudo Rápido - Equipe um escudo ou proteção, baseado nas suas preferências do Escudo Rápido.
+$iEquip_MCM_tch_txt_realisticTorches	Realistic Torches foi detectado na sua ordem de carga. Agora, se você pegar uma tocha queimada do iEquip, ela será substituída em seu inventário por um dos itens diversos Tocha Queimada reutilizáveis Realistic Torches.
+$iEquip_MCM_tch_txt_noRealisticTorches	Para uma experiência de tocha ainda mais imersiva, recomendamos a instalação de Realistic Torches de simsim899. Este mod adiciona a possibilidade de sua tocha ser extinta na chuva, soprada pelo vento ou gritos, efeitos sonoros, tochas queimadas reutilizáveis e muito mais.
 
-$iEquip_MCM_ui_degrees	degrees
+$iEquip_MCM_ui_degrees	graus
 $iEquip_MCM_ui_pixels	px
-$iEquip_MCM_ui_opt_NoBg	No background
-$iEquip_MCM_ui_opt_SqBBg	Square with border
-$iEquip_MCM_ui_opt_SqNoBBg	Square without border
-$iEquip_MCM_ui_opt_RoBBg	Round with border
-$iEquip_MCM_ui_opt_RoNoBBg	Round without border
-$iEquip_MCM_ui_opt_RoFade	Round with fade
-$iEquip_MCM_ui_opt_Dialogue	Dialogue style
+$iEquip_MCM_ui_opt_NoBg	Sem segundo plano
+$iEquip_MCM_ui_opt_SqBBg	Quadrado com borda
+$iEquip_MCM_ui_opt_SqNoBBg	Quadrado sem borda
+$iEquip_MCM_ui_opt_RoBBg	Rodada com borda
+$iEquip_MCM_ui_opt_RoNoBBg	Rodada sem borda
+$iEquip_MCM_ui_opt_RoFade	Rodada com desvanece-se
+$iEquip_MCM_ui_opt_Dialogue	Estilo de diálogo
 $iEquip_MCM_ui_opt_DarkSouls	Dark Souls
 $iEquip_MCM_ui_opt_DarkSoulsSimple	Dark Souls (Simple)
-$iEquip_MCM_ui_opt_Slow	Slow
+$iEquip_MCM_ui_opt_Slow	Devagar
 $iEquip_MCM_ui_opt_Normal	Normal
-$iEquip_MCM_ui_opt_Fast	Fast
-$iEquip_MCM_ui_opt_CycleSlot	Cycle slot
-$iEquip_MCM_ui_opt_ShowName	Show name
-$iEquip_MCM_ui_opt_tmpLvlTxt0	Don't show
-$iEquip_MCM_ui_opt_tmpLvlTxt1	Iron Sword (Fine)
-$iEquip_MCM_ui_opt_tmpLvlTxt2	Iron Sword (Fine, 60%)
-$iEquip_MCM_ui_opt_tmpLvlTxt3	Iron Sword - Fine
-$iEquip_MCM_ui_opt_tmpLvlTxt4	Iron Sword - Fine (60%)
-$iEquip_MCM_ui_opt_tmpLvlTxt5	Iron Sword - Fine, 60%
-$iEquip_MCM_ui_opt_tmpLvlTxt6	Iron Sword, Fine
-$iEquip_MCM_ui_opt_tmpLvlTxt7	Iron Sword, Fine (60%)
-$iEquip_MCM_ui_opt_tmpLvlTxt8	Iron Sword, Fine - 60%
-$iEquip_MCM_ui_opt_tmpLvlTxt9	Fine Iron Sword
-$iEquip_MCM_ui_opt_tmpLvlTxt10	Fine Iron Sword (60%)
-$iEquip_MCM_ui_opt_tmpLvlTxt11	Fine Iron Sword, 60%
-$iEquip_MCM_ui_opt_tmpLvlTxt12	Fine Iron Sword - 60%
-$iEquip_MCM_ui_opt_tmpTierStyle1	Uniform Dots
-$iEquip_MCM_ui_opt_tmpTierStyle2	Increasing Dots
-$iEquip_MCM_ui_opt_tmpTierStyle3	Diamonds
-$iEquip_MCM_ui_opt_tmpTierStyle4	Stars
-$iEquip_MCM_ui_opt_tmpTierStyle5	Hammers
-$iEquip_MCM_ui_opt_tmpTierStyle6	Anvils
-$iEquip_MCM_ui_opt_tmpTierStyle7	Asterisks
-$iEquip_MCM_ui_opt_tmpTierStyle8	Carets (^)
-$iEquip_MCM_ui_opt_noColor	Don't colour
-$iEquip_MCM_ui_opt_colorLower	Unfaded section only
-$iEquip_MCM_ui_opt_colorFull	Full icon
+$iEquip_MCM_ui_opt_Fast	Rapidez
+$iEquip_MCM_ui_opt_CycleSlot	Slot de ciclo
+$iEquip_MCM_ui_opt_ShowName	Mostrar nome
+$iEquip_MCM_ui_opt_tmpLvlTxt0	Não mostrar
+$iEquip_MCM_ui_opt_tmpLvlTxt1	Espada de Ferro (Boa)
+$iEquip_MCM_ui_opt_tmpLvlTxt2	Espada de Ferro (Boa, 60%)
+$iEquip_MCM_ui_opt_tmpLvlTxt3	Espada de Ferro - Boa
+$iEquip_MCM_ui_opt_tmpLvlTxt4	Espada de Ferro - Boa (60%)
+$iEquip_MCM_ui_opt_tmpLvlTxt5	Espada de Ferro - Boa, 60%
+$iEquip_MCM_ui_opt_tmpLvlTxt6	Espada de Ferro, Boa
+$iEquip_MCM_ui_opt_tmpLvlTxt7	Espada de Ferro, Boa (60%)
+$iEquip_MCM_ui_opt_tmpLvlTxt8	Espada de Ferro, Boa - 60%
+$iEquip_MCM_ui_opt_tmpLvlTxt9	Espada de Ferro Boa
+$iEquip_MCM_ui_opt_tmpLvlTxt10	Espada de Ferro Boa (60%)
+$iEquip_MCM_ui_opt_tmpLvlTxt11	Espada de Ferro Boa, 60%
+$iEquip_MCM_ui_opt_tmpLvlTxt12	Espada de Ferro Boa - 60%
+$iEquip_MCM_ui_opt_tmpTierStyle1	Pontos Uniformes
+$iEquip_MCM_ui_opt_tmpTierStyle2	Pontos Crescentes
+$iEquip_MCM_ui_opt_tmpTierStyle3	Diamantes
+$iEquip_MCM_ui_opt_tmpTierStyle4	Estrelas
+$iEquip_MCM_ui_opt_tmpTierStyle5	Martelos
+$iEquip_MCM_ui_opt_tmpTierStyle6	Bigornas
+$iEquip_MCM_ui_opt_tmpTierStyle7	Asteriscos
+$iEquip_MCM_ui_opt_tmpTierStyle8	Circunflexo (^)
+$iEquip_MCM_ui_opt_noColor	Não cor
+$iEquip_MCM_ui_opt_colorLower	Seção não-desvanece apenas
+$iEquip_MCM_ui_opt_colorFull	Ícone completo
 $iEquip_MCM_ui_opt_tmpLvl4020	40% / 20%
 $iEquip_MCM_ui_opt_tmpLvl3020	30% / 20%
 $iEquip_MCM_ui_opt_tmpLvl3010	30% / 10%
 $iEquip_MCM_ui_opt_tmpLvl2010	20% / 10%
-$iEquip_MCM_ui_lbl_temperedItemOpts	Tempered Item Options
-$iEquip_MCM_ui_lbl_tmpLvlTxt	Name style
-$iEquip_MCM_ui_lbl_tempInfoBelow	Temper level below item name
-$iEquip_MCM_ui_lbl_altTempLvlNames	Use custom temper level names
-$iEquip_MCM_ui_lbl_tempTierDisplay	Show temper tier indicators
-$iEquip_MCM_ui_lbl_tempTierStyle	Indicator style
-$iEquip_MCM_ui_lbl_showFadedTiers	Show all tiers
-$iEquip_MCM_ui_lbl_tempLvlFade	Fade icon as item degrades
-$iEquip_MCM_ui_lbl_tempLvlColorIcon	Coloured icons
-$iEquip_MCM_ui_lbl_tempLvlThresholds	Change colour at
-$iEquip_MCM_ui_lbl_iconBgOpts	Misc Icon & Background Options
-$iEquip_MCM_ui_lbl_fadeLeftIco2h	Fade left icon
-$iEquip_MCM_ui_lbl_leftIcoFade	Left icon fade
-$iEquip_MCM_ui_lbl_bckgroundStyle	Background style
-$iEquip_MCM_ui_lbl_dontFadeBackgrounds	Don't fade backgrounds
-$iEquip_MCM_ui_lbl_shoutSlotOpts	Shout/Power Icon Options
-$iEquip_MCM_ui_lbl_shoutCooldown	Shout/Power cooldown display
-$iEquip_MCM_ui_lbl_txtShadOpts	Text Drop Shadow Options
-$iEquip_MCM_ui_lbl_dropShadow	Show drop shadow on text
-$iEquip_MCM_ui_lbl_dropShadowAlpha	- Opacity
-$iEquip_MCM_ui_lbl_dropShadowAngle	- Angle
-$iEquip_MCM_ui_lbl_dropShadowBlur	- Blur
-$iEquip_MCM_ui_lbl_dropShadowDistance	- Distance
-$iEquip_MCM_ui_lbl_dropShadowStrength	- Strength
-$iEquip_MCM_ui_lbl_fadeoutopts	Fade Out Options
-$iEquip_MCM_ui_lbl_enblWdgetFade	Enable widget fadeout
-$iEquip_MCM_ui_lbl_wdgetFadeDelay	Widget fadeout delay
-$iEquip_MCM_ui_lbl_wdgetFadeSpeed	Widget fadeout animation speed
-$iEquip_MCM_ui_lbl_wdgetFadeDur	Widget fadeout duration
-$iEquip_MCM_ui_lbl_visWhenWeapDrawn	Always visible when weapons drawn
-$iEquip_MCM_ui_lbl_enblNameFade	Enable name fadeouts
-$iEquip_MCM_ui_lbl_leftRightNameFade	Fadeout left & right item names
-$iEquip_MCM_ui_lbl_shoutNameFade	Fadeout shout/power name
-$iEquip_MCM_ui_lbl_consPoisNameFade	Fadeout consumable & poison names
-$iEquip_MCM_ui_lbl_mainNameFadeDelay	Main name fadeout delay
-$iEquip_MCM_ui_lbl_poisonNameFadeDelay	Poison name fadeout delay
-$iEquip_MCM_ui_lbl_preselectNameFadeDelay	Preselect name fadeout delay
-$iEquip_MCM_ui_lbl_nameFadeSpeed	Name fadeout animation speed
-$iEquip_MCM_ui_lbl_nameFadeDur	Name fadeout duration
-$iEquip_MCM_ui_lbl_firstPressNameHidn	First press when name hidden
-$iEquip_MCM_ui_txt_tmpLvlTxt	Choose if and how you would like the temper level name and numerical percentage value to be displayed in the item names
-$iEquip_MCM_ui_txt_tempInfoBelow	Show the temper level name and/or numerical value on a separate line below the item name
-$iEquip_MCM_ui_txt_altTempLvlNames	Set your own custom temper level names. Disabling this will revert them back to the default level names.
-$iEquip_MCM_ui_txt_damageLvlName{}{}	Set your own description for items damaged below {}%. This only applies with mods such as Item Durability which allow items to degrade below Untempered, and only affects how the item name is displayed in the iEquip widget.\nDefault: {}
-$iEquip_MCM_ui_txt_tempLvlName_Honed{}	Set your own description for items which are tempered but not by enough for them to be classed as {}. This will only be the case if you use mods which allow items to degrade or which apply random temper values to new items. If you'd prefer not to display a suffix for items in this range simply delete the current level name.
-$iEquip_MCM_ui_txt_tempLvlName{}	Set your own custom name for this temper level. This only affects how the item name is displayed in the iEquip widget.\nDefault: {}
-$iEquip_MCM_ui_txt_tempTierDisplay	Displays the current temper tier on a scale of 1-6 as a series of symbols (dots, diamonds, stars, etc) giving an easy 'at a glance' indication of the weapon grade rather than having to read the item name.  Also displays during cycling, and is hidden for any untempered items or those which cannot be tempered. Updates as weapon is improved or degrades.
-$iEquip_MCM_ui_txt_tempTierStyle	Choose the symbol style for the temper tier indicators
-$iEquip_MCM_ui_txt_showFadedTiers	If enabled, all six tiers in the scale are shown, with the tiers higher than the current item grade faded
-$iEquip_MCM_ui_txt_tempLvlFade	If you are using an item tempering and degradation mod such as Loot & Degradation, then with this setting enabled, as your weapons or shields degrade the icon will begin to fade out from top to bottom, representing the current temper level percentage.  The degraded section is not completely faded out, so you can still see the complete icon. Also supports weapon scaling with Signature Equipment.
-$iEquip_MCM_ui_txt_tempLvlColorIcon	Allows you to choose whether or not to colour the icons as items become badly degraded within the current temper level.  Additionally you can choose whether to colour just the unfaded lower section of the icon, leaving the faded section white, or to colour the full icon including the faded section.
-$iEquip_MCM_ui_txt_tempLvlThresholds	Choose at what points within the current temper level you would like the icon to turn amber and then red.
-$iEquip_MCM_ui_txt_fadeLeftIco2h	If enabled the left hand icon will be faded when a 2H weapon is equipped in the right hand, or the player is mounted and can only wield in the right hand\nDefault: Enabled
-$iEquip_MCM_ui_txt_leftIcoFade	Choose how much you would like the left icon faded out by.\nDefault: 70%
-$iEquip_MCM_ui_txt_bckgroundStyle	Choose the style for your slot backgrounds.\nBackgrounds can be scaled, rotated and faded in Edit Mode\nDefault: No Background
-$iEquip_MCM_ui_txt_dontFadeBackgrounds	Enabling this will stop the backgrounds from being faded by other settings, for example when using your last potion or poison, or equipping a 2H weapon. This is mainly of use when using layouts which repurpose certain backgrounds, such as Gather Round.
-$iEquip_MCM_ui_txt_shoutCooldown	The icon in the shout slot will be faded out and 'refill' from bottom to top as the current shout/power cooldown timer runs down.  This allows you to completely disable the compass and vanilla shout meter with iHUD.
-$iEquip_MCM_ui_txt_dropShadow	This allows you to disable the drop shadow effect on the text elements in the widget\nDefault: Enabled
-$iEquip_MCM_ui_txt_dropShadowAlpha	Adjust the opacity (alpha) of the drop shadow effect on the text elements in the widget
-$iEquip_MCM_ui_txt_dropShadowAngle	Adjust the offset angle of the drop shadow effect on the text elements in the widget
-$iEquip_MCM_ui_txt_dropShadowBlur	Adjust the blur (spread) of the drop shadow effect on the text elements in the widget
-$iEquip_MCM_ui_txt_dropShadowDistance	Adjust the offset distance of the drop shadow effect on the text elements in the widget
-$iEquip_MCM_ui_txt_dropShadowStrength	Adjust the strength (contrast) of the drop shadow effect on the text elements in the widget
-$iEquip_MCM_ui_txt_enblWdgetFade	Enables widget fadeout after a period of inactivity.  Once enabled additional fadeout options will become available to you\nDefault is Disabled
-$iEquip_MCM_ui_txt_wdgetFadeDelay	The time in seconds of inactivity after which the iEquip widget will fade out\nSetting this to zero will disable the fadeout\nDefault delay = 30 seconds
-$iEquip_MCM_ui_txt_wdgetFadeDur	The duration in seconds of the widget fade out animation\nSetting this to zero will make the widget hide instantly after the delays set above\nDefault duration = 1.5 seconds
-$iEquip_MCM_ui_txt_visWhenWeapDrawn	Ensures that the widget will always be visible when you have your weapons drawn.  If the widget is currently faded out when you draw your weapons it will automatically be re-shown\nDefault is Enabled
-$iEquip_MCM_ui_txt_enblNameFade	Enables fadeout of item names after cycling.  Once enabled additional fadeout options will become available to you\nDefault is Disabled
-$iEquip_MCM_ui_txt_leftRightNameFade	Left and right item names, poison names and preselected item names will fade out after cycling or equipping.  The fadeout delays for name, poison and preselect name are independent and can be adjusted below.
-$iEquip_MCM_ui_txt_shoutNameFade	Shout/power names will fade out after cycling or equipping.  The fadeout delay can be adjusted below.
-$iEquip_MCM_ui_txt_consPoisNameFade	Consumable and poison names will fade out after cycling.  The main name fadeout delay, shared with the left/right item names, controls when they fade out can be adjusted below.
-$iEquip_MCM_ui_txt_mainNameFadeDelay	The time in seconds after cycling the main slots after which the main item names text will fade out\nSetting this to zero will disable the fadeout\nDefault delay = 5.0 seconds
-$iEquip_MCM_ui_txt_poisonNameFadeDelay	The time in seconds after cycling the main slots after which the poison names text will fade out\nSetting this to zero will disable the fadeout\nDefault delay = 5.0 seconds
-$iEquip_MCM_ui_txt_preselectNameFadeDelay	The time in seconds after cycling the preselect slots after which the preselect item names text will fade out\nSetting this to zero will disable the fadeout\nDefault delay = 5.0 seconds
-$iEquip_MCM_ui_txt_nameFadeSpeed	The speed of the fadeout animation for the item name text\nDefault: Normal (1.5 seconds)
-$iEquip_MCM_ui_txt_nameFadeDur	The duration in seconds of the names fade out animation\nSetting this to zero will make the text hide instantly after the delays set above\nDefault duration = 1.5 seconds
+$iEquip_MCM_ui_lbl_temperedItemOpts	Opções de Item Temperado
+$iEquip_MCM_ui_lbl_tmpLvlTxt	Estilo de nome
+$iEquip_MCM_ui_lbl_tempInfoBelow	Nível de temperamento abaixo do nome do item
+$iEquip_MCM_ui_lbl_altTempLvlNames	Use nomes de níveis de temperamento personalizados
+$iEquip_MCM_ui_lbl_tempTierDisplay	Mostrar indicadores de nível de temperamento
+$iEquip_MCM_ui_lbl_tempTierStyle	Estilo de indicador
+$iEquip_MCM_ui_lbl_showFadedTiers	Mostrar todas as camadas
+$iEquip_MCM_ui_lbl_tempLvlFade	Ícone desvanece como item degrada
+$iEquip_MCM_ui_lbl_tempLvlColorIcon	Ícones coloridos
+$iEquip_MCM_ui_lbl_tempLvlThresholds	Mude a cor em
+$iEquip_MCM_ui_lbl_iconBgOpts	Ícone Diversos e Opções de Segundo Plano
+$iEquip_MCM_ui_lbl_fadeLeftIco2h	Ícone de esmaecimento para a esquerda
+$iEquip_MCM_ui_lbl_leftIcoFade	Ícone à esquerda desvanece
+$iEquip_MCM_ui_lbl_bckgroundStyle	Estilo de segundo plano
+$iEquip_MCM_ui_lbl_dontFadeBackgrounds	Não esmaecer fundos
+$iEquip_MCM_ui_lbl_shoutSlotOpts	Opções de Ícone Grito/Poder
+$iEquip_MCM_ui_lbl_shoutCooldown	Exibição de tempo de espera de Grito/Poder
+$iEquip_MCM_ui_lbl_txtShadOpts	Opções de Sombra de Texto
+$iEquip_MCM_ui_lbl_dropShadow	Mostrar sombra no texto
+$iEquip_MCM_ui_lbl_dropShadowAlpha	- Opacidade
+$iEquip_MCM_ui_lbl_dropShadowAngle	- Ângulo
+$iEquip_MCM_ui_lbl_dropShadowBlur	- Borrão
+$iEquip_MCM_ui_lbl_dropShadowDistance	- Distância
+$iEquip_MCM_ui_lbl_dropShadowStrength	- Força
+$iEquip_MCM_ui_lbl_fadeoutopts	Opções de Desvanecimento
+$iEquip_MCM_ui_lbl_enblWdgetFade	Ativar o desvanecimento do widget
+$iEquip_MCM_ui_lbl_wdgetFadeDelay	Atraso do desvanecimento de widget
+$iEquip_MCM_ui_lbl_wdgetFadeSpeed	Velocidade de animação de desvanecimento do Widget
+$iEquip_MCM_ui_lbl_wdgetFadeDur	Duração de desvanecimento widget
+$iEquip_MCM_ui_lbl_visWhenWeapDrawn	Sempre visível quando as armas são desenhadas
+$iEquip_MCM_ui_lbl_enblNameFade	Ativar desvanecimento de nome
+$iEquip_MCM_ui_lbl_leftRightNameFade	Desaparecer os nomes dos itens à esquerda e à direita
+$iEquip_MCM_ui_lbl_shoutNameFade	Desvanecimento do nome do grito/poder
+$iEquip_MCM_ui_lbl_consPoisNameFade	Desaparecer nomes de consumíveis e venenos
+$iEquip_MCM_ui_lbl_mainNameFadeDelay	Atraso do desvanecimento do nome principal
+$iEquip_MCM_ui_lbl_poisonNameFadeDelay	Atraso do desvanecimento do nome do veneno
+$iEquip_MCM_ui_lbl_preselectNameFadeDelay	Tempo de atraso de desvanecimento do nome de pré-seleção
+$iEquip_MCM_ui_lbl_nameFadeSpeed	Velocidade de animação do desvanecimento do nome
+$iEquip_MCM_ui_lbl_nameFadeDur	Duração do desvanecimento do nome
+$iEquip_MCM_ui_lbl_firstPressNameHidn	Primeiro pressione quando o nome estiver oculto
+$iEquip_MCM_ui_txt_tmpLvlTxt	Escolha se e como você gostaria que o nome do nível de temperamento e o valor percentual numérico fossem exibidos nos nomes dos itens
+$iEquip_MCM_ui_txt_tempInfoBelow	Mostrar o nome do nível de temperamento e/ou valor numérico em uma linha separada abaixo do nome do item
+$iEquip_MCM_ui_txt_altTempLvlNames	Defina seus próprios nomes de nível de temperamento personalizados. Desativar isso os reverterá para os nomes de nível padrão.
+$iEquip_MCM_ui_txt_damageLvlName{}{}	Defina sua própria descrição para itens danificados abaixo de {}%. Isso se aplica apenas a mods como Item Durability, que permite que os itens sejam degradados abaixo de Untempered e afeta apenas como o nome do item é exibido no widget iEquip.\nPadrão: {}
+$iEquip_MCM_ui_txt_tempLvlName_Honed{}	Defina sua própria descrição para itens que são moderados, mas não o suficiente para serem classificados como {}. Isso só será o caso se você usar mods que permitem que os itens se degradem ou que apliquem valores de temperamento aleatórios a novos itens. Se você preferir não exibir um sufixo para os itens neste intervalo, simplesmente exclua o nome do nível atual.
+$iEquip_MCM_ui_txt_tempLvlName{}	Defina seu próprio nome personalizado para este nível de temperamento. Isso afeta apenas como o nome do item é exibido no widget iEquip.\nPadrão: {}
+$iEquip_MCM_ui_txt_tempTierDisplay	Exibe o nível de temperamento atual em uma escala de 1-6, como uma série de símbolos (pontos, losangos, estrelas, etc.), fornecendo uma indicação rápida do grau da arma, em vez de ter que ler o nome do item. Também é exibido durante o ciclo e fica oculto para qualquer item não temperado ou que não possa ser temperado. Atualizações como arma são melhoradas ou degradas.
+$iEquip_MCM_ui_txt_tempTierStyle	Escolha o estilo de símbolo para os indicadores de nível de temperamento
+$iEquip_MCM_ui_txt_showFadedTiers	Se habilitado, todos os seis níveis da escala são mostrados, com os níveis mais altos do que o grau do item atual desbotado
+$iEquip_MCM_ui_txt_tempLvlFade	Se você estiver usando um item de temperamento e degradação, como Loot & Degradation, então com esta configuração habilitada, conforme suas armas ou escudos degradarem, o ícone começará a diminuir de cima para baixo, representando a porcentagem do nível de temperamento atual. A seção degradada não está completamente desbotada, então você ainda pode ver o ícone completo. Também suporta dimensionamento de armas com Signature Equipment.
+$iEquip_MCM_ui_txt_tempLvlColorIcon	Permite que você escolha se deve ou não colorir os ícones, pois os itens ficam muito degradados dentro do nível de temperamento atual. Além disso, você pode optar por colorir apenas a parte inferior do ícone, deixando a seção desbotada em branco ou para colorir o ícone completo, incluindo a seção desbotada.
+$iEquip_MCM_ui_txt_tempLvlThresholds	Escolha em que pontos do nível de temperamento atual você deseja que o ícone fique âmbar e depois vermelho.
+$iEquip_MCM_ui_txt_fadeLeftIco2h	Se habilitado, o ícone da mão esquerda ficará desbotado quando uma arma Duas-mõs for equipada na mão direita, ou o jogador estiver montado e só puder empunhar na mão direita\nPadrão: habilitado
+$iEquip_MCM_ui_txt_leftIcoFade	Escolha o quanto você gostaria que o ícone da esquerda desaparecesse.\nPadrão: 70%
+$iEquip_MCM_ui_txt_bckgroundStyle	Escolha o estilo para segundo plano de seu slot.\nSegundos planos podem ser dimensionados, girados e desbotados no Modo de Edição\nPadrão: Sem Segundo Plano
+$iEquip_MCM_ui_txt_dontFadeBackgrounds	Habilitar isso impedirá que os fundos sejam desbotados por outras configurações, por exemplo, ao usar sua última poção ou veneno, ou ao equipar uma arma Duas-mãos. Isso é útil principalmente ao usar layouts que reaproveitam determinados planos de fundo, como Gather Round.
+$iEquip_MCM_ui_txt_shoutCooldown	O ícone no slot de grito será apagado e "recarregado" de baixo para cima, à medida que o temporizador atual de tempo de espera de grito/poder se esgotar. Isso permite que você desative completamente a bússola e o medidor de grito de vanilla com o iHUD.
+$iEquip_MCM_ui_txt_dropShadow	Isso permite que você desabilite o efeito de sombreamento nos elementos de texto no widget\nPadrão: Ativado
+$iEquip_MCM_ui_txt_dropShadowAlpha	Ajusta a opacidade (alfa) do efeito de sombreamento nos elementos de texto no widget
+$iEquip_MCM_ui_txt_dropShadowAngle	Ajuste o ângulo de deslocamento do efeito de sombra projetada nos elementos de texto no widget
+$iEquip_MCM_ui_txt_dropShadowBlur	Ajuste o desfoque (propagação) do efeito de sombreamento nos elementos de texto no widget
+$iEquip_MCM_ui_txt_dropShadowDistance	Ajuste a distância de deslocamento do efeito de sombra projetada nos elementos de texto no widget
+$iEquip_MCM_ui_txt_dropShadowStrength	Ajuste a força (contraste) do efeito de sombra projetada nos elementos de texto no widget
+$iEquip_MCM_ui_txt_enblWdgetFade	Ativa o desaparecimento do widget após um período de inatividade. Uma vez ativada, as opções de desaparecimento adicionais ficarão disponíveis para você\nPadrão é Desativado
+$iEquip_MCM_ui_txt_wdgetFadeDelay	O tempo em segundos de inatividade após o qual o widget do iEquip desaparecerá\nSe definir isso como zero, o desvanecimento será desativado\nPadrão de atraso = 30 segundos
+$iEquip_MCM_ui_txt_wdgetFadeDur	A duração em segundos do widget desvanecer animação\nSe definir isso como zero, o widget se ocultará instantaneamente após os atrasos definidos acima\nPadrão de duração = 1.5 segundos
+$iEquip_MCM_ui_txt_visWhenWeapDrawn	Garante que o widget estará sempre visível quando você tiver suas armas desenhadas. Se o widget estiver desbotado quando você desenhar suas armas, ele será automaticamente mostrado novamente\nPadrão é Habilitado
+$iEquip_MCM_ui_txt_enblNameFade	Ativa o desaparecimento dos nomes dos itens após o ciclo. Uma vez ativada, as opções de desaparecimento adicionais ficarão disponíveis para você\nPadrão é Desativado
+$iEquip_MCM_ui_txt_leftRightNameFade	Nomes de itens à esquerda e à direita, nomes de veneno e nomes de itens pré-selecionados desaparecerão depois de rolar a lista ou equipar. Os atrasos de desaparecimento para nome, veneno e nome pré-selecionado são independentes e podem ser ajustados abaixo.
+$iEquip_MCM_ui_txt_shoutNameFade	Nomes de gritos/poderes irão desaparecer depois de rolar a lista ou equipar. O atraso do desaparecimento pode ser ajustado abaixo.
+$iEquip_MCM_ui_txt_consPoisNameFade	Os nomes de consumíveis e venenos desaparecerão após o ciclo. O nome principal de atraso de desaparecer, compartilhado com os nomes dos itens à esquerda/direita, controla quando eles desaparecem pode ser ajustado abaixo.
+$iEquip_MCM_ui_txt_mainNameFadeDelay	Tempo em segundos após o rolamento dos slots principais após o qual o texto dos nomes dos itens principais desaparecerá.\nDefinir isso para zero desabilitará o desaparecimento\nPadrão de atraso = 5.0 segundos
+$iEquip_MCM_ui_txt_poisonNameFadeDelay	Tempo em segundos após o rolamento dos slots principais após o qual o texto dos nomes de veneno desaparecerá\nDefinir isso para zero desabilitará o desaparecimento\nPadrão de atraso= 5.0 segundos
+$iEquip_MCM_ui_txt_preselectNameFadeDelay	Tempo em segundos após o rolamento dos slots de Pré-seleção após o qual o texto dos nomes dos itens de Pré-seleção desaparecerá\nDefinir isso para zero desabilitará o desaparecimento\nPadrão de atraso = 5.0 segundos
+$iEquip_MCM_ui_txt_nameFadeSpeed	A velocidade da animação de desaparecimento para o texto do nome do item\nPadrão: Normal (1.5 segundos)
+$iEquip_MCM_ui_txt_nameFadeDur	A duração em segundos dos nomes diminui a animação\nA definição de zero torna o texto oculto instantaneamente após os atrasos definidos acima\nPadrão de duração = 1.5 segundos
 
-$iEquip_MCM_edt_lbl_EMOptions	Edit Mode Options
-$iEquip_MCM_edt_lbl_EMKeys	Edit Mode Keys
-$iEquip_MCM_edt_lbl_chooseHtKey	Choose your hotkeys
-$iEquip_MCM_edt_lbl_nextElem	Next element
-$iEquip_MCM_edt_lbl_prevElem	Previous element
-$iEquip_MCM_edt_lbl_moveUp	Move up
-$iEquip_MCM_edt_lbl_moveDown	Move down
-$iEquip_MCM_edt_lbl_moveLeft	Move left
-$iEquip_MCM_edt_lbl_moveRight	Move right
-$iEquip_MCM_edt_lbl_sclUp	Scale up
-$iEquip_MCM_edt_lbl_sclDown	Scale down
-$iEquip_MCM_edt_lbl_rotate	Rotate
-$iEquip_MCM_edt_lbl_adjTransp	Adjust opacity
-$iEquip_MCM_edt_lbl_bringFrnt	Bring to front
-$iEquip_MCM_edt_lbl_setTxtAlCo	Set text alignment and colour
-$iEquip_MCM_edt_lbl_tglRulers	Toggle rulers
-$iEquip_MCM_edt_lbl_rstSelElem	Reset selected element
-$iEquip_MCM_edt_txt_slowTimeStr	iEquip Edit Mode runs with the game unpaused, so to avoid unneccessary death or injury while you set things up we apply a slow time effect. This slider lets you set how much time slows by in Edit Mode\nDefault is 100% or fully paused, at 0 time passes normally in Edit Mode
-$iEquip_MCM_edt_txt_chooseHtKey	Choose to use the recommended Edit Mode hotkeys or set your own
+$iEquip_MCM_edt_lbl_EMOptions	Opções do Modo de Edição
+$iEquip_MCM_edt_lbl_EMKeys	Editar teclas do modo
+$iEquip_MCM_edt_lbl_chooseHtKey	Escolha suas teclas de atalho
+$iEquip_MCM_edt_lbl_nextElem	Próximo elemento
+$iEquip_MCM_edt_lbl_prevElem	Elemento anterior
+$iEquip_MCM_edt_lbl_moveUp	Move para cima
+$iEquip_MCM_edt_lbl_moveDown	Mover para baixo
+$iEquip_MCM_edt_lbl_moveLeft	Mova para esquerda
+$iEquip_MCM_edt_lbl_moveRight	Mover para direita
+$iEquip_MCM_edt_lbl_sclUp	Escalar
+$iEquip_MCM_edt_lbl_sclDown	Diminuir gradualmente
+$iEquip_MCM_edt_lbl_rotate	Rodar
+$iEquip_MCM_edt_lbl_adjTransp	Ajustar a opacidade
+$iEquip_MCM_edt_lbl_bringFrnt	Traga para frente
+$iEquip_MCM_edt_lbl_setTxtAlCo	Definir o alinhamento do texto e cor
+$iEquip_MCM_edt_lbl_tglRulers	Alternar as réguas
+$iEquip_MCM_edt_lbl_rstSelElem	Redefinir elemento selecionado
+$iEquip_MCM_edt_txt_slowTimeStr	Modo de Edição iEquip é executado com o jogo sem pausa, então, para evitar a morte ou lesão desnecessária enquanto você configura as coisas, aplicamos um efeito de tempo lento. Este controle deslizante permite que você defina quanto tempo diminui no Modo de Edição\nO defeito é 100% ou totalmente pausado, quando o tempo 0 passa normalmente no Modo de Edição
+$iEquip_MCM_edt_txt_chooseHtKey	Opte por usar as teclas de atalho do Modo de Edição recomendadas ou defina as suas próprias
 
-$iEquip_MCM_lbl_Info	Information
-$iEquip_MCM_inf_lbl_versions	iEquip Version Information
-$iEquip_MCM_inf_lbl_version	iEquip version
-$iEquip_MCM_inf_lbl_versionMCM	iEquip MCM version
-$iEquip_MCM_inf_lbl_versioniEquipUtil	iEquipUtil version
+$iEquip_MCM_lbl_Info	Informações
+$iEquip_MCM_inf_lbl_versions	Informações da Versão iEquip
+$iEquip_MCM_inf_lbl_version	versão iEquip
+$iEquip_MCM_inf_lbl_versionMCM	versão iEquip MCM
+$iEquip_MCM_inf_lbl_versioniEquipUtil	versão iEquipUtil
 
-$iEquip_MCM_inf_lbl_core	Core Requirements
-$iEquip_MCM_inf_lbl_versionSKSE	SKSE version
-$iEquip_MCM_inf_lbl_versionJC	JContainers64 version
-$iEquip_MCM_inf_lbl_versionPO	powerofthree's Papyrus Extender version
-$iEquip_MCM_inf_lbl_versionMoreHUDIE	moreHUD Inventory Edition version
-$iEquip_MCM_inf_lbl_versionConsUtil	ConsoleUtilSSE version
+$iEquip_MCM_inf_lbl_core	Requisitos Básicos
+$iEquip_MCM_inf_lbl_versionSKSE	Versão SKSE
+$iEquip_MCM_inf_lbl_versionJC	versão JContainers64
+$iEquip_MCM_inf_lbl_versionPO	versão powerofthree's Papyrus Extender
+$iEquip_MCM_inf_lbl_versionMoreHUDIE	versão moreHUD Inventory Edition
+$iEquip_MCM_inf_lbl_versionConsUtil	Versão ConsoleUtilSSE
 
-$iEquip_MCM_inf_lbl_supportedMods	Supported Mods
+$iEquip_MCM_inf_lbl_supportedMods	Mods Suportados
 $iEquip_MCM_inf_lbl_ada	Adamant - A Perk Overhaul
 $iEquip_MCM_inf_lbl_aa	Animated Armory
 $iEquip_MCM_inf_lbl_arc	Arcane Archer Pack (CC)
@@ -1333,80 +1333,81 @@ $iEquip_MCM_inf_lbl_wf	Wards Functionalities Extended
 $iEquip_MCM_inf_lbl_ws	Wintersun - Faiths of Skyrim
 $iEquip_MCM_inf_lbl_zia	Zim's Immersive Artifacts
 
-$iEquip_MCM_inf_lbl_presets	MCM Profiles
-$iEquip_MCM_inf_lbl_PresetName	PresetName
-$iEquip_MCM_inf_lbl_savepreset	Save current MCM settings
-$iEquip_MCM_inf_lbl_updatepreset	Update an existing preset
-$iEquip_MCM_inf_lbl_loadpreset	Load MCM settings from preset
-$iEquip_MCM_inf_lbl_deletepreset	Delete MCM settings preset
-$iEquip_MCM_inf_lbl_dumpJcontainer	Save Queues To File
-$iEquip_MCM_inf_lbl_noLoad	Exit without loading a preset
-$iEquip_MCM_inf_lbl_noUpdate	Exit without updating a preset
-$iEquip_MCM_inf_lbl_noDelete	Exit without deleting anything
-$iEquip_MCM_inf_lbl_maintenance	Maintenance
-$iEquip_MCM_inf_lbl_rstLayout	Reset default iEquip layout
-$iEquip_MCM_inf_lbl_mcmColours	MCM Text Colours
-$iEquip_MCM_inf_lbl_textColour	Colour Scheme
-$iEquip_MCM_inf_opt_paperColours	For paper UI themes
-$iEquip_MCM_inf_lbl_headerColour	Example header colour
-$iEquip_MCM_inf_lbl_helpColour	Example help option colour
-$iEquip_MCM_inf_lbl_enabledColour	Example enabled main option colour
-$iEquip_MCM_inf_lbl_disabledColour	Example disabled main option colour
+$iEquip_MCM_inf_lbl_presets	Perfis MCM
+$iEquip_MCM_inf_lbl_PresetName	Nome predefinido
+$iEquip_MCM_inf_lbl_savepreset	Salvar as configurações atuais do MCM
+$iEquip_MCM_inf_lbl_updatepreset	Atualizar uma predefinição existente
+$iEquip_MCM_inf_lbl_loadpreset	Carregar as configurações do MCM da predefinição
+$iEquip_MCM_inf_lbl_deletepreset	Excluir configurações de MCM predefinidas
+$iEquip_MCM_inf_lbl_dumpJcontainer	Salvar filas para arquivo
+$iEquip_MCM_inf_lbl_noLoad	Sair sem carregar uma predefinição
+$iEquip_MCM_inf_lbl_noUpdate	Saia sem atualizar uma predefinição
+$iEquip_MCM_inf_lbl_noDelete	Sair sem apagar nada
+$iEquip_MCM_inf_lbl_maintenance	Manutenção
+$iEquip_MCM_inf_lbl_rstLayout	Redefinir o layout padrão do iEquip
+$iEquip_MCM_inf_lbl_mcmColours	Cores de Texto MCM
+$iEquip_MCM_inf_lbl_textColour	Esquema de Cores
+$iEquip_MCM_inf_opt_paperColours	Para usuário de temas de interface em papel
+$iEquip_MCM_inf_lbl_headerColour	Exemplo de cor do cabeçalho
+$iEquip_MCM_inf_lbl_helpColour	Exemplo de opção de ajuda de cor
+$iEquip_MCM_inf_lbl_enabledColour	Exemplo de cor de opção principal ativada
+$iEquip_MCM_inf_lbl_disabledColour	Exemplo de cor da opção principal desativada
 
-$iEquip_MCM_inf_txt_JCVersion	JContainers arrays and objects form the core backbone of iEquip
-$iEquip_MCM_inf_txt_POVersion	iEquip makes use of several functions from powerOfThree's Papyrus Extender to make the new Throwing Poisons feature possible
-$iEquip_MCM_inf_txt_moreHUDIEVersion	iEquip interfaces with moreHUD Inventory Edition to display Q icons in the item card to show which queue(s) the item is currently added to
-$iEquip_MCM_inf_txt_ConsUtilVersion	If ConsoleUtilSSE is installed iEquip will make use of it to slow time during cycling and Edit Mode using the sgt console command, rather than the Slow Time spell. It's a much cleaner execution and avoids the weird sound bug with the Slow Time spell.
+$iEquip_MCM_inf_txt_JCVersion	Ordens e objetos JContainers formam a espinha dorsal do iEquip
+$iEquip_MCM_inf_txt_POVersion	iEquip usa várias funções de powerOfThree's Papyrus Extender para tornar possível o novo recurso de Jogar Venenos
+$iEquip_MCM_inf_txt_moreHUDIEVersion	iEquip faz interface com o moreHUD Inventory Edition para exibir ícones Q no cartão de item para mostrar a qual fila(s) o item está atualmente adicionado
+$iEquip_MCM_inf_txt_ConsUtilVersion	Se o ConsoleUtilSSE estiver instalado, iEquip fará uso dele para diminuir o tempo durante o rolamento e Modo de Edição usando o comando sgt no console, em vez da magia Slow Time. É uma execução muito mais limpa e evita o bug de som estranho com a magia Slow Time.
 
-$iEquip_MCM_inf_txt_ada	iEquip applies the correct additional poison doses based on whichever one of the two Intensity perks the player currently has 
-$iEquip_MCM_inf_txt_aa	iEquip adds custom icon support for all new weapon types added by Animated Armory and also applies them to the weapons from other mods which Animated Armory patches add keywords to.
-$iEquip_MCM_inf_txt_ago	iEquip accounts for Archery Gameplay Overhaul's additional poisoning doses when applying poison to bows
-$iEquip_MCM_inf_txt_arc	Custom icons for magic arrows added by the Creation Club Arcane Archers Pack
-$iEquip_MCM_inf_txt_bae	iEquip adds custom icon support and animated icon switching from the spell school icon to the bound weapon when the spell is cast. This applies to all weapons from Bound Armory Extravaganza even if you switch your weapon types through the MCM, as well as to all other bound spells.
-$iEquip_MCM_inf_txt_bs	iEquip adds custom icon support for Bound Shield and treats it as a bound spell even though technically it is not
-$iEquip_MCM_inf_txt_cgo	iEquip adds full support for Combat Gameplay Overhaul and correctly treats all 2H weapons as 1H allowing you to add them to either hand queue as required, and disables the left widget fadeout when a 2H weapon is equipped in the right hand
-$iEquip_MCM_inf_txt_caco	iEquip adds full support for the additional restore potion effects added by Complete Alchemy & Cooking Overhaul to ensure they are added to the correct potion groups.
-$iEquip_MCM_inf_txt_ea	Custom icons for magic arrows added by Elemental Arrows
-$iEquip_MCM_inf_txt_end	iEquip adds support for Enderal's health
-$iEquip_MCM_inf_txt_eve	iEquip blocks the torch timer and burnout features if any Everlight torch is equipped
-$iEquip_MCM_inf_txt_gpp	iEquip includes full interaction with Gamepad++ to ensure that keypresses from G++ to not accidentally trigger iEquip controls whilst one of the G++ combo keys is held, and also stops users being able to assign conflicting keys in the G++ MCM.
-$iEquip_MCM_inf_txt_gist	Full support for partially filled soulgems from GIST - Genuinely Intelligent Soul Trap
-$iEquip_MCM_inf_txt_ha	Custom icons for several new weapon types added by Heavy Armory including support for the Animated Armory patch
-$iEquip_MCM_inf_txt_iw	Custom icons for several new weapon types added by Immersive Weapons including support for the Animated Armory patch
-$iEquip_MCM_inf_txt_id	iEquip temper level display includes full support for items degraded below Untempered by Item Durability including icon fade, damage tier names and percentages.  If you alter the tier names in ItemDurability.config.txt you can also alter the level names in the iEquip MCM to match.  Altering the damage tier boundaries is not currently supported.
-$iEquip_MCM_inf_txt_lotd	iEquip blocks the torch timer and burnout features if Sand's Torch from Legacy of the Dragonborn is equipped
-$iEquip_MCM_inf_txt_ld	If Loot & Degradation is loaded iEquip will use L&D's weapon/shield health calculation when displaying the Tempered Icon Fade
-$iEquip_MCM_inf_txt_ord	iEquip applies the correct poison doses based on player alchemy level if Ordinator is loaded
-$iEquip_MCM_inf_txt_pot	iEquip adds full Beast Mode supprt for Path of Transcendence's Bone Tyrant form including spell and power switching from the widget
-$iEquip_MCM_inf_txt_paf	iEquip adds full support for the additional restore potion effects added by Potion Animated Fix to ensure they are added to the correct potion groups.
-$iEquip_MCM_inf_txt_rt	If you pick up a burnt out torch from iEquip it will be replaced in your inventory with one of Realistic Torches re-craftable Burnt Out Torch misc items.
-$iEquip_MCM_inf_txt_req	iEquip adds custom icon support for Requiem poison spells, full support for the Requiem item tempering system in the Tempered Item Icon and Temper Level Name options, blocks Requiem skooma potions from being accidentally consumed by the potion functions, and checks for the relevant enchanting perk before allowing you to recharge weapons
-$iEquip_MCM_inf_txt_so	Custom icons support for Smithing Oils, plus compatibility with the additional doses when applying oils to equipped weapons
-$iEquip_MCM_inf_txt_st	Custom icons for special arrows added by Sneak Tools (excluding the Rope Arrows)
-$iEquip_MCM_inf_txt_tw	iEquip adds custom icon support for all throwing weapon types added by Throwing Weapons Lite and other throwing weapon mods
-$iEquip_MCM_inf_txt_tc	iEquip detects when the player is using the Thunderchild meditation test in High Hrothgar library and blocks any iEquip key presses so you can't interrupt your meditation accidentally
-$iEquip_MCM_inf_txt_tcs	iEquip adds compatibility with Torches Cast Shadows to ensure torches from TCS work as intended with the torch timer and burnout features
-$iEquip_MCM_inf_txt_ud	iEquip adds full Beast Mode support for Undeath lich form including spell and power switching from the widget
-$iEquip_MCM_inf_txt_vig	Custom icons for bandages and salves added by Vigor - Combat & Injuries
+$iEquip_MCM_inf_txt_ada	iEquip aplica as doses de veneno adicionais corretas com base em qualquer uma das duas vantagens de intensidade que o jogador possui atualmente
+$iEquip_MCM_inf_txt_aa	iEquip adiciona suporte de ícone personalizado para todos os novos tipos de armas adicionados pelo Animated Armory e também os aplica às armas de outros mods aos quais os patch do Animated Armory adicionam palavras-chave.
+$iEquip_MCM_inf_txt_ago	O iEquip é responsável pelas doses adicionais de envenenamento de Archery Gameplay Overhauls ao aplicar veneno nos arcos
+$iEquip_MCM_inf_txt_arc	Ícones personalizados para flechas mágicas adicionados pelo Creation Club Arcane Archers Pack
+$iEquip_MCM_inf_txt_bae	iEquip adiciona suporte de ícone personalizado e mudança de ícone animado do ícone da escola de magia para a arma ligada quando o magia é lançada. Isso se aplica a todas as armas do Bound Armory Extravaganza, mesmo se você alternar seus tipos de arma através do MCM, bem como a todos os outras magias vinculadas.
+$iEquip_MCM_inf_txt_bs	iEquip adiciona suporte de ícone personalizado para Bound Shield e o trata como um magia vinculada, embora tecnicamente não seja
+$iEquip_MCM_inf_txt_cgo	iEquip adiciona suporte completo para Combat Gameplay Overhaul e trata corretamente todas as armas Duas-mãos como Uma-mão, permitindo que você as adicione a qualquer fila de mãos conforme necessário e desativa o desvanecimento do widget esquerdo quando uma arma Duas-mãos é equipada na mão direita
+$iEquip_MCM_inf_txt_caco	iEquip adiciona suporte total para os efeitos adicionais da poção de restauração adicionados por Complete Alchemy & Cooking Overhaul para garantir que eles sejam adicionados aos grupos de poções corretos.
+$iEquip_MCM_inf_txt_ea	Ícones personalizados para flechas mágicas adicionados por Elemental Arrows
+$iEquip_MCM_inf_txt_end	iEquip adiciona suporte para a saúde de Enderal
+$iEquip_MCM_inf_txt_eve	iEquip bloqueia o temporizador da tocha e recursos de queima se alguma tocha Everlight estiver equipada
+$iEquip_MCM_inf_txt_gpp	O iEquip inclui interação total com o Gamepad++ para garantir que os pressionamentos de teclas do G++ não acionem acidentalmente os controles do iEquip enquanto uma das teclas combinadas do G++ é pressionada e também impede que os usuários possam atribuir chaves conflitantes no MCM G++.
+$iEquip_MCM_inf_txt_gist	Suporte total para gemas de alma parcialmente preenchidas de GIST - Genuinely Intelligent Soul Trap
+$iEquip_MCM_inf_txt_ha	Ícones personalizados para vários novos tipos de armas adicionados pelo Heavy Armory, incluindo suporte para patch do Animated Armory
+$iEquip_MCM_inf_txt_iw	Ícones personalizados para vários novos tipos de armas adicionados por Immersive Weapons, incluindo suporte para patch Animated Armory
+$iEquip_MCM_inf_txt_id	A exibição do nível de temperatura do iEquip inclui suporte completo para itens degradados abaixo de Untempered do mod Item Durability, incluindo desbotamento do ícone, nomes de níveis de danos e porcentagens. Se você alterar os nomes dos níveis em ItemDurability.config.txt, também poderá alterar os nomes dos níveis no iEquip MCM para corresponder. A alteração dos limites da camada de dano não é suportada atualmente.
+$iEquip_MCM_inf_txt_lotd	iEquip bloqueia o temporizador da tocha e os recursos de esgotamento se Sand's Torch do Legacy of the Dragonborn estiver equipado
+$iEquip_MCM_inf_txt_ld	Se Loot & Degradation for carregado, iEquip usará o cálculo de saúde da arma/escudo de L&D ao exibir o ícone Tempered Fade
+$iEquip_MCM_inf_txt_ord	iEquip aplica as doses de veneno corretas com base no nível de alquimia do jogador se o Ordinator estiver carregado
+$iEquip_MCM_inf_txt_pot	iEquip adiciona suporte completo ao Beast Mode para Path of Transcendence's Bone Tyrant, incluindo magia e troca de poder do widget
+$iEquip_MCM_inf_txt_paf	iEquip adiciona suporte total para os efeitos de poção de restauração adicionais adicionados por Potion Animated Fix para garantir que eles sejam adicionados aos grupos de poções corretos.
+$iEquip_MCM_inf_txt_rt	Se você pegar uma tocha queimada de iEquip, ela será substituída em seu inventário por um dos itens diversos Tocha Queimada refazível de Realistic Torches.
+$iEquip_MCM_inf_txt_req	iEquip adiciona suporte de ícone personalizado para magias de veneno de Requiem, suporte completo para o sistema de temperamento de item Requiem nas opções Ícone de Item Temperado e Nome do Nível de Temperamento, bloqueia poções de Skooma de Requiem de serem acidentalmente consumidas pelas funções de poção e verifica o privilégio de encantamento relevante antes permitindo que você recarregue armas
+$iEquip_MCM_inf_txt_so	Ícones personalizados com suporte para Smithing Oils, além de compatibilidade com as doses adicionais ao aplicar óleos a armas equipadas
+$iEquip_MCM_inf_txt_st	Ícones personalizados para flechas especiais adicionadas por Sneak Tools (excluindo as Rope Arrows)
+$iEquip_MCM_inf_txt_tw	iEquip adiciona suporte de ícone personalizado para todos os tipos de armas de arremesso adicionados pelo Throwing Weapons Lite e outros mods de armas de arremesso
+$iEquip_MCM_inf_txt_tc	iEquip detecta quando o jogador está usando o teste de meditação Thunderchild na biblioteca High Hrothgar e bloqueia qualquer pressionamento de tecla do iEquip para que você não possa interromper sua meditação acidentalmente
+$iEquip_MCM_inf_txt_tcs	iEquip adiciona compatibilidade com Torches Cast Shadows para garantir que as tochas da TCS funcionem como pretendido com o temporizador da tocha e recursos de queima
+$iEquip_MCM_inf_txt_ud	iEquip adiciona suporte completo ao Beast Mode para a forma de lich Undeath incluindo magia e troca de poder do widget
+$iEquip_MCM_inf_txt_vig	Ícones personalizados para bandagens e ungüentos adicionados por Vigor - Combat & Injuries
 $iEquip_MCM_inf_txt_vok	iEquip applies the correct additional poison doses based on whichever one of the three levels of the Concentrated Poison perk the player currently has 
-$iEquip_MCM_inf_txt_wf	All new ward spells added byWards Functionalities Extended are recognised by QuickShield
-$iEquip_MCM_inf_txt_ws	iEquip detects when the player is praying and blocks any iEquip key presses so you can't interrupt your meditation accidentally
-$iEquip_MCM_inf_txt_zia	iEquip adds custom icon support for the alternative Dawnbreaker, Wuuthrad and Volendrung weapons added by Zim's Immersive Artifacts
+$iEquip_MCM_inf_txt_wf	Todas novas magias de proteção adicionados por Wards Functionalities Extended são reconhecidos por Escudo Rápido
+$iEquip_MCM_inf_txt_ws	iEquip detecta quando o jogador está orando e bloqueia qualquer pressionamento de tecla do iEquip para que você não possa interromper sua meditação acidentalmente
+$iEquip_MCM_inf_txt_zia	iEquip adiciona suporte de ícone personalizado para as armas alternativas Dawnbreaker, Wuuthrad e Volendrung adicionadas por Zim's Immersive Artifacts
 
-$iEquip_MCM_inf_txt_savepreset	Save your current MCM settings.  Profiles are saved as .IEQS files in Data/iEquip/MCM Settings allowing you to easily set things up on a new game, or transfer settings between saves.
-$iEquip_MCM_inf_txt_updatepreset	Overwrite an existing MCM profile with your current MCM settings.
-$iEquip_MCM_inf_txt_loadpreset	Load an MCM Profile.
+
+$iEquip_MCM_inf_txt_savepreset	Salve suas configurações atuais do MCM. Os perfis são salvos como arquivos .IEQS em Configurações de dados/iEquip/MCM, permitindo que você configure facilmente as coisas em um novo jogo ou transfira configurações entre salvamentos.
+$iEquip_MCM_inf_txt_updatepreset	Substitua um perfil MCM existente com suas configurações MCM atuais.
+$iEquip_MCM_inf_txt_loadpreset	Carregue um perfil do MCM.
 $iEquip_MCM_msg_oldPresetUpdated	The preset which you have just loaded was saved in an earlier version of iEquip. We have resaved it for you to include the new MCM settings added in the latest version.
-$iEquip_MCM_msg_presetUpdated{}	{} has been updated with your latest MCM settings
-$iEquip_MCM_inf_txt_deletepreset	Delete the selected profile.
-$iEquip_MCM_inf_txt_textColours	If you are using a paper UI replacer such as Dear Diary use this option to change the MCM section header, help and key setting text colours to better suit the paper UI. 
-$iEquip_MCM_inf_txt_rstLayout	Selecting this will nuke any changes you have made to the iEquip widget and fully restore the default layout
-$iEquip_MCM_inf_msg_rstLayout	Are you sure you wish to completely reset the iEquip widget and discard any layout changes you have made?
-$iEquip_MCM_inf_txt_dumpJcontainer	This dumps the complete iEquip JContainers object to Data/iEquip/Debug/JCDebug.json.  Whilst this only of any real use to the iEquip team to aid with debugging, taking a browse through it will let you see the range of 'behind the scenes' information which iEquip collates in each queue entry.  The data in these queue objects is updated every time you equip or use each item.
-$iEquip_MCM_inf_msg_queuesSavedToFile	Queues saved to Data/iEquip/Debug/JCDebug.json
-$iEquip_MCM_inf_lbl_rstMCM	Reset iEquip MCM
-$iEquip_MCM_inf_txt_rstMCM	This will reset the entire iEquip MCM, returning every option to its default setting
-$iEquip_MCM_inf_msg_rstMCM	Are you sure you want to completely reset all iEquip MCM settings?
+$iEquip_MCM_msg_presetUpdated	O preset que você acabou de carregar foi salvo em uma versão anterior do iEquip. Nós o salvamos novamente para você incluir as novas configurações de MCM adicionadas na versão mais recente.
+$iEquip_MCM_inf_txt_deletepreset	Exclua o perfil selecionado.
+$iEquip_MCM_inf_txt_textColours	Se você estiver usando um substituto de UI em papel, como Dear Diary, use esta opção para alterar o cabeçalho da seção MCM, a ajuda e as cores de texto de configuração de teclas para se adequar melhor à UI em papel.
+$iEquip_MCM_inf_txt_rstLayout	Ao selecionar isso, você irá eliminar todas as alterações feitas no widget iEquip e restaurar completamente o layout padrão
+$iEquip_MCM_inf_msg_rstLayout	Tem certeza de que deseja redefinir completamente o widget iEquip e descartar quaisquer alterações de layout feitas?
+$iEquip_MCM_inf_txt_dumpJcontainer	Isso despeja o objeto completo do iEquip JContainers em Data/iEquip/Debug/JCDebug.json. Embora isso seja de alguma utilidade real para a equipe do iEquip para auxiliar na depuração, o uso da pesquisa permitirá que você veja o intervalo de informações "nos bastidores" que o iEquip coleta em cada entrada da fila. Os dados nesses objetos de fila são atualizados sempre que você equipar ou usar cada item.
+$iEquip_MCM_inf_msg_queuesSavedToFile	Filas salvas em Data/iEquip/Debug/JCDebug.json
+$iEquip_MCM_inf_lbl_rstMCM	Resetar iEquip MCM
+$iEquip_MCM_inf_txt_rstMCM	Isso redefinirá todo o iEquip MCM, retornando todas as opções para sua configuração padrão
+$iEquip_MCM_inf_msg_rstMCM	Tem certeza de que deseja redefinir completamente todas as configurações do iEquip MCM?
 $iEquip_MCM_inf_lbl_rstMsgQst	Restart iEquip message quest
 $iEquip_MCM_inf_txt_rstMsgQst	This will restart iEquip_MessageQuest which is used to populate the various messageboxes and menus included in iEquip.  Use this if you are experiencing empty messageboxes or missing text in iEquip menus. When you exit the MCM you should get a messagebox confirming the quest has been successfully restarted
 $iEquip_MCM_inf_msg_rstMsgQst	If successful you will see a message when you exit the MCM confirming the message quest has been restarted
